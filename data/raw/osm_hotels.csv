@@ -1,0 +1,304 @@
+osm_id,name,city,category,latitude,longitude,source,source_verified
+999563759,OTDC Panthanivas - Barkul,,Hotel,19.7053752,85.1903718,openstreetmap,False
+1051497633,Hotel Roxy,,Hotel,20.459285,85.8823093,openstreetmap,False
+1051497938,Hotel Monalisa,,Hotel,20.4592681,85.8804402,openstreetmap,False
+1051669472,Hotel Kalinga Ashoke,,Hotel,20.2572971,85.8399886,openstreetmap,False
+1051794011,Marchikote Inn,,Hotel,19.8064603,85.8234404,openstreetmap,False
+1051794043,Hotel Sitara,,Hotel,19.7963267,85.8238403,openstreetmap,False
+1051794820,Hotel Samraj,,Hotel,19.8074733,85.8215882,openstreetmap,False
+1051795001,Hotel Subhadra,,Hotel,19.8091899,85.823366,openstreetmap,False
+1051795983,Hotel Sriram,,Hotel,19.8129117,85.8307508,openstreetmap,False
+1051796148,Hotel Basu,,Hotel,19.7955288,85.8237006,openstreetmap,False
+1051829724,Hotel Sonali,,Hotel,19.793697,85.8196105,openstreetmap,False
+1052039714,Hawa Mahal,,Hotel,19.7447712,85.2134272,openstreetmap,False
+1052040293,Hotel Narayani,,Hotel,19.7053688,85.188771,openstreetmap,False
+1052041171,Hotel Chilika,,Hotel,19.7054738,85.1879482,openstreetmap,False
+1052041417,OTDC Panthanivas - Satapada,,Hotel,19.6671656,85.4397927,openstreetmap,False
+1052041555,Hotel Sagrika,,Hotel,19.705329,85.1891901,openstreetmap,False
+1054862409,Hotel Unique,,Hotel,21.467926,83.9763475,openstreetmap,False
+1054867931,Hotel Sujata,,Hotel,21.4680421,83.9760979,openstreetmap,False
+1471047418,Sarojini Naidu Hall,,Guest House,22.3183537,87.3074867,openstreetmap,False
+1796351662,Hotel Babylon International,,Hotel,21.23615,81.6817416,openstreetmap,False
+1984222470,Govt college Girls Hostel,,Hotel,22.2248444,84.8096926,openstreetmap,False
+2473093418,Rajmahal,,Hotel,20.2610521,85.8366324,openstreetmap,False
+2613601327,Technology Guest House,,Guest House,22.3158881,87.3040136,openstreetmap,False
+2614945433,CEC Guest House,,Guest House,22.3147168,87.3055268,openstreetmap,False
+2815696103,Panthanivas,,Hotel,19.8873635,86.0981045,openstreetmap,False
+2895063635,May Fair Hotel & Resorts,Bhubaneshwar,Hotel,20.3007262,85.8194445,openstreetmap,False
+2895065426,Hotel GINGER,Bhubaneswar,Hotel,20.3033274,85.8231298,openstreetmap,False
+2935034254,hotel kharvel,bhubaneshwar,Hotel,20.2603405,85.790748,openstreetmap,False
+3098449354,Hotel Digantika,Balugaon,Hotel,19.7523269,85.2092226,openstreetmap,False
+3375289569,Khendelwal hotel,"Sambalpur, Odisha",Hotel,21.4476931,83.9909162,openstreetmap,False
+3430585885,Hotel Ramya,,Hotel,21.5041604,86.9203268,openstreetmap,False
+3430594277,Hotel Suraj,,Hotel,21.504945,86.9138652,openstreetmap,False
+3430610542,Hotel Chandrabhaga,,Hotel,21.5073181,86.9094146,openstreetmap,False
+3994325958,Vijetha Inn,,Hotel,18.2954481,83.8976992,openstreetmap,False
+4150869071,Hotel Beach Paradise,"Visakhapatnam, Andhra Pradesh",Hotel,17.8469583,83.4095376,openstreetmap,False
+4183308259,Swadhin Hotel,,Hotel,19.8037406,85.8436311,openstreetmap,False
+4183313091,Hotel Sun Village,,Hotel,19.8904844,86.1002445,openstreetmap,False
+4183313092,Hotel Deluxe,,Hotel,19.8893975,86.100556,openstreetmap,False
+4183332741,Emanuil Lodge,,Hotel,19.8042285,85.8435745,openstreetmap,False
+4183332748,Konark Hotel,,Hotel,19.8886152,86.0978847,openstreetmap,False
+4183371990,Santi Hotel,,Hotel,19.8891105,86.0978388,openstreetmap,False
+4183371991,Royal Lodge,,Hotel,19.8898258,86.100456,openstreetmap,False
+4183371992,New Santi Hotel,,Hotel,19.8896405,86.100512,openstreetmap,False
+4183389749,Sidharth Inn,,Hotel,19.803487,85.8436374,openstreetmap,False
+4183407932,Hotel Sweet Home,,Hotel,19.8032106,85.8464605,openstreetmap,False
+4183410229,Santoshi Hotel,,Hotel,19.8884904,86.0978901,openstreetmap,False
+4183427489,Sunrise Lodge,,Hotel,19.8890708,86.097846,openstreetmap,False
+4183427790,Brianchi hotel,,Hotel,19.8910401,86.09906,openstreetmap,False
+4185016301,Elegant Guest House,,Guest House,20.269286,85.8421739,openstreetmap,False
+4185032089,Hotel Richi,,Hotel,20.2682404,85.8434811,openstreetmap,False
+4209890227,Krishna Palace,,Guest House,19.8019751,85.8368915,openstreetmap,False
+4253034407,Draupadi,Balasore,Hotel,21.499906,86.9211981,openstreetmap,False
+4348126794,M M Residency,,Hotel,18.8143709,82.7023882,openstreetmap,False
+4418487042,rasoi inn,bilaspur,Hotel,22.0707014,82.1600107,openstreetmap,False
+4426088135,MarWARI HOTEL AND LODGE,,Hotel,22.0572189,82.17081,openstreetmap,False
+4432946342,Hotel Kapilas,,Hotel,19.1687788,83.411999,openstreetmap,False
+4438975989,LLOYD Guest House (Akaltara),,Guest House,22.0302156,82.425168,openstreetmap,False
+4446022598,Hotel Prakash Palace,"Raipur,",Hotel,21.2186321,81.6453661,openstreetmap,False
+4448733301,M N International,,Hotel,22.2273911,84.8633722,openstreetmap,False
+4448733805,Adarsh hotel,,Hotel,22.2257491,84.8616233,openstreetmap,False
+4510129155,Hotel New Sea Hawk,Puri,Hotel,19.7923232,85.8152741,openstreetmap,False
+4520320535,Hotel Pulin Puri,Puri,Hotel,19.7936808,85.8196609,openstreetmap,False
+4538382811,OTDC Panthanivas,,Guest House,19.487156,84.395127,openstreetmap,False
+4540132635,Santana Hotel,,Guest House,19.8042839,85.8490023,openstreetmap,False
+4552969518,Guesthouse,,Guest House,21.0673108,86.5052746,openstreetmap,False
+4552991262,"Pantha Nivas, Chandipur",,Guest House,21.4524144,87.0403374,openstreetmap,False
+4556854153,Hotel Dwarika,,Hotel,20.4646881,85.8848789,openstreetmap,False
+4560359060,Guesthouse,,Guest House,22.4098137,87.3260536,openstreetmap,False
+4592083189,Santana,,Hotel,19.8053345,85.8516598,openstreetmap,False
+4601062689,Hotel Shakuntala Palace,,Hotel,19.7956431,85.8237325,openstreetmap,False
+4616246824,Govt. Guest house,Vizianagaram,Guest House,18.0951376,83.5208833,openstreetmap,False
+4644394256,Coffee Guesthouse,,Guest House,17.8644673,82.3551252,openstreetmap,False
+4672913589,Shree Vishnu Darshan Holiday Home,,Hotel,19.8069848,85.8210928,openstreetmap,False
+4691977419,Hotel Blue Moon,visakhapatnam,Hotel,17.7130524,83.299453,openstreetmap,False
+4696615820,IOCL Guest House,,Guest House,20.296068,86.617673,openstreetmap,False
+4696732679,PPL Guest House,,Guest House,20.2768559,86.6231259,openstreetmap,False
+4698524255,Shree Mandir Hotel,,Hotel,20.2674363,86.6613687,openstreetmap,False
+4699068139,Hotel Golden Anchor,,Hotel,20.2603048,86.6543375,openstreetmap,False
+4699068140,Country Inn and Suits,,Hotel,20.2595995,86.6545039,openstreetmap,False
+4699068141,Empire Hotel,,Hotel,20.2588133,86.6535488,openstreetmap,False
+4699068143,Hotel Padma,,Hotel,20.2582907,86.6555969,openstreetmap,False
+4700551493,Hotel Sea Pearl,,Hotel,20.308814,86.6241252,openstreetmap,False
+4993005946,Tillu Hotel,,Hotel,21.2360772,81.6228034,openstreetmap,False
+5051712863,Kiran hotel,,Hotel,21.2435351,81.6358218,openstreetmap,False
+5144431348,Indian Coffee House,,Hotel,21.2461645,81.641689,openstreetmap,False
+5154404421,Nalco guest house,,Guest House,17.7158399,83.311481,openstreetmap,False
+5257362512,Ganpati Palace,,Hotel,20.8917206,82.511311,openstreetmap,False
+5826973486,Golden Orchid,,Hotel,20.2969999,85.8195128,openstreetmap,False
+5827021285,Home like Guesthouse,,Guest House,20.246333,85.8417853,openstreetmap,False
+5827266885,Divine Beach Homestay,,Hotel,19.802533,85.8461476,openstreetmap,False
+5827977985,Airport Park Villa,,Hotel,20.2464521,85.8247923,openstreetmap,False
+5846828985,Hotel Sapphire Plaza,,Hotel,20.2665101,85.8467611,openstreetmap,False
+5849578826,Swopna Hotel & Dhaba,,Hotel,20.1400748,85.5089516,openstreetmap,False
+5849578837,Hotel SREE JAGANNATH,,Hotel,20.1402005,85.5101515,openstreetmap,False
+5849578848,MAA MANGALA HOTEL,,Hotel,20.1399087,85.510982,openstreetmap,False
+6099622515,Hotel Devansh Residency,,Hotel,19.0843837,82.0244004,openstreetmap,False
+6110306692,Hotel Laxmi Palace,,Hotel,19.0875219,82.0268977,openstreetmap,False
+6110306702,Bastariya,,Hotel,19.0853889,82.0245731,openstreetmap,False
+6110306704,Hotel Mona,,Hotel,19.0851795,82.0244673,openstreetmap,False
+6110312728,Hotel Suri International,,Hotel,19.0829252,82.014711,openstreetmap,False
+6110801989,Hotel Rainbow and Bar,,Hotel,19.0874184,82.0209236,openstreetmap,False
+6149803885,HOTEL KONARK,,Hotel,19.7934916,85.8160756,openstreetmap,False
+6153595187,Swosti,,Hotel,19.2559056,84.9044649,openstreetmap,False
+6153595188,Royale Midtown,,Hotel,20.2649886,85.8395173,openstreetmap,False
+6237642585,Hotel Aahar,,Hotel,21.7175653,87.1113368,openstreetmap,False
+6237859786,Hotel Shyam,,Hotel,21.5136598,86.8953261,openstreetmap,False
+6239521287,Hotel Maa,,Hotel,20.9450844,86.1343601,openstreetmap,False
+6239570885,Narayani Lodging,,Hotel,20.9445251,86.13308,openstreetmap,False
+6307816391,Smile Holiday,,Hotel,19.7948981,85.8161266,openstreetmap,False
+6342964696,Special Cicuit House,,Guest House,18.8174724,82.7069467,openstreetmap,False
+6422675186,Hotel Krishna Resorts and Restaurant (pure veg),,Hotel,19.8021386,85.840398,openstreetmap,False
+6592944145,Gyan wine shop,,Hotel,19.3282613,84.9649164,openstreetmap,False
+6592971164,RS HOTELS,,Hotel,18.7803307,84.0897188,openstreetmap,False
+6592999413,hitesh oyo,,Guest House,18.7706578,84.0927765,openstreetmap,False
+6628809070,AMCOSA functional hall,,Hotel,17.7119764,83.3111783,openstreetmap,False
+6629035261,Jublee home,,Hotel,17.712467,83.3121858,openstreetmap,False
+6629401462,beach view guest house,,Guest House,17.7095166,83.3146182,openstreetmap,False
+6629411925,Trinity holy church,,Hotel,17.7089034,83.3137492,openstreetmap,False
+6629420822,Zion house of prayer,,Hotel,17.7100583,83.3129231,openstreetmap,False
+7065039085,Budhil Hotel,,Hotel,17.7257976,83.3068515,openstreetmap,False
+7108956785,Desia Camp,,Hotel,18.5690895,82.5020596,openstreetmap,False
+7236646217,Hotel Sai national,,Guest House,17.7255262,83.2983783,openstreetmap,False
+7244129777,sai ram parlour,,Hotel,18.1031194,83.4098967,openstreetmap,False
+7246516633,Canteen,,Hotel,18.0197117,83.4010232,openstreetmap,False
+7790735219,Glaze,,Hotel,19.2123507,82.5491232,openstreetmap,False
+7795108672,The Welcome Resorts,,Hotel,21.5279807,84.0190628,openstreetmap,False
+7795893304,Hotel Manisha,Nabarangpur,Hotel,19.2185504,82.5469995,openstreetmap,False
+8037839285,"Ashoka Plaza, gopalpur on sea",,Guest House,19.2596394,84.9021089,openstreetmap,False
+8128267855,Bhanu's house,,Guest House,17.7396747,82.8939112,openstreetmap,False
+8150306217,Oyo Town House,,Hotel,20.2984341,85.8129203,openstreetmap,False
+8236272317,New Shankar International,,Hotel,19.8005148,85.8449576,openstreetmap,False
+8238041765,Hotel Centre Park,,Hotel,19.906115,83.1645946,openstreetmap,False
+8254614801,Hotel Royal Midtown,,Hotel,19.9090275,83.1698587,openstreetmap,False
+8318371134,Rockdale,Visakhapatnam,Hotel,17.7163638,83.3083471,openstreetmap,False
+8318460386,Four Points by Sheraton,Visakhapatnam,Hotel,17.7208884,83.3123966,openstreetmap,False
+8318854765,Green Park,Visakhapatnam,Hotel,17.7153753,83.306264,openstreetmap,False
+8318894344,Royal Fort,Visakhapatnam,Hotel,17.7231319,83.3093748,openstreetmap,False
+8319434582,Meghalaya,Visakhapatnam,Hotel,17.7233686,83.3097133,openstreetmap,False
+8319509627,Ambica Sea Green,Visakhapatnam,Hotel,17.718696,83.3312158,openstreetmap,False
+8405358996,anupamsworld guest house,,Guest House,22.2051067,87.2590429,openstreetmap,False
+8844032821,New Executive hostel,,Guest House,22.092986,82.1801198,openstreetmap,False
+8844034625,Adhikaari Niwas,,Guest House,22.0927228,82.1800725,openstreetmap,False
+8909963323,Hotel Maa Mangala,,Hotel,20.3938231,85.8263682,openstreetmap,False
+8910000405,Hotel Zoo park,,Hotel,20.393279,85.8264185,openstreetmap,False
+8910013343,The Biryani House,,Hotel,20.3933434,85.8260923,openstreetmap,False
+8910020784,Hotel Jay Mahaveer,,Hotel,20.395057,85.8268219,openstreetmap,False
+8910028759,Hotel Maa,,Hotel,20.3943973,85.8264786,openstreetmap,False
+8910030264,Tiffin box,,Hotel,20.3793605,85.8248416,openstreetmap,False
+8910055268,Jyostna,,Guest House,20.3761099,85.8239833,openstreetmap,False
+8910060771,Maa Sarala Hotel,,Hotel,20.3809259,85.8247249,openstreetmap,False
+8910072067,Mandap Pravelion,,Hotel,20.3820741,85.8263223,openstreetmap,False
+8960737584,मधुबन लॉज,,Hotel,18.8911156,81.3497823,openstreetmap,False
+9100257019,"Triveni MCL Guest House, Bandhbahal",,Guest House,21.7557115,83.8680914,openstreetmap,False
+9100284517,Mayuri MCL Guest House,,Guest House,21.7550672,83.868233,openstreetmap,False
+9184252123,Hotel Orbit,,Hotel,22.4224704,87.3088087,openstreetmap,False
+9184252124,Hotel Debloke,,Hotel,22.4228416,87.3091689,openstreetmap,False
+9216335722,Chitrakote Homestay,,Hotel,19.2033659,81.7071097,openstreetmap,False
+9375630276,Hotel Alishan Palace,,Hotel,20.4736045,82.9244718,openstreetmap,False
+9604962464,Govt official guest house,,Guest House,21.5340663,86.5304796,openstreetmap,False
+9903926791,SVA Hotel Grand,Srikakulam,Hotel,18.2996107,83.9044416,openstreetmap,False
+9918867478,Varam Residency,,Hotel,18.3055903,83.8945467,openstreetmap,False
+9918963119,Venus Vegetarian Meals,,Hotel,18.2950267,83.8947191,openstreetmap,False
+9985120519,"न्यू भगत लॉज, पुराना बस स्टेन्ड, बिलासपुर",,Hotel,22.0750555,82.1582231,openstreetmap,False
+10134513639,NIFT Guest House,,Guest House,20.3518237,85.8171996,openstreetmap,False
+10200959176,Hotel Shakti Continental,,Hotel,20.8400216,85.1014589,openstreetmap,False
+10300976122,Hi In,,Hotel,17.7363567,83.3410775,openstreetmap,False
+10748372705,Rajiv Gandhi University of Knowledge and Technology,,Guest House,18.2874129,83.8256301,openstreetmap,False
+10880828747,hotel golden,Kharsia,Hotel,21.9912195,83.104399,openstreetmap,False
+10892732501,OYO 60899 V3 Comforts,visakhapatnam,Hotel,17.8078592,83.2080963,openstreetmap,False
+11054194772,Vimsen Palace Hotel,Jajpur Road,Hotel,20.9455689,86.1368898,openstreetmap,False
+11054194773,Panchali Hotel,Jajpur Road,Hotel,20.9461745,86.137187,openstreetmap,False
+11145366105,Hotel Sampark,,Hotel,21.0725384,86.5073262,openstreetmap,False
+11145367505,Biswa Rent Service,,Guest House,21.483166,83.9664514,openstreetmap,False
+11149283805,MCL Guest House,,Guest House,20.3202969,85.8268628,openstreetmap,False
+11162551237,Hotel Sonali,,Hotel,19.7936698,85.8193526,openstreetmap,False
+11275600387,Geetamala Guest House,,Guest House,22.3072317,87.3041757,openstreetmap,False
+11287851385,"TRANSIT HOUSE, BHARATPUR TOWNSHIP",,Guest House,20.9236515,85.140013,openstreetmap,False
+11290289171,Hotel Trinity Grand,Raigarh,Hotel,21.9042998,83.3753856,openstreetmap,False
+11311562522,Maa Bhagabati Lodge,,Hotel,20.2619036,85.8372921,openstreetmap,False
+11311562528,Sree Chakra Residency Hotel,,Hotel,20.2626668,85.8377907,openstreetmap,False
+11391076719,Koli Lodge,,Hotel,20.2630927,85.8386556,openstreetmap,False
+11391076721,Hotel Tazz Odisha,bhubaneswar,Hotel,20.2639696,85.8387259,openstreetmap,False
+11425364619,OYO The Pinnacle Home Stay,,Hotel,20.2766489,85.8187422,openstreetmap,False
+11505882748,NCN Lodge,,Hotel,17.9079002,83.1861729,openstreetmap,False
+11510768254,Arya Palace,,Hotel,20.2640203,85.8388765,openstreetmap,False
+11543193087,Hotel SVN Lake Palace,,Hotel,18.1085308,83.4006954,openstreetmap,False
+11575913681,Satyadeva Lodge,,Hotel,18.0496414,82.036465,openstreetmap,False
+11575913682,Rasool Lodge,,Hotel,18.0501223,82.0335712,openstreetmap,False
+11575913683,Srinivasa Lodge,,Hotel,18.0471164,82.0324464,openstreetmap,False
+11575913684,Sri Devi Lodge,,Hotel,18.047528,82.0327638,openstreetmap,False
+11575913685,Balaji Lodge,,Hotel,18.0492217,82.0359621,openstreetmap,False
+11609601861,Burley Cottage,,Guest House,17.724955,83.3178831,openstreetmap,False
+11610201184,Sri Lakshmi Lodge,,Hotel,17.7431577,83.235134,openstreetmap,False
+11612555695,Treebo Trend King's Court,,Hotel,20.3262225,85.8185094,openstreetmap,False
+11664738369,Hotel Harita,,Hotel,17.7191431,83.2930015,openstreetmap,False
+11671133670,Hotel Swagath,,Hotel,19.1704718,83.4122887,openstreetmap,False
+11680922769,Travellers Inn,,Guest House,19.8031962,85.8446033,openstreetmap,False
+11688050172,OYO Sindhura Guest House,,Hotel,17.7391879,83.3049037,openstreetmap,False
+11690643051,raju guest house,,Guest House,18.3882977,83.8772329,openstreetmap,False
+11700012569,Nest Guest House,,Guest House,20.2410534,85.8371936,openstreetmap,False
+11720145425,Savera Restaurant,,Hotel,17.7247839,83.3085072,openstreetmap,False
+11720290771,Athidhi devo bava,,Hotel,17.7314747,83.3364845,openstreetmap,False
+11745105569,LOTUS PARADISE,,Hotel,19.1711297,83.4127029,openstreetmap,False
+11748318969,IMPERIAL INN,,Hotel,18.7074544,82.8530819,openstreetmap,False
+11748318970,BALKRISHNA PALACE,,Hotel,18.8654509,82.5743507,openstreetmap,False
+11749713913,Hotel Lucky International,Balasore,Hotel,21.50051,86.9302774,openstreetmap,False
+11750548393,OYO 68763 Hotel Ananya Residency,,Hotel,21.5045576,86.9269609,openstreetmap,False
+11752312653,OYO 81150 Hotel Tipsy,,Hotel,21.4971851,86.921547,openstreetmap,False
+11830210676,Royal Stay Inn,,Hotel,17.8169821,83.2068411,openstreetmap,False
+11985015742,Homes & Villas,,Hotel,19.1673799,83.4209988,openstreetmap,False
+11985698390,Nana Hotel,,Hotel,18.7023666,82.8457625,openstreetmap,False
+12000378293,Hotel Aether,Asika,Hotel,19.6107627,84.6689158,openstreetmap,False
+12065669395,Om Leisure Resort (Chilika) - Satapada,,Hotel,19.6663565,85.4421805,openstreetmap,False
+12168367192,Fabhotel Sagar Royale,,Hotel,20.2784807,85.8356023,openstreetmap,False
+12181505262,Lotus Eco Resort,,Hotel,19.8576545,86.0748288,openstreetmap,False
+12258653585,Sri Venkateswara Lodge,,Hotel,18.1093398,83.398326,openstreetmap,False
+12258653586,LVR Lodge,,Hotel,18.1093262,83.3983759,openstreetmap,False
+12258653589,Sirugudi Lodge,,Hotel,18.1092992,83.3971585,openstreetmap,False
+12258674473,Sai Krupa Lodge,,Hotel,18.1107985,83.3975734,openstreetmap,False
+12258674475,Sri Sai Maharaja Lodge,,Hotel,18.110841,83.3976477,openstreetmap,False
+12258674478,Sri Venkateswara Lodge,,Hotel,18.1111598,83.3976375,openstreetmap,False
+12258674484,Yamini Lodge,,Hotel,18.1117078,83.3977217,openstreetmap,False
+12279737301,Hotel Hindustan International (HHI),,Hotel,20.2739323,85.8455707,openstreetmap,False
+12307244959,Ajay Hotel,,Hotel,17.75609,81.3711434,openstreetmap,False
+12307244960,Baba Hotel,,Hotel,17.7579633,81.371272,openstreetmap,False
+12309243041,Krishna Tower,,Hotel,21.9408128,86.7287525,openstreetmap,False
+12435628588,Lemon Tree Premier,Bhubaneswar,Hotel,20.3115601,85.8169682,openstreetmap,False
+12531568517,Hotel Sowbhagya,,Hotel,17.7189563,83.3060968,openstreetmap,False
+12595821726,m p p house,Ramabhadrapuram,Guest House,18.4955955,83.2789943,openstreetmap,False
+12596256530,rest house,,Guest House,20.8030375,82.2063299,openstreetmap,False
+12837274562,Signature Hotels,,Hotel,17.7162647,83.2035517,openstreetmap,False
+12894983186,Vani Lodge,,Hotel,17.7123132,83.2973532,openstreetmap,False
+12894983187,Hotel Wonderful Inn,,Hotel,17.7126113,83.2970687,openstreetmap,False
+12894983191,Hotel Taj Mahal,,Hotel,17.7125116,83.2981621,openstreetmap,False
+12953215230,My Room Luxury Stay,,Hotel,17.7411216,83.3271854,openstreetmap,False
+12953215244,Guest House,,Hotel,17.7416501,83.3273443,openstreetmap,False
+12956372730,Sun Residency,,Hotel,18.304409,83.8765156,openstreetmap,False
+12959403118,Sri SNK Grand,,Hotel,17.8083242,83.2086438,openstreetmap,False
+12992712278,Hotel Square Inn,,Hotel,17.7467352,83.3316729,openstreetmap,False
+13084988857,Hotel Morya,,Hotel,17.7178828,83.2929835,openstreetmap,False
+13084988863,Sai Jutika Grand Lodge,,Hotel,17.7161427,83.2934989,openstreetmap,False
+13084988864,Sree Kanya Lodge,,Hotel,17.7160765,83.2934927,openstreetmap,False
+13084988884,KNR Residency,,Hotel,17.7196071,83.2938829,openstreetmap,False
+13085046820,Hotel Golden Tulip,,Hotel,17.7197822,83.3027017,openstreetmap,False
+13085046846,North Way Hotel,,Hotel,17.718278,83.3024369,openstreetmap,False
+13096777774,Hotel Akshara,,Hotel,17.7280211,83.2931205,openstreetmap,False
+13130923148,Archaeological Survey of India (New Guest House),Biju Patnaik Colony,Guest House,20.4848588,85.8624358,openstreetmap,False
+13161863458,Spectrum Hotel,Berhampur,Hotel,19.3123969,84.7903472,openstreetmap,False
+13162997833,Keerthi Residency,,Hotel,17.735358,83.3207236,openstreetmap,False
+13162997837,Hotel Ambica Grand,,Hotel,17.7347789,83.3155401,openstreetmap,False
+13167911130,Hotel Vytla Residency,,Hotel,18.1076197,83.3975598,openstreetmap,False
+13167911131,Woodland Hotel,,Hotel,18.1076964,83.3971126,openstreetmap,False
+13179727729,Hotel Lata Grand,,Hotel,17.7244441,83.3134939,openstreetmap,False
+13179768802,Bobbili guesthouse,Bobbili,Guest House,18.5588966,83.3422954,openstreetmap,False
+13179768859,Wing house,,Hotel,18.5732972,83.3543348,openstreetmap,False
+13179829842,Guntur Mess,,Hotel,18.4891665,83.2828291,openstreetmap,False
+13179829843,Rajahmundry Mess,,Hotel,18.4888806,83.2828934,openstreetmap,False
+13182500608,SVR Gopal Residency,,Hotel,18.1032814,83.4007192,openstreetmap,False
+13182716378,Hotel Skml,Vizianagaram,Hotel,18.1157515,83.41047,openstreetmap,False
+13183438967,Blue Earth,,Hotel,18.1077965,83.3963381,openstreetmap,False
+13190423657,Hotel Shakuntala Nivas,,Hotel,21.4106887,86.7304618,openstreetmap,False
+13190423677,Sri Gobinda Yatri Nivas,,Guest House,21.4109277,86.7291282,openstreetmap,False
+13190423681,The Nirvana Palace,,Hotel,21.4086834,86.7356251,openstreetmap,False
+13190423684,Hotel Nirupama,,Hotel,21.409549,86.7261085,openstreetmap,False
+13190423685,Hotel Royal Hill&ludge,,Hotel,21.4091136,86.7369277,openstreetmap,False
+13190423686,"Mahendra niwas(Hotel & Restaurant)
+Panchalingswar",,Guest House,21.4093351,86.7333485,openstreetmap,False
+13190423688,Pravashini Nivas,,Hotel,21.4070899,86.7406276,openstreetmap,False
+13190423689,MOUNTAIN TRAIL,,Hotel,21.4069366,86.7425838,openstreetmap,False
+13190423692,LAXMI NIVAS,,Hotel,21.4079125,86.739619,openstreetmap,False
+13190423695,"Panthasala (KR Resorts), Panchalingeswar",,Hotel,21.4111701,86.7308912,openstreetmap,False
+13190458502,Hotel Guru Shakti,,Hotel,21.4106461,86.7299719,openstreetmap,False
+13190458507,Madhusudan Nivas,,Hotel,21.4090553,86.7354254,openstreetmap,False
+13190458512,Hotel Holistic blue,,Hotel,21.4105917,86.733226,openstreetmap,False
+13204722368,Siva rama lodge,,Hotel,18.7642142,84.4191813,openstreetmap,False
+13245942463,Hotel Rohit Rohini,,Hotel,19.7939835,85.8119208,openstreetmap,False
+13245954062,Adritra Guest House,Puri,Guest House,19.7957921,85.8136885,openstreetmap,False
+13312857697,Hotel Geetha Inn,,Hotel,17.7261812,83.3014099,openstreetmap,False
+13312902006,Hotel Simhadri Lodge,,Hotel,17.7259238,83.3014144,openstreetmap,False
+13313009609,Lakshmi Residency,,Hotel,17.7265454,83.3016743,openstreetmap,False
+13316889160,RR Inn Lodge,,Hotel,17.7264139,83.2990178,openstreetmap,False
+13337081401,Roxy GKR,,Hotel,20.2945005,85.8264845,openstreetmap,False
+13388162296,Sri Srinivasa Guest House,,Hotel,17.7162258,83.3039766,openstreetmap,False
+13410448979,Hotel Ocean Spice,,Hotel,17.7432821,83.3443006,openstreetmap,False
+13417083837,Raj,,Hotel,21.6284233,82.1809217,openstreetmap,False
+13429886341,Hotel New Prince,,Hotel,17.7152359,83.2997851,openstreetmap,False
+13429886345,Hotel Rajdhani,,Hotel,17.7153208,83.2995554,openstreetmap,False
+13429886347,Sree Surya Residency,,Hotel,17.7156502,83.2993114,openstreetmap,False
+13429886348,Jai Krishna Residency,,Hotel,17.7152142,83.2992327,openstreetmap,False
+13429886349,Ashoka Residency,,Hotel,17.7150584,83.2991825,openstreetmap,False
+13429886359,Hotel Rajdhani Grand,,Hotel,17.7140095,83.2997418,openstreetmap,False
+13429886360,Hotel Orange,,Hotel,17.7143162,83.2998291,openstreetmap,False
+13429892342,Hotel Sai Central,,Hotel,17.7152076,83.3006949,openstreetmap,False
+13484148501,Hotel Sinka Grand,,Hotel,17.7278481,83.2969024,openstreetmap,False
+13520679507,Guest house of SCGM,Puri,Guest House,19.8085041,85.8219131,openstreetmap,False
+13564689002,Gour Govinda Swami ashram guesthouse,,Guest House,19.7918359,85.802801,openstreetmap,False
+13564857159,Sri Srirup Siddhanti Gaudiya Sevashram,,Guest House,19.7940897,85.8117092,openstreetmap,False
+13577550449,Vizvit Lodge,,Hotel,17.8967926,83.1855158,openstreetmap,False
+13684281413,Hotel Sukadev Homes,Puri,Hotel,19.8099482,85.8267807,openstreetmap,False
+13684700029,Hotel Bishnu Bhaban,Puri,Hotel,19.8040053,85.8167155,openstreetmap,False
+13703071988,OYO Flagship Hotel Gayatri,,Hotel,17.7151624,83.3085639,openstreetmap,False
+13705932180,The Royal Comforts,,Hotel,17.7376255,83.3278813,openstreetmap,False
+13976580257,Shree ji inn,,Hotel,21.2290343,81.6091252,openstreetmap,False
