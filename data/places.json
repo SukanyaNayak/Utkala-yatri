@@ -1,0 +1,5003 @@
+[
+  {
+    "name": "Lingaraj Temple",
+    "lat": 20.2372,
+    "lon": 85.8339,
+    "source": "curated",
+    "description": "One of the oldest and largest temples in Bhubaneswar, dedicated to Lord Lingaraj (a form of Shiva), and a leading example of Kalinga-style temple architecture.",
+    "category": "heritage",
+    "city": "Bhubaneswar",
+    "tags": [
+      "temple",
+      "heritage",
+      "architecture",
+      "curated"
+    ],
+    "best_time": "October to February",
+    "place_id": "lingaraj-temple-bhubaneswar",
+    "category_raw": "Heritage & Temple",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.8339,
+        20.2372
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Lingaraj_Temple_%2C_Bhubaneswar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Udayagiri and Khandagiri Caves",
+    "lat": 20.257,
+    "lon": 85.7838,
+    "source": "curated",
+    "description": "Twin hills with ancient rock-cut caves carved mostly during the reign of King Kharavela, used historically by Jain monks.",
+    "category": "heritage",
+    "city": "Bhubaneswar",
+    "tags": [
+      "caves",
+      "heritage",
+      "history",
+      "curated"
+    ],
+    "best_time": "October to March",
+    "place_id": "udayagiri-and-khandagiri-caves-bhubaneswar",
+    "category_raw": "Heritage & Caves",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.7838,
+        20.257
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Khandagari_and_Udaygiri_featured_image.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Dhauli Shanti Stupa",
+    "lat": 20.1928,
+    "lon": 85.8442,
+    "source": "curated",
+    "description": "A white Peace Pagoda near the site of the Kalinga War, built by Japanese Buddhist organizations; also home to Ashokan rock edicts.",
+    "category": "heritage",
+    "city": "Dhauli",
+    "tags": [
+      "heritage",
+      "peace",
+      "history",
+      "curated"
+    ],
+    "best_time": "October to February",
+    "place_id": "dhauli-shanti-stupa-dhauli",
+    "category_raw": "Heritage & Peace Monument",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.8442,
+        20.1928
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/ShantiSthupa_Dhauli.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Jagannath Temple",
+    "lat": 19.8048,
+    "lon": 85.8181,
+    "source": "curated",
+    "description": "One of the four Char Dham pilgrimage sites in India, famous for the annual Rath Yatra chariot festival.",
+    "category": "other",
+    "city": "Puri",
+    "tags": [
+      "temple",
+      "pilgrimage",
+      "festival",
+      "other",
+      "curated"
+    ],
+    "best_time": "October to February",
+    "place_id": "jagannath-temple-puri",
+    "category_raw": "Religious Site",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.8181,
+        19.8048
+      ]
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Shri_Jagannath_temple.jpg/3840px-Shri_Jagannath_temple.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Puri Beach",
+    "lat": 19.7983,
+    "lon": 85.8258,
+    "source": "curated",
+    "description": "A popular golden-sand beach on the Bay of Bengal, known for sunrise views and its proximity to the Jagannath Temple.",
+    "category": "beach",
+    "city": "Puri",
+    "tags": [
+      "beach",
+      "sunrise",
+      "relaxation",
+      "curated"
+    ],
+    "best_time": "October to February",
+    "place_id": "puri-beach-puri",
+    "category_raw": "Beach",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.8258,
+        19.7983
+      ]
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Shri_Jagannatha_Temple.jpg/3840px-Shri_Jagannatha_Temple.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Konark Sun Temple",
+    "lat": 19.8876,
+    "lon": 86.0945,
+    "source": "curated",
+    "description": "A 13th-century UNESCO World Heritage Site built in the form of a colossal stone chariot dedicated to the Sun God.",
+    "category": "heritage",
+    "city": "Konark",
+    "tags": [
+      "temple",
+      "unesco",
+      "architecture",
+      "heritage",
+      "curated"
+    ],
+    "best_time": "October to February",
+    "place_id": "konark-sun-temple-konark",
+    "category_raw": "Heritage & UNESCO Site",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.0945,
+        19.8876
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Konarka_Temple.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Chilika Lake",
+    "lat": 19.7,
+    "lon": 85.32,
+    "source": "curated",
+    "description": "Asia's largest brackish water lagoon, known for migratory birds (especially at Nalabana Bird Sanctuary) and Irrawaddy dolphins near Satapada.",
+    "category": "nature",
+    "city": "Chilika",
+    "tags": [
+      "lake",
+      "wildlife",
+      "birdwatching",
+      "nature",
+      "curated"
+    ],
+    "best_time": "November to February (for migratory birds)",
+    "place_id": "chilika-lake-chilika",
+    "category_raw": "Nature & Lake",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.32,
+        19.7
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Birds_eyeview_of_Chilika_Lake.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Barabati Fort",
+    "lat": 20.4886,
+    "lon": 85.8827,
+    "source": "curated",
+    "description": "A ruined fort on the banks of the Mahanadi River, once the seat of the Gajapati rulers of Odisha.",
+    "category": "heritage",
+    "city": "Cuttack",
+    "tags": [
+      "fort",
+      "heritage",
+      "history",
+      "curated"
+    ],
+    "best_time": "October to February",
+    "place_id": "barabati-fort-cuttack",
+    "category_raw": "Heritage & Fort",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.8827,
+        20.4886
+      ]
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Entrance_of_Barabati_fort.jpg/3840px-Entrance_of_Barabati_fort.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Daringbadi",
+    "lat": 19.85,
+    "lon": 84.15,
+    "source": "curated",
+    "description": "Odisha's hill-station oddity at around 3,000 ft: pine groves, coffee gardens and some of the state's coolest winter nights. The surrounding Kandhamal hills double as a scenic drive.",
+    "category": "nature",
+    "city": "Daringbadi",
+    "tags": [
+      "hills",
+      "nature",
+      "cool-climate",
+      "curated"
+    ],
+    "best_time": "October to February",
+    "place_id": "daringbadi-daringbadi",
+    "category_raw": "Hill Station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.15,
+        19.85
+      ]
+    },
+    "insider_tip": "Dec–Jan is frost season; small local homestays beat the big resorts.",
+    "description_source": "hand_curated",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Lover%27s_point%2C_Daringbadi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Similipal National Park",
+    "lat": 21.6,
+    "lon": 86.3,
+    "source": "curated",
+    "description": "A tiger reserve and biosphere in Mayurbhanj district known for waterfalls, dense sal forests, and diverse wildlife including tigers and elephants.",
+    "category": "nature",
+    "city": "Similipal",
+    "tags": [
+      "wildlife",
+      "national-park",
+      "tiger-reserve",
+      "nature",
+      "curated"
+    ],
+    "best_time": "November to June (park typically closed during monsoon — verify official dates before visiting)",
+    "place_id": "similipal-national-park-similipal",
+    "category_raw": "Wildlife & National Park",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.3,
+        21.6
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Simlipal_tiger_reserve.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Odisha Printing Museum",
+    "lat": 20.444144,
+    "lon": 85.896181,
+    "source": "wikidata",
+    "description": "media museum in Cuttack, Odisha, India",
+    "category": "museum",
+    "city": "Odisha",
+    "place_id": "odisha-printing-museum-odisha",
+    "category_raw": "museum",
+    "tags": [
+      "museum",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.896181,
+        20.444144
+      ]
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/South_Asia_%28orthographic_projection%29_without_national_boundaries.svg/960px-South_Asia_%28orthographic_projection%29_without_national_boundaries.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Tribal Museum, Koraput",
+    "lat": 18.810331,
+    "lon": 82.707672,
+    "source": "wikidata",
+    "description": "museum of indigenous history and culture in India",
+    "category": "museum",
+    "city": "Odisha",
+    "place_id": "tribal-museum-koraput-odisha",
+    "category_raw": "museum",
+    "tags": [
+      "museum",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.707672,
+        18.810331
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Deomali_by_Santanu_Mahapatra%2C_Koraput_-_panoramio.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Veer Surendra Sai Museum, Sambalpur",
+    "lat": 21.460583,
+    "lon": 83.974254,
+    "source": "wikidata",
+    "description": "Museum of Sambalpur district",
+    "category": "museum",
+    "city": "Sambalpur district",
+    "place_id": "veer-surendra-sai-museum-sambalpur-sambalpur-district",
+    "category_raw": "museum",
+    "tags": [
+      "museum",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.974254,
+        21.460583
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Hirakud_Dam.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Sudarshan Crafts Museum",
+    "lat": 19.805591,
+    "lon": 85.833717,
+    "source": "wikidata",
+    "description": "crafts museum in India",
+    "category": "museum",
+    "city": "Puri district",
+    "place_id": "sudarshan-crafts-museum-puri-district",
+    "category_raw": "museum",
+    "tags": [
+      "museum",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.833717,
+        19.805591
+      ]
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Shri_Jagannatha_Temple.jpg/3840px-Shri_Jagannatha_Temple.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Sri Aurobinda Sangrahalaya",
+    "lat": 20.092056,
+    "lon": 85.110889,
+    "source": "wikidata",
+    "description": "museum in Nayagarh, Odisha, India",
+    "category": "museum",
+    "city": "Nayagarh district",
+    "place_id": "sri-aurobinda-sangrahalaya-nayagarh-district",
+    "category_raw": "museum",
+    "tags": [
+      "museum",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.110889,
+        20.092056
+      ]
+    }
+  },
+  {
+    "name": "Odisha State Museum",
+    "lat": 20.2562,
+    "lon": 85.8415,
+    "source": "wikidata",
+    "description": "museum of human history and culture in India",
+    "category": "museum",
+    "city": "Bhubaneswar",
+    "place_id": "odisha-state-museum-bhubaneswar",
+    "category_raw": "museum",
+    "tags": [
+      "museum",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.8415,
+        20.2562
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Bhubaneswar_State_Museum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Tribal Research Institute Museum",
+    "lat": 20.2562,
+    "lon": 85.8415,
+    "source": "wikidata",
+    "description": "museum of Tribal Arts and Artifacts",
+    "category": "museum",
+    "city": "Bhubaneswar",
+    "place_id": "tribal-research-institute-museum-bhubaneswar",
+    "category_raw": "museum",
+    "tags": [
+      "museum",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.8415,
+        20.2562
+      ]
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Tribal_museum_Bhubaneswar.jpg/3840px-Tribal_museum_Bhubaneswar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Netaji Birth Place Museum",
+    "lat": 20.469892,
+    "lon": 85.866539,
+    "source": "wikidata",
+    "description": "museum in Cuttack, Odisha",
+    "category": "museum",
+    "city": "Cuttack",
+    "place_id": "netaji-birth-place-museum-cuttack",
+    "category_raw": "museum",
+    "tags": [
+      "museum",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.866539,
+        20.469892
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2-barabati-stadium-cuttack-odisha-city-hero.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Black Diamond Museum, Angul",
+    "lat": 20.84,
+    "lon": 85.15,
+    "source": "wikidata",
+    "description": "Combined library and museum in Odisha",
+    "category": "museum",
+    "city": "Angul",
+    "place_id": "black-diamond-museum-angul-angul",
+    "category_raw": "museum",
+    "tags": [
+      "museum",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.15,
+        20.84
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Statue_of_B._R._Ambedkar%2C_Nalconagar%2C_Angul.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Tribal Museum Rourkela",
+    "lat": 22.2604,
+    "lon": 84.8536,
+    "source": "wikidata",
+    "description": "museum in Odisha",
+    "category": "museum",
+    "city": "Rourkela",
+    "place_id": "tribal-museum-rourkela-rourkela",
+    "category_raw": "museum",
+    "tags": [
+      "museum",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.8536,
+        22.2604
+      ]
+    }
+  },
+  {
+    "name": "Gajapati Palace",
+    "lat": 18.778687,
+    "lon": 84.086881,
+    "source": "wikidata",
+    "description": "Palace at Paralakhemundi",
+    "category": "heritage",
+    "city": "Gajapati district",
+    "place_id": "gajapati-palace-gajapati-district",
+    "category_raw": "palace",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.086881,
+        18.778687
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Mahendragiri_Hills.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Kanika Palace",
+    "lat": 20.735061,
+    "lon": 86.699851,
+    "source": "wikidata",
+    "description": "building in Rajkanika, India",
+    "category": "heritage",
+    "city": "Kendrapara district",
+    "place_id": "kanika-palace-kendrapara-district",
+    "category_raw": "palace",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.699851,
+        20.735061
+      ]
+    }
+  },
+  {
+    "name": "Gajlaxmi palace",
+    "lat": 20.6487,
+    "lon": 85.6077,
+    "source": "wikidata",
+    "description": "historic site in Dhenkanal, Odisha",
+    "category": "heritage",
+    "city": "Dhenkanal",
+    "place_id": "gajlaxmi-palace-dhenkanal",
+    "category_raw": "palace",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.6077,
+        20.6487
+      ]
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Gajlaxmi_palace.jpg/3840px-Gajlaxmi_palace.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Vikramkhol",
+    "lat": 21.85,
+    "lon": 83.8,
+    "source": "wikidata",
+    "description": "Cave and archaeological site in India",
+    "category": "heritage",
+    "city": "Jharsuguda district",
+    "place_id": "vikramkhol-jharsuguda-district",
+    "category_raw": "archaeological site",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.8,
+        21.85
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Bikramkhol_.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Diamond Triangle",
+    "lat": 20.633333,
+    "lon": 86.266667,
+    "source": "wikidata",
+    "description": "group of Buddhist archaeological sites in Odisha, India",
+    "category": "heritage",
+    "city": "Odisha",
+    "place_id": "diamond-triangle-odisha",
+    "category_raw": "archaeological site",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.266667,
+        20.633333
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Udayagiri_WIKI.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Sisupalgarh",
+    "lat": 20.226639,
+    "lon": 85.853056,
+    "source": "wikidata",
+    "description": "archaeological site in Khordha district, India",
+    "category": "heritage",
+    "city": "Khordha district",
+    "place_id": "sisupalgarh-khordha-district",
+    "category_raw": "archaeological site",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.853056,
+        20.226639
+      ]
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/South_Asia_%28orthographic_projection%29_without_national_boundaries.svg/960px-South_Asia_%28orthographic_projection%29_without_national_boundaries.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Dhauli",
+    "lat": 20.183333,
+    "lon": 85.833333,
+    "source": "wikidata",
+    "description": "Hill in Khurdha district",
+    "category": "heritage",
+    "city": "Khordha district",
+    "place_id": "dhauli-khordha-district",
+    "category_raw": "archaeological site",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.833333,
+        20.183333
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/ShantiSthupa_Dhauli.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Golabai",
+    "lat": 20.0225,
+    "lon": 85.55,
+    "source": "wikidata",
+    "description": "village in Odisha",
+    "category": "heritage",
+    "city": "Khordha district",
+    "place_id": "golabai-khordha-district",
+    "category_raw": "archaeological site",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.55,
+        20.0225
+      ]
+    }
+  },
+  {
+    "name": "Manikpatna",
+    "lat": 20.611,
+    "lon": 86.645,
+    "source": "wikidata",
+    "description": "archaeological site in Odisha, India",
+    "category": "heritage",
+    "city": "Odisha",
+    "place_id": "manikpatna-odisha",
+    "category_raw": "archaeological site",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.645,
+        20.611
+      ]
+    }
+  },
+  {
+    "name": "Sankarjang",
+    "lat": 20.8689,
+    "lon": 84.9886,
+    "source": "wikidata",
+    "description": "Archaeological site near Angul, India",
+    "category": "heritage",
+    "city": "Odisha",
+    "place_id": "sankarjang-odisha",
+    "category_raw": "archaeological site",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.9886,
+        20.8689
+      ]
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/d3/SKG_lithics.jpg/3840px-SKG_lithics.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Asurgarh",
+    "lat": 20.09541,
+    "lon": 83.344277,
+    "source": "wikidata",
+    "description": "place in Odisha, India",
+    "category": "heritage",
+    "city": "Kalahandi district",
+    "place_id": "asurgarh-kalahandi-district",
+    "category_raw": "archaeological site",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.344277,
+        20.09541
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Bhawanipatna_Shine.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Kuruma",
+    "lat": 19.921226,
+    "lon": 86.135949,
+    "source": "wikidata",
+    "description": "archaeological site in Puri district, India",
+    "category": "heritage",
+    "city": "Puri district",
+    "place_id": "kuruma-puri-district",
+    "category_raw": "archaeological site",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.135949,
+        19.921226
+      ]
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Shri_Jagannath_temple.jpg/3840px-Shri_Jagannath_temple.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Ancient site of Asurgarh fort",
+    "lat": 20.566667,
+    "lon": 83.55,
+    "source": "wikidata",
+    "category": "heritage",
+    "city": "Kalahandi district",
+    "place_id": "ancient-site-of-asurgarh-fort-kalahandi-district",
+    "category_raw": "archaeological site",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.55,
+        20.566667
+      ]
+    },
+    "description": "Asurgarh is an archaeological site in the Kalahandi district of Odisha, India. Asurgarh is one of the sites which has its beginning in around 5th century BCE to 5th century AD and emerged as one of the early urban fortified settlements in the region and it is older than Sisupalgarh. Pre-Mauryan, Mauryan and Gupta period coins are found in large number, these coins, discovered at Asurgarh, are categorized into two groups: 69 belong to the pre-Mauryan period, while 272 are from the Mauryan epoch and Gupta period.",
+    "description_source": "wikipedia",
+    "description_license": "CC BY-SA 4.0"
+  },
+  {
+    "name": "Prehistoric sites",
+    "lat": 21.783333,
+    "lon": 86.683333,
+    "source": "wikidata",
+    "description": "archaeological site in Mayurbhanj district, India",
+    "category": "heritage",
+    "city": "Mayurbhanj district",
+    "place_id": "prehistoric-sites-mayurbhanj-district",
+    "category_raw": "archaeological site",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.683333,
+        21.783333
+      ]
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Barehipani_Waterfall_in_Simlipal_Biosphere_Reserve.jpg/3840px-Barehipani_Waterfall_in_Simlipal_Biosphere_Reserve.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Prehistoric sites",
+    "lat": 22.0,
+    "lon": 86.7,
+    "source": "wikidata",
+    "category": "heritage",
+    "city": "Mayurbhanj district",
+    "place_id": "prehistoric-sites-mayurbhanj-district-2",
+    "category_raw": "archaeological site",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.7,
+        22.0
+      ]
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Barehipani_Waterfall_in_Simlipal_Biosphere_Reserve.jpg/3840px-Barehipani_Waterfall_in_Simlipal_Biosphere_Reserve.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "description": "Mayurbhanj district is one of the 30 districts of Odisha state in eastern India and the largest in the state by area, nearly equivalent to Tripura. The district's headquarters is located in Baripada, with other major towns including Rairangpur, Karanjia, and Udala. As of 2011, Mayurbhanj ranks as the third-most populous district in Odisha, following Ganjam and Cuttack.",
+    "description_source": "wikipedia",
+    "description_license": "CC BY-SA 4.0"
+  },
+  {
+    "name": "Prehistoric sites",
+    "lat": 22.066667,
+    "lon": 86.65,
+    "source": "wikidata",
+    "category": "heritage",
+    "city": "Mayurbhanj district",
+    "place_id": "prehistoric-sites-mayurbhanj-district-3",
+    "category_raw": "archaeological site",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.65,
+        22.066667
+      ]
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Barehipani_Waterfall_in_Simlipal_Biosphere_Reserve.jpg/3840px-Barehipani_Waterfall_in_Simlipal_Biosphere_Reserve.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "description": "Mayurbhanj district is one of the 30 districts of Odisha state in eastern India and the largest in the state by area, nearly equivalent to Tripura. The district's headquarters is located in Baripada, with other major towns including Rairangpur, Karanjia, and Udala. As of 2011, Mayurbhanj ranks as the third-most populous district in Odisha, following Ganjam and Cuttack.",
+    "description_source": "wikipedia",
+    "description_license": "CC BY-SA 4.0"
+  },
+  {
+    "name": "Lalitgiri",
+    "lat": 20.5894,
+    "lon": 86.2506,
+    "source": "wikidata",
+    "description": "building in India",
+    "category": "heritage",
+    "city": "Cuttack district",
+    "place_id": "lalitgiri-cuttack-district",
+    "category_raw": "archaeological site",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.2506,
+        20.5894
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2-barabati-stadium-cuttack-odisha-city-hero.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Ancient site at Baneswaranasi",
+    "lat": 20.4,
+    "lon": 85.166667,
+    "source": "wikidata",
+    "description": "archaeological site in Cuttack district, India",
+    "category": "heritage",
+    "city": "Cuttack district",
+    "place_id": "ancient-site-at-baneswaranasi-cuttack-district",
+    "category_raw": "archaeological site",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.166667,
+        20.4
+      ]
+    }
+  },
+  {
+    "name": "Udayagiri",
+    "lat": 20.6416,
+    "lon": 86.2692,
+    "source": "wikidata",
+    "description": "Buddhist complex in Odisha",
+    "category": "heritage",
+    "city": "Jajpur district",
+    "place_id": "udayagiri-jajpur-district",
+    "category_raw": "archaeological site",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.2692,
+        20.6416
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Ratnagiri_Monastery_%2C_Jajpur._Odisha.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Pushpagiri",
+    "lat": 20.722739,
+    "lon": 86.190338,
+    "source": "wikidata",
+    "description": "Budhist site in Odisha, India",
+    "category": "heritage",
+    "city": "Jajpur district",
+    "place_id": "pushpagiri-jajpur-district",
+    "category_raw": "archaeological site",
+    "tags": [
+      "heritage",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.190338,
+        20.722739
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/Pushpagiri_%28Langudi_Hill%29_-_Jajpur_-_Odisha_-_Buddhist_site_-_Rock-Cut_Stupas_-_2.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Gadgada Falls",
+    "lat": 19.489167,
+    "lon": 83.448889,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Odisha",
+    "place_id": "gadgada-falls-odisha",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.448889,
+        19.489167
+      ]
+    },
+    "description": "Gadgada Falls is a scenic nature waterfall nestled in Odisha. Tucked away far from the tourist circuit, you'll likely share this tranquil spot mostly with locals. Facilities are basic here, so it is best to plan ahead before you visit.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Bhanwargarh Falls",
+    "lat": 21.558889,
+    "lon": 83.703056,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Odisha",
+    "place_id": "bhanwargarh-falls-odisha",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.703056,
+        21.558889
+      ]
+    },
+    "description": "Bhanwargarh Falls is a scenic nature waterfall in Odisha. Far from the tourist circuit, you will likely share this quiet spot with locals. Facilities are basic, so be sure to plan ahead.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Muktagiri_temples.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Deodarha Falls",
+    "lat": 21.5375,
+    "lon": 83.548889,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Odisha",
+    "place_id": "deodarha-falls-odisha",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.548889,
+        21.5375
+      ]
+    },
+    "description": "Deodarha Falls is a waterfall in Odisha. Facilities are basic here, so plan ahead before visiting. Check road conditions locally before embarking on the journey.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Parewadara Falls",
+    "lat": 20.356944,
+    "lon": 82.452778,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Odisha",
+    "place_id": "parewadara-falls-odisha",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.452778,
+        20.356944
+      ]
+    },
+    "description": "Parewadara Falls is a scenic waterfall nestled in the nature of Odisha. It sits far from the tourist circuit, meaning you will likely share it with locals. Facilities are basic, so be sure to plan ahead and check local access before visiting.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Kawaldara Falls",
+    "lat": 20.42,
+    "lon": 82.464167,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Odisha",
+    "place_id": "kawaldara-falls-odisha",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.464167,
+        20.42
+      ]
+    },
+    "description": "Kawaldara Falls is a nature waterfall in Odisha. Far from the tourist circuit, you will likely share it with locals. Check road access locally before you visit.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Beniadhas Falls",
+    "lat": 20.615,
+    "lon": 82.47,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Odisha",
+    "place_id": "beniadhas-falls-odisha",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.47,
+        20.615
+      ]
+    },
+    "description": "Beniadhas Falls is a natural waterfall nestled in Odisha. Tucked away far from the tourist circuit, you will likely share this tranquil spot only with locals. Facilities are basic here, so it is best to check local access and plan ahead.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Kharaldhas Falls",
+    "lat": 20.645278,
+    "lon": 82.461944,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Odisha",
+    "place_id": "kharaldhas-falls-odisha",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.461944,
+        20.645278
+      ]
+    },
+    "description": "Kharaldhas Falls is a serene waterfall nestled in the natural landscapes of Odisha. Far from the tourist circuit, you will likely share this peaceful spot mostly with locals. Facilities are basic here, so plan ahead before visiting.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Gaidhas Falls",
+    "lat": 20.666944,
+    "lon": 82.439444,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Odisha",
+    "place_id": "gaidhas-falls-odisha",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.439444,
+        20.666944
+      ]
+    },
+    "description": "Gaidhas Falls is a natural waterfall located in Odisha. Far from the tourist circuit, you'll likely share this quiet spot with locals rather than crowds. Facilities are basic, so plan ahead and check local access before visiting.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Dudma Falls",
+    "lat": 18.519444,
+    "lon": 82.454167,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Odisha",
+    "description": "waterfall in India",
+    "place_id": "dudma-falls-odisha",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.454167,
+        18.519444
+      ]
+    }
+  },
+  {
+    "name": "Pradhanpat Waterfall",
+    "lat": 21.551158,
+    "lon": 84.736969,
+    "source": "wikidata",
+    "description": "waterfall in Odisha, India",
+    "category": "nature",
+    "city": "Odisha",
+    "place_id": "pradhanpat-waterfall-odisha",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.736969,
+        21.551158
+      ]
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/India_Odisha_relief_map.svg/1280px-India_Odisha_relief_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Dudamma Falls",
+    "lat": 18.685,
+    "lon": 81.962222,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Odisha",
+    "place_id": "dudamma-falls-odisha",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.962222,
+        18.685
+      ]
+    },
+    "description": "Dudamma Falls is a serene natural waterfall hidden within the scenic landscapes of Odisha. Far from the tourist circuit, you will likely share it with locals and enjoy a peaceful atmosphere. Facilities are basic, so be sure to plan ahead.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Barehipani Falls",
+    "lat": 21.933576,
+    "lon": 86.380343,
+    "source": "wikidata",
+    "description": "waterfall in Odisha, India",
+    "category": "nature",
+    "city": "Mayurbhanj district",
+    "place_id": "barehipani-falls-mayurbhanj-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.380343,
+        21.933576
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Barehipani_Falls.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Joranda Falls",
+    "lat": 21.937222,
+    "lon": 86.404167,
+    "source": "wikidata",
+    "description": "waterfall in Odisha, India",
+    "category": "nature",
+    "city": "Mayurbhanj district",
+    "place_id": "joranda-falls-mayurbhanj-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.404167,
+        21.937222
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Barehipani_Falls.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Seven pool waterfalls",
+    "lat": 21.476025,
+    "lon": 83.858091,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Sambalpur district",
+    "place_id": "seven-pool-waterfalls-sambalpur-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.858091,
+        21.476025
+      ]
+    },
+    "description": "Seven pool waterfalls in Sambalpur district is a scenic nature spot featuring cascading waters. Far from the tourist circuit, you'll likely share this quiet space with locals rather than crowds. Facilities are basic, so plan ahead before visiting.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Lingaraj_Temple_complex_at_dusk_during_Shivratri_2020.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Chandli Dungri waterfalls",
+    "lat": 21.466745,
+    "lon": 83.863894,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Sambalpur district",
+    "place_id": "chandli-dungri-waterfalls-sambalpur-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.863894,
+        21.466745
+      ]
+    },
+    "description": "Chandli Dungri waterfalls is a natural waterfall nestled in the Sambalpur district. Facilities are basic here, so plan ahead as you explore this spot far from the tourist circuit. Check local access conditions before you set out.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Gandahati Waterfall",
+    "lat": 18.88925,
+    "lon": 84.270139,
+    "source": "wikidata",
+    "description": "waterfall in Odisha, India",
+    "category": "nature",
+    "city": "Gajapati district",
+    "place_id": "gandahati-waterfall-gajapati-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.270139,
+        18.88925
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Gandahati_Waterfall.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Badaghagara Waterfall",
+    "lat": 21.608739,
+    "lon": 85.55574,
+    "source": "wikidata",
+    "description": "waterfall",
+    "category": "nature",
+    "city": "Kendujhar district",
+    "place_id": "badaghagara-waterfall-kendujhar-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.55574,
+        21.608739
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Badaghagara_Kendujhar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Sanaghagara Waterfall",
+    "lat": 21.632792,
+    "lon": 85.55688,
+    "source": "wikidata",
+    "description": "waterfall in Odisha, India",
+    "category": "nature",
+    "city": "Kendujhar district",
+    "place_id": "sanaghagara-waterfall-kendujhar-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.55688,
+        21.632792
+      ]
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Sanaghagara_Kendujhar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Bagra Waterfall",
+    "lat": 18.800415,
+    "lon": 82.58221,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Koraput district",
+    "place_id": "bagra-waterfall-koraput-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.58221,
+        18.800415
+      ]
+    },
+    "description": "Bagra Waterfall is a scenic nature spot tucked away in the Koraput district. Far from the tourist circuit, you will likely share this peaceful cascade mainly with locals. Access routes can be rugged, so check local conditions before heading out.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Deomali_by_Santanu_Mahapatra%2C_Koraput_-_panoramio.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Jalmunda Waterfall",
+    "lat": 18.902005,
+    "lon": 82.666804,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Koraput district",
+    "place_id": "jalmunda-waterfall-koraput-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.666804,
+        18.902005
+      ]
+    },
+    "description": "Jalmunda Waterfall is a scenic natural cascade hidden away in the Koraput district. Far from the tourist circuit, you'll likely share this quiet spot only with local villagers. Access roads can be rough, so checking local conditions before visiting is recommended.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Rani Duduma Falls",
+    "lat": 18.543368,
+    "lon": 82.749678,
+    "source": "wikidata",
+    "description": "waterfalls",
+    "category": "nature",
+    "city": "Koraput district",
+    "place_id": "rani-duduma-falls-koraput-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.749678,
+        18.543368
+      ]
+    }
+  },
+  {
+    "name": "Deojhar waterfalls",
+    "lat": 20.52436,
+    "lon": 85.207604,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Cuttack district",
+    "place_id": "deojhar-waterfalls-cuttack-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.207604,
+        20.52436
+      ]
+    },
+    "description": "Deojhar waterfalls is a scenic waterfall located in the Cuttack district. Tucked far from the tourist circuit, you will likely share this tranquil spot mostly with locals. Facilities are basic here, so it is best to plan ahead.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Barabati_durga_Cuttack_Barabati_Fort_Front-1.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "name": "Upper Jonk",
+    "lat": 20.54553,
+    "lon": 84.19011,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Kandhamal district",
+    "place_id": "upper-jonk-kandhamal-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.19011,
+        20.54553
+      ]
+    },
+    "description": "Upper Jonk is a scenic waterfall located in the Kandhamal district. Far from the tourist circuit, you will likely share this quiet spot with locals. Be sure to check road access locally before heading out.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/India_Odisha_relief_map.svg/1280px-India_Odisha_relief_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "name": "Ashokjhar Waterfall",
+    "lat": 21.042404,
+    "lon": 85.894527,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Jajpur district",
+    "place_id": "ashokjhar-waterfall-jajpur-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.894527,
+        21.042404
+      ]
+    },
+    "description": "Ashokjhar Waterfall is a natural waterfall nestled in the Jajpur district. It sits far from the tourist circuit, meaning you will likely share it with locals. Facilities are basic, so be sure to plan ahead.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Sankesh Waterfall",
+    "lat": 19.185319,
+    "lon": 83.309253,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Rayagada district",
+    "place_id": "sankesh-waterfall-rayagada-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.309253,
+        19.185319
+      ]
+    },
+    "description": "Sankesh Waterfall is a scenic natural cascade nestled in the Rayagada district. Tucked far from the tourist circuit, you will likely share this quiet spot with locals. Facilities are basic, so be sure to plan ahead.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Hikarapada Waterfall",
+    "lat": 19.166262,
+    "lon": 83.519297,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Rayagada district",
+    "place_id": "hikarapada-waterfall-rayagada-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.519297,
+        19.166262
+      ]
+    },
+    "description": "Hikarapada Waterfall is a natural waterfall located in the Rayagada district. Far from the tourist circuit, you'll likely share this tranquil spot with locals. Facilities are basic, so plan ahead before visiting.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Durgapadu Waterfall",
+    "lat": 19.048437,
+    "lon": 83.523238,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Rayagada district",
+    "place_id": "durgapadu-waterfall-rayagada-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.523238,
+        19.048437
+      ]
+    },
+    "description": "Durgapadu Waterfall is a scenic nature spot in the Rayagada district. Far from the tourist circuit, you'll likely share it with locals rather than crowds. Facilities are basic, so plan ahead before visiting.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Samir Waterfall",
+    "lat": 22.365409,
+    "lon": 84.70897,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Sundargarh district",
+    "place_id": "samir-waterfall-sundargarh-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.70897,
+        22.365409
+      ]
+    },
+    "description": "Samir Waterfall is a natural waterfall located in the Sundargarh district. Far from the tourist circuit, you will likely share this quiet spot mainly with locals. Facilities are basic here, so it is best to plan ahead and check local access before visiting.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Demul waterfall",
+    "lat": 22.055343,
+    "lon": 84.549227,
+    "source": "wikidata",
+    "category": "nature",
+    "city": "Sundargarh district",
+    "place_id": "demul-waterfall-sundargarh-district",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.549227,
+        22.055343
+      ]
+    },
+    "description": "Demul waterfall is a natural cascade tucked away in the Sundargarh district. It sits far from the usual tourist circuit, meaning you will likely share the quiet surroundings only with locals. Facilities are basic here, so it is best to plan ahead.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Phurlijharan",
+    "lat": 19.781505,
+    "lon": 83.111063,
+    "source": "wikidata",
+    "description": "Horsetail Waterfall in Kalahandi district,Odisha",
+    "category": "nature",
+    "city": "Bhawanipatna",
+    "place_id": "phurlijharan-bhawanipatna",
+    "category_raw": "waterfall",
+    "tags": [
+      "nature",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.111063,
+        19.781505
+      ]
+    }
+  },
+  {
+    "name": "Konark Beach",
+    "lat": 19.866498,
+    "lon": 86.114242,
+    "source": "wikidata",
+    "description": "beach in Odisha, India",
+    "category": "beach",
+    "city": "Odisha",
+    "place_id": "konark-beach-odisha",
+    "category_raw": "beach",
+    "tags": [
+      "beach",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.114242,
+        19.866498
+      ]
+    }
+  },
+  {
+    "name": "Chandrabhaga beach",
+    "lat": 19.854521,
+    "lon": 86.074573,
+    "source": "wikidata",
+    "description": "The beach where the sun rises for Konark: a wide, open shoreline that hosts the Magha Saptami sea-bathing festival. At dawn you'll share the sand with fishermen rather than crowds.",
+    "category": "beach",
+    "city": "Odisha",
+    "place_id": "chandrabhaga-beach-odisha",
+    "category_raw": "beach",
+    "tags": [
+      "beach",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.074573,
+        19.854521
+      ]
+    },
+    "insider_tip": "Pair with the Sun Temple; February's Magha Saptami is the big day.",
+    "description_source": "hand_curated"
+  },
+  {
+    "name": "Talasari beach",
+    "lat": 21.623,
+    "lon": 87.4059,
+    "source": "wikidata",
+    "description": "sea beach in Odisha, India",
+    "category": "beach",
+    "city": "Balasore district",
+    "place_id": "talasari-beach-balasore-district",
+    "category_raw": "beach",
+    "tags": [
+      "beach",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        87.4059,
+        21.623
+      ]
+    }
+  },
+  {
+    "name": "Golden Beach, Puri",
+    "lat": 19.7949,
+    "lon": 85.82497,
+    "source": "wikidata",
+    "description": "Sea beach of Odisha",
+    "category": "beach",
+    "city": "Puri",
+    "place_id": "golden-beach-puri-puri",
+    "category_raw": "beach",
+    "tags": [
+      "beach",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.82497,
+        19.7949
+      ]
+    }
+  },
+  {
+    "name": "Simlipal National Park",
+    "lat": 21.75,
+    "lon": 86.33,
+    "source": "wikidata",
+    "description": "national park in India",
+    "category": "wildlife",
+    "city": "Mayurbhanj district",
+    "place_id": "simlipal-national-park-mayurbhanj-district",
+    "category_raw": "national park",
+    "tags": [
+      "wildlife",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.33,
+        21.75
+      ]
+    }
+  },
+  {
+    "name": "Bhitarkanika National Park",
+    "lat": 20.6625,
+    "lon": 86.9341,
+    "source": "wikidata",
+    "description": "national park in Odisha, India",
+    "category": "wildlife",
+    "city": "Kendrapara district",
+    "place_id": "bhitarkanika-national-park-kendrapara-district",
+    "category_raw": "national park",
+    "tags": [
+      "wildlife",
+      "wikidata"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.9341,
+        20.6625
+      ]
+    }
+  },
+  {
+    "name": "Rushikonda",
+    "lat": 17.79307,
+    "lon": 83.384867,
+    "source": "osm",
+    "category": "other",
+    "place_id": "rushikonda",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.384867,
+        17.79307
+      ]
+    }
+  },
+  {
+    "name": "rushikonda boating",
+    "lat": 17.779335,
+    "lon": 83.386152,
+    "source": "osm",
+    "category": "other",
+    "place_id": "rushikonda-boating",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.386152,
+        17.779335
+      ]
+    }
+  },
+  {
+    "name": "Satpada",
+    "lat": 19.669188,
+    "lon": 85.443635,
+    "source": "osm",
+    "category": "other",
+    "place_id": "satpada",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.443635,
+        19.669188
+      ]
+    }
+  },
+  {
+    "name": "Kalijai Island",
+    "lat": 19.665464,
+    "lon": 85.214053,
+    "source": "osm",
+    "category": "other",
+    "place_id": "kalijai-island",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.214053,
+        19.665464
+      ]
+    }
+  },
+  {
+    "name": "Sipakuda",
+    "lat": 19.679967,
+    "lon": 85.498426,
+    "source": "osm",
+    "category": "other",
+    "place_id": "sipakuda",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.498426,
+        19.679967
+      ]
+    }
+  },
+  {
+    "name": "Nirmaljhara",
+    "lat": 19.601781,
+    "lon": 85.065084,
+    "source": "osm",
+    "category": "other",
+    "place_id": "nirmaljhara",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.065084,
+        19.601781
+      ]
+    }
+  },
+  {
+    "name": "Swami Parvananda Museum",
+    "lat": 19.794864,
+    "lon": 85.818405,
+    "source": "osm",
+    "category": "museum",
+    "place_id": "swami-parvananda-museum",
+    "category_raw": "Museum",
+    "tags": [
+      "museum",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.818405,
+        19.794864
+      ]
+    }
+  },
+  {
+    "name": "Banpur",
+    "lat": 19.779589,
+    "lon": 85.169042,
+    "source": "osm",
+    "category": "other",
+    "place_id": "banpur",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.169042,
+        19.779589
+      ]
+    }
+  },
+  {
+    "name": "Nehru Minar",
+    "lat": 21.515774,
+    "lon": 83.850436,
+    "source": "osm",
+    "category": "nature",
+    "place_id": "nehru-minar",
+    "category_raw": "Viewpoint",
+    "tags": [
+      "nature",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.850436,
+        21.515774
+      ]
+    },
+    "description": "Nehru Minar is a scenic viewpoint in Odisha. Being far from the tourist circuit, you will likely share it with locals and enjoy a quiet atmosphere. Facilities are basic, so it is best to plan ahead.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Nehru Museum of Science & Technology",
+    "lat": 22.319499,
+    "lon": 87.315062,
+    "source": "osm",
+    "category": "museum",
+    "place_id": "nehru-museum-of-science-technology",
+    "category_raw": "Museum",
+    "tags": [
+      "museum",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        87.315062,
+        22.319499
+      ]
+    }
+  },
+  {
+    "name": "Kailasgiri Viewpoint",
+    "lat": 17.752603,
+    "lon": 83.334401,
+    "source": "osm",
+    "category": "nature",
+    "place_id": "kailasgiri-viewpoint",
+    "category_raw": "Viewpoint",
+    "tags": [
+      "nature",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.334401,
+        17.752603
+      ]
+    },
+    "description": "Kailasgiri Viewpoint is a scenic natural viewpoint in Odisha offering expansive vistas of the surrounding landscape. Tucked far from the main tourist circuit, you will likely share this quiet space mostly with locals. Facilities are basic here, so plan ahead before making the trip.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Bobilli Yudastambam",
+    "lat": 18.578187,
+    "lon": 83.36977,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "bobilli-yudastambam",
+    "category_raw": "Historic (monument)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.36977,
+        18.578187
+      ]
+    }
+  },
+  {
+    "name": "Waterfalls",
+    "lat": 21.548439,
+    "lon": 84.739106,
+    "source": "osm",
+    "category": "other",
+    "place_id": "waterfalls",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.739106,
+        21.548439
+      ]
+    }
+  },
+  {
+    "name": "Jaugada",
+    "lat": 19.522593,
+    "lon": 84.830902,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "jaugada",
+    "category_raw": "Historic (archaeological_site)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.830902,
+        19.522593
+      ]
+    }
+  },
+  {
+    "name": "Hemchandra Kanungo's Last Resi",
+    "lat": 22.050546,
+    "lon": 87.453865,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "hemchandra-kanungo-s-last-resi",
+    "category_raw": "Historic (archaeological_site)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        87.453865,
+        22.050546
+      ]
+    }
+  },
+  {
+    "name": "Alluri Seetharamaraju Statue",
+    "lat": 17.721726,
+    "lon": 83.335657,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "alluri-seetharamaraju-statue",
+    "category_raw": "Historic (memorial)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.335657,
+        17.721726
+      ]
+    }
+  },
+  {
+    "name": "Gajapati Narayana Deva",
+    "lat": 19.315344,
+    "lon": 84.786149,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "gajapati-narayana-deva",
+    "category_raw": "Historic (memorial)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.786149,
+        19.315344
+      ]
+    }
+  },
+  {
+    "name": "Padmashree Mohan Nayak",
+    "lat": 19.313377,
+    "lon": 84.782164,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "padmashree-mohan-nayak",
+    "category_raw": "Historic (memorial)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.782164,
+        19.313377
+      ]
+    }
+  },
+  {
+    "name": "Mahatma Gandhi",
+    "lat": 19.314807,
+    "lon": 84.785797,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "mahatma-gandhi",
+    "category_raw": "Historic (memorial)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.785797,
+        19.314807
+      ]
+    }
+  },
+  {
+    "name": "Chitrakot Waterfalls",
+    "lat": 19.206404,
+    "lon": 81.700283,
+    "source": "osm",
+    "category": "other",
+    "place_id": "chitrakot-waterfalls",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.700283,
+        19.206404
+      ]
+    }
+  },
+  {
+    "name": "mangaraj pur-5km",
+    "lat": 20.714981,
+    "lon": 86.072195,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "mangaraj-pur-5km",
+    "category_raw": "Historic (wayside_cross)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.072195,
+        20.714981
+      ]
+    }
+  },
+  {
+    "name": "Maa Bhagabati Temple",
+    "lat": 19.782644,
+    "lon": 85.166473,
+    "source": "osm",
+    "category": "other",
+    "city": "banpur",
+    "place_id": "maa-bhagabati-temple-banpur",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.166473,
+        19.782644
+      ]
+    }
+  },
+  {
+    "name": "Dakshyprajapati Temple",
+    "lat": 19.779102,
+    "lon": 85.170464,
+    "source": "osm",
+    "category": "other",
+    "city": "Banpur",
+    "place_id": "dakshyprajapati-temple-banpur",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.170464,
+        19.779102
+      ]
+    }
+  },
+  {
+    "name": "Fireman statue",
+    "lat": 20.279024,
+    "lon": 85.798781,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "fireman-statue",
+    "category_raw": "Historic (memorial)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.798781,
+        20.279024
+      ]
+    }
+  },
+  {
+    "name": "Pandua Chowk",
+    "lat": 20.785779,
+    "lon": 85.548388,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "pandua-chowk",
+    "category_raw": "Historic (wayside_cross)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.548388,
+        20.785779
+      ]
+    }
+  },
+  {
+    "name": "Gopabandhu Park",
+    "lat": 20.933916,
+    "lon": 85.544538,
+    "source": "osm",
+    "category": "nature",
+    "place_id": "gopabandhu-park",
+    "category_raw": "Theme Park",
+    "tags": [
+      "nature",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.544538,
+        20.933916
+      ]
+    },
+    "description": "Gopabandhu Park is a serene theme park nestled in Odisha. Far from the tourist circuit, you'll likely share this green space mostly with locals. Facilities are basic, so it is best to plan ahead for your visit.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Science Park",
+    "lat": 20.647921,
+    "lon": 85.596534,
+    "source": "osm",
+    "category": "nature",
+    "place_id": "science-park",
+    "category_raw": "Theme Park",
+    "tags": [
+      "nature",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.596534,
+        20.647921
+      ]
+    },
+    "description": "Science Park is a theme park located in Odisha. Far from the tourist circuit, you'll likely share this quiet space mostly with locals. Facilities are basic, so it is best to plan ahead before visiting.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Kings Palace",
+    "lat": 20.647875,
+    "lon": 85.597926,
+    "source": "osm",
+    "category": "nature",
+    "place_id": "kings-palace",
+    "category_raw": "Viewpoint",
+    "tags": [
+      "nature",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.597926,
+        20.647875
+      ]
+    },
+    "description": "Kings Palace is a scenic natural viewpoint. Far from the tourist circuit, you will likely share this quiet spot with locals. Facilities are basic, so be sure to plan ahead.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Gurujada appa Rao house",
+    "lat": 18.112021,
+    "lon": 83.411988,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "gurujada-appa-rao-house",
+    "category_raw": "Historic (monument)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.411988,
+        18.112021
+      ]
+    }
+  },
+  {
+    "name": "Raja Surendra Sai Palace",
+    "lat": 21.468637,
+    "lon": 83.966916,
+    "source": "osm",
+    "category": "heritage",
+    "city": "Sambalpur, Odisha",
+    "place_id": "raja-surendra-sai-palace-sambalpur-odisha",
+    "category_raw": "Historic (ruins)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.966916,
+        21.468637
+      ]
+    }
+  },
+  {
+    "name": "Bhagawati Pathagar Member's Memorial Pillar",
+    "lat": 20.403899,
+    "lon": 85.191334,
+    "source": "osm",
+    "category": "heritage",
+    "city": "Cuttack",
+    "place_id": "bhagawati-pathagar-member-s-memorial-pillar-cuttack",
+    "category_raw": "Historic (monument)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.191334,
+        20.403899
+      ]
+    }
+  },
+  {
+    "name": "Dhyan Chand",
+    "lat": 17.723461,
+    "lon": 83.329087,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "dhyan-chand",
+    "category_raw": "Historic (memorial)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.329087,
+        17.723461
+      ]
+    }
+  },
+  {
+    "name": "Salihundam Buddhist Archaelogical Site",
+    "lat": 18.333901,
+    "lon": 84.043312,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "salihundam-buddhist-archaelogical-site",
+    "category_raw": "Historic (archaeological_site)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.043312,
+        18.333901
+      ]
+    }
+  },
+  {
+    "name": "Srimukhalingeswara Temple",
+    "lat": 18.594928,
+    "lon": 83.963363,
+    "source": "osm",
+    "category": "other",
+    "place_id": "srimukhalingeswara-temple",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.963363,
+        18.594928
+      ]
+    }
+  },
+  {
+    "name": "Manohara Vilasam",
+    "lat": 18.564577,
+    "lon": 83.334422,
+    "source": "osm",
+    "category": "other",
+    "place_id": "manohara-vilasam",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.334422,
+        18.564577
+      ]
+    }
+  },
+  {
+    "name": "Devipuram",
+    "lat": 17.762992,
+    "lon": 83.090477,
+    "source": "osm",
+    "category": "other",
+    "place_id": "devipuram",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.090477,
+        17.762992
+      ]
+    }
+  },
+  {
+    "name": "Durgapuja Mandap, Ruchika Market",
+    "lat": 20.278058,
+    "lon": 85.795747,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "durgapuja-mandap-ruchika-market",
+    "category_raw": "Historic (monument)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.795747,
+        20.278058
+      ]
+    }
+  },
+  {
+    "name": "Divis Beach",
+    "lat": 17.926557,
+    "lon": 83.490907,
+    "source": "osm",
+    "category": "nature",
+    "place_id": "divis-beach",
+    "category_raw": "Viewpoint",
+    "tags": [
+      "nature",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.490907,
+        17.926557
+      ]
+    },
+    "description": "Divis Beach is a serene coastal viewpoint in Odisha. Far from the tourist circuit, you'll likely share this quiet shore with local fishermen. Facilities are basic, so plan ahead before visiting.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Bartanda",
+    "lat": 20.856573,
+    "lon": 85.928529,
+    "source": "osm",
+    "category": "nature",
+    "place_id": "bartanda",
+    "category_raw": "Viewpoint",
+    "tags": [
+      "nature",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.928529,
+        20.856573
+      ]
+    },
+    "description": "Bartanda is a serene natural viewpoint nestled in Odisha. Far from the tourist circuit, you will likely share this quiet landscape mostly with locals. Facilities are basic here, so it is best to plan ahead and check local access before visiting.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Ratnagiri",
+    "lat": 20.656039,
+    "lon": 86.342811,
+    "source": "osm",
+    "category": "nature",
+    "place_id": "ratnagiri",
+    "category_raw": "Viewpoint",
+    "tags": [
+      "nature",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.342811,
+        20.656039
+      ]
+    },
+    "description": "Part of Jajpur's 'Buddhist Diamond Triangle', Ratnagiri's hilltop mahavihara holds sprawling stupa fields and monastery ruins — Buddhist Odisha at its most atmospheric.",
+    "description_source": "hand_curated",
+    "best_time": "October to February",
+    "insider_tip": "Do the Udayagiri–Lalitgiri–Ratnagiri loop in one day; start at Ratnagiri's museum."
+  },
+  {
+    "name": "DR BENDI SRINIVASA RAO",
+    "lat": 18.387812,
+    "lon": 83.880703,
+    "source": "osm",
+    "category": "other",
+    "place_id": "dr-bendi-srinivasa-rao",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.880703,
+        18.387812
+      ]
+    }
+  },
+  {
+    "name": "Maha koshal Art Gallery",
+    "lat": 21.241201,
+    "lon": 81.642572,
+    "source": "osm",
+    "category": "other",
+    "city": "raipur",
+    "place_id": "maha-koshal-art-gallery-raipur",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.642572,
+        21.241201
+      ]
+    }
+  },
+  {
+    "name": "ओशो भवन",
+    "lat": 21.262577,
+    "lon": 81.626513,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "ओश-भवन",
+    "category_raw": "Historic (monument)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.626513,
+        21.262577
+      ]
+    }
+  },
+  {
+    "name": "Bojjannakonda Stupas",
+    "lat": 17.708555,
+    "lon": 83.013017,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "bojjannakonda-stupas",
+    "category_raw": "Historic (archaeological_site)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.013017,
+        17.708555
+      ]
+    }
+  },
+  {
+    "name": "Thursday Onukudelli Market",
+    "lat": 18.515602,
+    "lon": 82.431418,
+    "source": "osm",
+    "category": "other",
+    "place_id": "thursday-onukudelli-market",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.431418,
+        18.515602
+      ]
+    }
+  },
+  {
+    "name": "Sunday Mundiguda market",
+    "lat": 18.458997,
+    "lon": 82.221582,
+    "source": "osm",
+    "category": "other",
+    "place_id": "sunday-mundiguda-market",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.221582,
+        18.458997
+      ]
+    }
+  },
+  {
+    "name": "Taptapani (hot spring)",
+    "lat": 19.484727,
+    "lon": 84.393636,
+    "source": "osm",
+    "category": "other",
+    "place_id": "taptapani-hot-spring",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.393636,
+        19.484727
+      ]
+    },
+    "description": "A steaming sulfur spring beside a forest road in Gajapati, where a natural tank draws pilgrims and picnickers alike. The drive through tribal market country is half the experience.",
+    "insider_tip": "The OTDC rooms overlook the spring; winter mornings are the magic hour.",
+    "description_source": "hand_curated"
+  },
+  {
+    "name": "Archeological Museum, Konark",
+    "lat": 19.891141,
+    "lon": 86.094478,
+    "source": "osm",
+    "category": "museum",
+    "place_id": "archeological-museum-konark",
+    "category_raw": "Museum",
+    "tags": [
+      "museum",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.094478,
+        19.891141
+      ]
+    }
+  },
+  {
+    "name": "Odisha State Maritime Museum",
+    "lat": 20.478879,
+    "lon": 85.896405,
+    "source": "osm",
+    "category": "museum",
+    "place_id": "odisha-state-maritime-museum",
+    "category_raw": "Museum",
+    "tags": [
+      "museum",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.896405,
+        20.478879
+      ]
+    }
+  },
+  {
+    "name": "Nandankanan Zoological Park",
+    "lat": 20.3961,
+    "lon": 85.820564,
+    "source": "osm",
+    "category": "wildlife",
+    "place_id": "nandankanan-zoological-park",
+    "category_raw": "Zoo",
+    "tags": [
+      "wildlife",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.820564,
+        20.3961
+      ]
+    },
+    "description": "Nandankanan Zoological Park is a wildlife facility in Odisha. Facilities are basic, so you should plan ahead for your visit. It is best to check local access before you go.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Barabati Fort",
+    "lat": 20.484203,
+    "lon": 85.865097,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "barabati-fort",
+    "category_raw": "Historic (monument)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.865097,
+        20.484203
+      ]
+    }
+  },
+  {
+    "name": "Narsinghpur Plaza",
+    "lat": 20.483423,
+    "lon": 85.859884,
+    "source": "osm",
+    "category": "other",
+    "place_id": "narsinghpur-plaza",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.859884,
+        20.483423
+      ]
+    }
+  },
+  {
+    "name": "Paradip Marine Museum",
+    "lat": 20.269517,
+    "lon": 86.655917,
+    "source": "osm",
+    "category": "museum",
+    "place_id": "paradip-marine-museum",
+    "category_raw": "Museum",
+    "tags": [
+      "museum",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.655917,
+        20.269517
+      ]
+    }
+  },
+  {
+    "name": "Audi services",
+    "lat": 20.337234,
+    "lon": 85.884944,
+    "source": "osm",
+    "category": "other",
+    "place_id": "audi-services",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.884944,
+        20.337234
+      ]
+    }
+  },
+  {
+    "name": "Borra caves",
+    "lat": 18.280557,
+    "lon": 83.038265,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "borra-caves",
+    "category_raw": "Historic (stone)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.038265,
+        18.280557
+      ]
+    }
+  },
+  {
+    "name": "संबलपुर",
+    "lat": 21.468159,
+    "lon": 83.975344,
+    "source": "osm",
+    "category": "other",
+    "place_id": "स-बलप-र",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.975344,
+        21.468159
+      ]
+    }
+  },
+  {
+    "name": "Kothavalasa Dam",
+    "lat": 18.69431,
+    "lon": 83.320087,
+    "source": "osm",
+    "category": "other",
+    "city": "Kothavalasa",
+    "place_id": "kothavalasa-dam-kothavalasa",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.320087,
+        18.69431
+      ]
+    }
+  },
+  {
+    "name": "Zoo",
+    "lat": 22.11656,
+    "lon": 82.060988,
+    "source": "osm",
+    "category": "other",
+    "place_id": "zoo",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.060988,
+        22.11656
+      ]
+    }
+  },
+  {
+    "name": "District memorial",
+    "lat": 19.351694,
+    "lon": 84.981771,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "district-memorial",
+    "category_raw": "Historic (memorial)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.981771,
+        19.351694
+      ]
+    }
+  },
+  {
+    "name": "Model Beach",
+    "lat": 19.797618,
+    "lon": 85.834383,
+    "source": "osm",
+    "category": "other",
+    "place_id": "model-beach",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.834383,
+        19.797618
+      ]
+    }
+  },
+  {
+    "name": "buddhist museum",
+    "lat": 18.780491,
+    "lon": 84.089665,
+    "source": "osm",
+    "category": "museum",
+    "place_id": "buddhist-museum",
+    "category_raw": "Museum",
+    "tags": [
+      "museum",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.089665,
+        18.780491
+      ]
+    }
+  },
+  {
+    "name": "The surgical world",
+    "lat": 17.712242,
+    "lon": 83.31122,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "the-surgical-world",
+    "category_raw": "Historic (battlefield)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.31122,
+        17.712242
+      ]
+    }
+  },
+  {
+    "name": "White Palace",
+    "lat": 22.026465,
+    "lon": 82.962618,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "white-palace",
+    "category_raw": "Historic (castle)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.962618,
+        22.026465
+      ]
+    }
+  },
+  {
+    "name": "Rest House Sakti",
+    "lat": 22.020927,
+    "lon": 82.959525,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "rest-house-sakti",
+    "category_raw": "Historic (manor)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.959525,
+        22.020927
+      ]
+    }
+  },
+  {
+    "name": "Thotlakonda ancient Buddhist monastery",
+    "lat": 17.822167,
+    "lon": 83.414266,
+    "source": "osm",
+    "category": "other",
+    "place_id": "thotlakonda-ancient-buddhist-monastery",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.414266,
+        17.822167
+      ]
+    }
+  },
+  {
+    "name": "Vaital Mandir",
+    "lat": 20.242471,
+    "lon": 85.832328,
+    "source": "osm",
+    "category": "other",
+    "place_id": "vaital-mandir",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.832328,
+        20.242471
+      ]
+    }
+  },
+  {
+    "name": "Snake Park",
+    "lat": 18.465434,
+    "lon": 83.660217,
+    "source": "osm",
+    "category": "wildlife",
+    "place_id": "snake-park",
+    "category_raw": "Zoo",
+    "tags": [
+      "wildlife",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.660217,
+        18.465434
+      ]
+    },
+    "description": "Snake Park is a regional wildlife zoo offering a glimpse into local reptile species. Far from the tourist circuit, you'll likely share it with locals and basic facilities, so plan ahead.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Shree cane shop",
+    "lat": 20.472778,
+    "lon": 85.842463,
+    "source": "osm",
+    "category": "other",
+    "place_id": "shree-cane-shop",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.842463,
+        20.472778
+      ]
+    }
+  },
+  {
+    "name": "Mankada Dean waterfall",
+    "lat": 19.19355,
+    "lon": 84.346657,
+    "source": "osm",
+    "category": "other",
+    "place_id": "mankada-dean-waterfall",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.346657,
+        19.19355
+      ]
+    }
+  },
+  {
+    "name": "Parsurameswara Temple",
+    "lat": 20.243151,
+    "lon": 85.839099,
+    "source": "osm",
+    "category": "other",
+    "place_id": "parsurameswara-temple",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.839099,
+        20.243151
+      ]
+    }
+  },
+  {
+    "name": "ORE Terminal",
+    "lat": 20.273729,
+    "lon": 86.676697,
+    "source": "osm",
+    "category": "nature",
+    "place_id": "ore-terminal",
+    "category_raw": "Viewpoint",
+    "tags": [
+      "nature",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.676697,
+        20.273729
+      ]
+    },
+    "description": "ORE Terminal is a scenic viewpoint in Odisha, offering expansive natural vistas far from the usual tourist circuit. Facilities are basic, so plan ahead before making the trip.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Chhattisgarh Science Centre",
+    "lat": 21.276976,
+    "lon": 81.682369,
+    "source": "osm",
+    "category": "museum",
+    "place_id": "chhattisgarh-science-centre",
+    "category_raw": "Museum",
+    "tags": [
+      "museum",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.682369,
+        21.276976
+      ]
+    }
+  },
+  {
+    "name": "Jumlāgarh Fort",
+    "lat": 20.638527,
+    "lon": 82.459624,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "jumla-garh-fort",
+    "category_raw": "Historic (ruins)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.459624,
+        20.638527
+      ]
+    }
+  },
+  {
+    "name": "Jai Stambha",
+    "lat": 22.022919,
+    "lon": 82.95963,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "jai-stambha",
+    "category_raw": "Historic (monument)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.95963,
+        22.022919
+      ]
+    }
+  },
+  {
+    "name": "Gopalpur Sea Beach",
+    "lat": 19.256351,
+    "lon": 84.908289,
+    "source": "osm",
+    "category": "other",
+    "place_id": "gopalpur-sea-beach",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.908289,
+        19.256351
+      ]
+    }
+  },
+  {
+    "name": "Goseidhara Waterfall",
+    "lat": 19.750549,
+    "lon": 82.400845,
+    "source": "osm",
+    "category": "other",
+    "city": "Jharigaon",
+    "place_id": "goseidhara-waterfall-jharigaon",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.400845,
+        19.750549
+      ]
+    }
+  },
+  {
+    "name": "Hippopotamus Zone",
+    "lat": 20.397822,
+    "lon": 85.821273,
+    "source": "osm",
+    "category": "wildlife",
+    "place_id": "hippopotamus-zone",
+    "category_raw": "Zoo",
+    "tags": [
+      "wildlife",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.821273,
+        20.397822
+      ]
+    },
+    "description": "The Hippopotamus Zone is a wildlife viewing area in Odisha. Facilities are basic here, so it is best to plan ahead for your visit. Always check local road access before heading out.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Nandan Kanan Zoo Safari",
+    "lat": 20.396169,
+    "lon": 85.814338,
+    "source": "osm",
+    "category": "wildlife",
+    "place_id": "nandan-kanan-zoo-safari",
+    "category_raw": "Zoo",
+    "tags": [
+      "wildlife",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.814338,
+        20.396169
+      ]
+    },
+    "description": "Nandan Kanan Zoo Safari is a wildlife zoo destination in Odisha. Facilities are basic, so plan ahead for your visit. It remains a quiet spot where you will likely share it with locals.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Nocturnal House",
+    "lat": 20.394729,
+    "lon": 85.820698,
+    "source": "osm",
+    "category": "wildlife",
+    "place_id": "nocturnal-house",
+    "category_raw": "Zoo",
+    "tags": [
+      "wildlife",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.820698,
+        20.394729
+      ]
+    },
+    "description": "The Nocturnal House is a wildlife zoo exhibit in Odisha. It sits far from the typical tourist circuit, offering a quiet experience where you will likely share the space with local visitors. Facilities here are basic, so it is best to plan ahead before visiting.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Aviary in Zoo",
+    "lat": 20.396726,
+    "lon": 85.823206,
+    "source": "osm",
+    "category": "wildlife",
+    "place_id": "aviary-in-zoo",
+    "category_raw": "Zoo",
+    "tags": [
+      "wildlife",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.823206,
+        20.396726
+      ]
+    },
+    "description": "This wildlife aviary offers a peaceful sanctuary to observe various birds in a naturalistic setting. Far from the tourist circuit, you'll likely share this quiet space mostly with locals. Facilities are basic, so it is best to plan ahead before visiting.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Asiatic wild dog",
+    "lat": 20.394472,
+    "lon": 85.81851,
+    "source": "osm",
+    "category": "wildlife",
+    "place_id": "asiatic-wild-dog",
+    "category_raw": "Zoo",
+    "tags": [
+      "wildlife",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.81851,
+        20.394472
+      ]
+    },
+    "description": "Catch a glimpse of the elusive Asiatic wild dog at this wildlife spot. Far from the tourist circuit, you will likely share the experience mostly with locals. Check road and access conditions locally before your visit.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Tata Park, Gumadera",
+    "lat": 21.802143,
+    "lon": 83.863799,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "tata-park-gumadera",
+    "category_raw": "Historic (monument)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.863799,
+        21.802143
+      ]
+    }
+  },
+  {
+    "name": "Sri Krishna Devaraya Vijaya Sthup",
+    "lat": 17.768918,
+    "lon": 83.247783,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "sri-krishna-devaraya-vijaya-sthup",
+    "category_raw": "Historic (monument)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.247783,
+        17.768918
+      ]
+    }
+  },
+  {
+    "name": "Mahendragiri Hill top View",
+    "lat": 18.96728,
+    "lon": 84.368728,
+    "source": "osm",
+    "category": "other",
+    "place_id": "mahendragiri-hill-top-view",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.368728,
+        18.96728
+      ]
+    }
+  },
+  {
+    "name": "Mahendragiri Picnic Spot",
+    "lat": 18.964094,
+    "lon": 84.369301,
+    "source": "osm",
+    "category": "other",
+    "place_id": "mahendragiri-picnic-spot",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.369301,
+        18.964094
+      ]
+    }
+  },
+  {
+    "name": "Mahendragiri Monk recidences",
+    "lat": 18.964444,
+    "lon": 84.368963,
+    "source": "osm",
+    "category": "other",
+    "place_id": "mahendragiri-monk-recidences",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.368963,
+        18.964444
+      ]
+    }
+  },
+  {
+    "name": "Kaptipada Palace",
+    "lat": 21.511979,
+    "lon": 86.527467,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "kaptipada-palace",
+    "category_raw": "Historic (fort)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.527467,
+        21.511979
+      ]
+    }
+  },
+  {
+    "name": "Achutrajpur",
+    "lat": 19.775117,
+    "lon": 85.167316,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "achutrajpur",
+    "category_raw": "Historic (archaeological_site)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.167316,
+        19.775117
+      ]
+    }
+  },
+  {
+    "name": "Mahadev Temple",
+    "lat": 22.373273,
+    "lon": 82.323317,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "mahadev-temple",
+    "category_raw": "Historic (archaeological_site)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.323317,
+        22.373273
+      ]
+    }
+  },
+  {
+    "name": "Dhumnath Temple",
+    "lat": 21.928489,
+    "lon": 82.088583,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "dhumnath-temple",
+    "category_raw": "Historic (archaeological_site)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.088583,
+        21.928489
+      ]
+    }
+  },
+  {
+    "name": "Devrani Jethani Temple",
+    "lat": 21.907281,
+    "lon": 82.025939,
+    "source": "osm",
+    "category": "other",
+    "place_id": "devrani-jethani-temple",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.025939,
+        21.907281
+      ]
+    }
+  },
+  {
+    "name": "Bhima Kinchak Temple",
+    "lat": 21.892872,
+    "lon": 82.2777,
+    "source": "osm",
+    "category": "other",
+    "place_id": "bhima-kinchak-temple",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.2777,
+        21.892872
+      ]
+    }
+  },
+  {
+    "name": "Malhar Museum",
+    "lat": 21.895495,
+    "lon": 82.279925,
+    "source": "osm",
+    "category": "other",
+    "place_id": "malhar-museum",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.279925,
+        21.895495
+      ]
+    }
+  },
+  {
+    "name": "Khuntaghat",
+    "lat": 22.290008,
+    "lon": 82.220686,
+    "source": "osm",
+    "category": "other",
+    "place_id": "khuntaghat",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.220686,
+        22.290008
+      ]
+    }
+  },
+  {
+    "name": "Khasada Waterfall",
+    "lat": 19.255879,
+    "lon": 84.233225,
+    "source": "osm",
+    "category": "other",
+    "place_id": "khasada-waterfall",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.233225,
+        19.255879
+      ]
+    }
+  },
+  {
+    "name": "Welcome To Ganjam / Gajapati Sign",
+    "lat": 19.184506,
+    "lon": 84.352639,
+    "source": "osm",
+    "category": "other",
+    "place_id": "welcome-to-ganjam-gajapati-sign",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.352639,
+        19.184506
+      ]
+    }
+  },
+  {
+    "name": "Balikanthia Kaaja",
+    "lat": 20.272501,
+    "lon": 85.918092,
+    "source": "osm",
+    "category": "other",
+    "place_id": "balikanthia-kaaja",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.918092,
+        20.272501
+      ]
+    }
+  },
+  {
+    "name": "India - Soviet Union Friendship Monument",
+    "lat": 21.197064,
+    "lon": 81.38302,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "india-soviet-union-friendship-monument",
+    "category_raw": "Historic (monument)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.38302,
+        21.197064
+      ]
+    }
+  },
+  {
+    "name": "Phuldungri Hillock",
+    "lat": 22.599954,
+    "lon": 86.473074,
+    "source": "osm",
+    "category": "other",
+    "place_id": "phuldungri-hillock",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.473074,
+        22.599954
+      ]
+    }
+  },
+  {
+    "name": "Onturu Beach",
+    "lat": 18.943449,
+    "lon": 84.658882,
+    "source": "osm",
+    "category": "beach",
+    "place_id": "onturu-beach",
+    "category_raw": "Beach",
+    "tags": [
+      "beach",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.658882,
+        18.943449
+      ]
+    }
+  },
+  {
+    "name": "Kothapeta Beach",
+    "lat": 18.604179,
+    "lon": 84.376575,
+    "source": "osm",
+    "category": "beach",
+    "place_id": "kothapeta-beach",
+    "category_raw": "Beach",
+    "tags": [
+      "beach",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.376575,
+        18.604179
+      ]
+    }
+  },
+  {
+    "name": "Bhavanapadu Beach",
+    "lat": 18.570226,
+    "lon": 84.356899,
+    "source": "osm",
+    "category": "beach",
+    "place_id": "bhavanapadu-beach",
+    "category_raw": "Beach",
+    "tags": [
+      "beach",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.356899,
+        18.570226
+      ]
+    }
+  },
+  {
+    "name": "Geddalapadu Beach",
+    "lat": 18.476006,
+    "lon": 84.255707,
+    "source": "osm",
+    "category": "beach",
+    "place_id": "geddalapadu-beach",
+    "category_raw": "Beach",
+    "tags": [
+      "beach",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.255707,
+        18.476006
+      ]
+    }
+  },
+  {
+    "name": "Devarasetti Varun",
+    "lat": 18.747534,
+    "lon": 84.090056,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "devarasetti-varun",
+    "category_raw": "Historic (manor)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.090056,
+        18.747534
+      ]
+    }
+  },
+  {
+    "name": "Arka Kshetra",
+    "lat": 19.887231,
+    "lon": 86.098067,
+    "source": "osm",
+    "category": "museum",
+    "city": "Konark",
+    "place_id": "arka-kshetra-konark",
+    "category_raw": "Museum",
+    "tags": [
+      "museum",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.098067,
+        19.887231
+      ]
+    }
+  },
+  {
+    "name": "Ruins of British Bungalow",
+    "lat": 17.75295,
+    "lon": 83.291815,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "ruins-of-british-bungalow",
+    "category_raw": "Historic (ruins)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.291815,
+        17.75295
+      ]
+    }
+  },
+  {
+    "name": "Odisha's lands end",
+    "lat": 17.816654,
+    "lon": 81.392069,
+    "source": "osm",
+    "category": "other",
+    "place_id": "odisha-s-lands-end",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.392069,
+        17.816654
+      ]
+    }
+  },
+  {
+    "name": "Dutch Building",
+    "lat": 18.272062,
+    "lon": 83.902606,
+    "source": "osm",
+    "category": "other",
+    "place_id": "dutch-building",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.902606,
+        18.272062
+      ]
+    }
+  },
+  {
+    "name": "Parvathi Prameswar",
+    "lat": 17.748642,
+    "lon": 83.343875,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "parvathi-prameswar",
+    "category_raw": "Historic (monument)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.343875,
+        17.748642
+      ]
+    }
+  },
+  {
+    "name": "Talcher Palace",
+    "lat": 20.956719,
+    "lon": 85.237732,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "talcher-palace",
+    "category_raw": "Historic (fort)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.237732,
+        20.956719
+      ]
+    }
+  },
+  {
+    "name": "Kambalkonda Wildlife Sanctuary",
+    "lat": 17.820093,
+    "lon": 83.307969,
+    "source": "osm",
+    "category": "wildlife",
+    "city": "visakhapatnam",
+    "place_id": "kambalkonda-wildlife-sanctuary-visakhapatnam",
+    "category_raw": "Zoo",
+    "tags": [
+      "wildlife",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.307969,
+        17.820093
+      ]
+    },
+    "description": "Kambalkonda Wildlife Sanctuary is a protected wildlife area in Odisha offering a natural escape. Facilities are basic, so plan ahead for your visit. It remains far from the usual tourist circuit.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "SITALA TRIBE , JHIKIDI VILLAGE",
+    "lat": 19.519985,
+    "lon": 83.55018,
+    "source": "osm",
+    "category": "other",
+    "place_id": "sitala-tribe-jhikidi-village",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.55018,
+        19.519985
+      ]
+    }
+  },
+  {
+    "name": "KUMUTI TRIBE VILLAGE",
+    "lat": 19.427077,
+    "lon": 84.486939,
+    "source": "osm",
+    "category": "other",
+    "place_id": "kumuti-tribe-village",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.486939,
+        19.427077
+      ]
+    }
+  },
+  {
+    "name": "SAURA TRIBE VILLAGE",
+    "lat": 19.473939,
+    "lon": 84.121036,
+    "source": "osm",
+    "category": "other",
+    "place_id": "saura-tribe-village",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.121036,
+        19.473939
+      ]
+    }
+  },
+  {
+    "name": "PUNJAPAI DESSIA VILLAGE",
+    "lat": 19.117699,
+    "lon": 83.233132,
+    "source": "osm",
+    "category": "other",
+    "place_id": "punjapai-dessia-village",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.233132,
+        19.117699
+      ]
+    }
+  },
+  {
+    "name": "SHAMBARA tribe  VILLAGE Minapai",
+    "lat": 19.035989,
+    "lon": 83.16523,
+    "source": "osm",
+    "category": "other",
+    "place_id": "shambara-tribe-village-minapai",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.16523,
+        19.035989
+      ]
+    }
+  },
+  {
+    "name": "BONDHA MARKET PLACE",
+    "lat": 18.51277,
+    "lon": 82.426352,
+    "source": "osm",
+    "category": "other",
+    "place_id": "bondha-market-place",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.426352,
+        18.51277
+      ]
+    }
+  },
+  {
+    "name": "IISER Beach",
+    "lat": 19.19678,
+    "lon": 84.843897,
+    "source": "osm",
+    "category": "beach",
+    "place_id": "iiser-beach",
+    "category_raw": "Beach",
+    "tags": [
+      "beach",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.843897,
+        19.19678
+      ]
+    }
+  },
+  {
+    "name": "Londa Pahad",
+    "lat": 19.170617,
+    "lon": 83.423979,
+    "source": "osm",
+    "category": "other",
+    "place_id": "londa-pahad",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.423979,
+        19.170617
+      ]
+    }
+  },
+  {
+    "name": "Dokulapadu Beach",
+    "lat": 18.712447,
+    "lon": 84.466643,
+    "source": "osm",
+    "category": "beach",
+    "place_id": "dokulapadu-beach",
+    "category_raw": "Beach",
+    "tags": [
+      "beach",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.466643,
+        18.712447
+      ]
+    }
+  },
+  {
+    "name": "Saripalli Dam",
+    "lat": 18.131536,
+    "lon": 83.478229,
+    "source": "osm",
+    "category": "other",
+    "place_id": "saripalli-dam",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.478229,
+        18.131536
+      ]
+    }
+  },
+  {
+    "name": "Gadishwar Dev Motor Boat Association",
+    "lat": 19.697571,
+    "lon": 85.506625,
+    "source": "osm",
+    "category": "other",
+    "place_id": "gadishwar-dev-motor-boat-association",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.506625,
+        19.697571
+      ]
+    }
+  },
+  {
+    "name": "Jami water falls",
+    "lat": 18.055308,
+    "lon": 83.235164,
+    "source": "osm",
+    "category": "other",
+    "place_id": "jami-water-falls",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.235164,
+        18.055308
+      ]
+    }
+  },
+  {
+    "name": "Meghadri Gedda Reservoir View point",
+    "lat": 17.759747,
+    "lon": 83.195221,
+    "source": "osm",
+    "category": "other",
+    "place_id": "meghadri-gedda-reservoir-view-point",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.195221,
+        17.759747
+      ]
+    }
+  },
+  {
+    "name": "693 Engine",
+    "lat": 18.1114,
+    "lon": 83.396825,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "693-engine",
+    "category_raw": "Historic (railway_car)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.396825,
+        18.1114
+      ]
+    }
+  },
+  {
+    "name": "Replica of Parliament of India",
+    "lat": 21.24439,
+    "lon": 81.64423,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "replica-of-parliament-of-india",
+    "category_raw": "Historic (monument)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.64423,
+        21.24439
+      ]
+    }
+  },
+  {
+    "name": "Rajiv Gandhi Idol",
+    "lat": 21.238764,
+    "lon": 81.64127,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "rajiv-gandhi-idol",
+    "category_raw": "Historic (memorial)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.64127,
+        21.238764
+      ]
+    }
+  },
+  {
+    "name": "Shaheed Veer Narayan Singh Smarak",
+    "lat": 21.242992,
+    "lon": 81.644379,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "shaheed-veer-narayan-singh-smarak",
+    "category_raw": "Historic (monument)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.644379,
+        21.242992
+      ]
+    }
+  },
+  {
+    "name": "Marine Drive",
+    "lat": 21.240738,
+    "lon": 81.66039,
+    "source": "osm",
+    "category": "other",
+    "place_id": "marine-drive",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.66039,
+        21.240738
+      ]
+    }
+  },
+  {
+    "name": "Biju Patnaik's Dakota",
+    "lat": 20.254586,
+    "lon": 85.81733,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "biju-patnaik-s-dakota",
+    "category_raw": "Historic (monument)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.81733,
+        20.254586
+      ]
+    }
+  },
+  {
+    "name": "Back Gate",
+    "lat": 17.783114,
+    "lon": 83.375648,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "back-gate",
+    "category_raw": "Historic (city_gate)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.375648,
+        17.783114
+      ]
+    }
+  },
+  {
+    "name": "Front Gate",
+    "lat": 17.781061,
+    "lon": 83.38038,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "front-gate",
+    "category_raw": "Historic (city_gate)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.38038,
+        17.781061
+      ]
+    }
+  },
+  {
+    "name": "Chintapalli beach",
+    "lat": 18.07355,
+    "lon": 83.657257,
+    "source": "osm",
+    "category": "beach",
+    "place_id": "chintapalli-beach",
+    "category_raw": "Beach",
+    "tags": [
+      "beach",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.657257,
+        18.07355
+      ]
+    }
+  },
+  {
+    "name": "YSR",
+    "lat": 17.798918,
+    "lon": 83.352772,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "ysr",
+    "category_raw": "Historic (memorial)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.352772,
+        17.798918
+      ]
+    }
+  },
+  {
+    "name": "NTR",
+    "lat": 17.799216,
+    "lon": 83.352793,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "ntr",
+    "category_raw": "Historic (memorial)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.352793,
+        17.799216
+      ]
+    }
+  },
+  {
+    "name": "Scandal Point Monument",
+    "lat": 17.710301,
+    "lon": 83.317717,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "scandal-point-monument",
+    "category_raw": "Historic (monument)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.317717,
+        17.710301
+      ]
+    }
+  },
+  {
+    "name": "Telegu Translation of the Bible Monument",
+    "lat": 17.700673,
+    "lon": 83.295798,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "telegu-translation-of-the-bible-monument",
+    "category_raw": "Historic (monument)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.295798,
+        17.700673
+      ]
+    }
+  },
+  {
+    "name": "Dharamattam Waterfall",
+    "lat": 17.712669,
+    "lon": 82.477618,
+    "source": "osm",
+    "category": "other",
+    "place_id": "dharamattam-waterfall",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.477618,
+        17.712669
+      ]
+    }
+  },
+  {
+    "name": "CPI",
+    "lat": 17.715531,
+    "lon": 83.29395,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "cpi",
+    "category_raw": "Historic (memorial)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.29395,
+        17.715531
+      ]
+    }
+  },
+  {
+    "name": "Ghuru Ghura Waterfall",
+    "lat": 21.426918,
+    "lon": 86.733799,
+    "source": "osm",
+    "category": "nature",
+    "place_id": "ghuru-ghura-waterfall",
+    "category_raw": "Viewpoint",
+    "tags": [
+      "nature",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.733799,
+        21.426918
+      ]
+    },
+    "description": "Ghuru Ghura Waterfall is a natural viewpoint and waterfall in Odisha. Being far from the tourist circuit, you will likely share this tranquil spot mostly with locals. Facilities here are basic, so plan ahead and check local access before visiting.",
+    "description_source": "ai_enriched",
+    "best_time": "October to February"
+  },
+  {
+    "name": "Panchalingeswar Hill View",
+    "lat": 21.418555,
+    "lon": 86.723365,
+    "source": "osm",
+    "category": "nature",
+    "place_id": "panchalingeswar-hill-view",
+    "category_raw": "Viewpoint",
+    "tags": [
+      "nature",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.723365,
+        21.418555
+      ]
+    },
+    "description": "Five lingas lie bathed by a mountain stream on this forested hill near Nilagiri — pilgrims wade upstream to reach them. A shrine that doubles as a creek-side mini-trek.",
+    "description_source": "hand_curated",
+    "best_time": "October to February",
+    "insider_tip": "Carry footwear you can take off — the path is in shallow water most of the year."
+  },
+  {
+    "name": "timapuram beach",
+    "lat": 17.815101,
+    "lon": 83.412298,
+    "source": "osm",
+    "category": "beach",
+    "place_id": "timapuram-beach",
+    "category_raw": "Beach",
+    "tags": [
+      "beach",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.412298,
+        17.815101
+      ]
+    }
+  },
+  {
+    "name": "beach",
+    "lat": 17.871111,
+    "lon": 83.442832,
+    "source": "osm",
+    "category": "beach",
+    "place_id": "beach",
+    "category_raw": "Beach",
+    "tags": [
+      "beach",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.442832,
+        17.871111
+      ]
+    }
+  },
+  {
+    "name": "RK beach",
+    "lat": 17.791777,
+    "lon": 83.39173,
+    "source": "osm",
+    "category": "beach",
+    "place_id": "rk-beach",
+    "category_raw": "Beach",
+    "tags": [
+      "beach",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.39173,
+        17.791777
+      ]
+    }
+  },
+  {
+    "name": "IE bhavan",
+    "lat": 17.780028,
+    "lon": 83.375212,
+    "source": "osm",
+    "category": "museum",
+    "place_id": "ie-bhavan",
+    "category_raw": "Museum",
+    "tags": [
+      "museum",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.375212,
+        17.780028
+      ]
+    }
+  },
+  {
+    "name": "Seven Wonders Park Chatrapur Attractions",
+    "lat": 19.361777,
+    "lon": 84.979082,
+    "source": "osm",
+    "category": "other",
+    "city": "Chatrapur",
+    "place_id": "seven-wonders-park-chatrapur-attractions-chatrapur",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.979082,
+        19.361777
+      ]
+    }
+  },
+  {
+    "name": "Rama kunda",
+    "lat": 19.39566,
+    "lon": 85.016486,
+    "source": "osm",
+    "category": "other",
+    "city": "Chatrapur",
+    "place_id": "rama-kunda-chatrapur",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.016486,
+        19.39566
+      ]
+    }
+  },
+  {
+    "name": "Maa Ramachandi Hill top view",
+    "lat": 19.394741,
+    "lon": 85.017296,
+    "source": "osm",
+    "category": "other",
+    "city": "Chatrapur",
+    "place_id": "maa-ramachandi-hill-top-view-chatrapur",
+    "category_raw": "Attraction",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.017296,
+        19.394741
+      ]
+    }
+  },
+  {
+    "name": "A.P.J Abdul Khalam Memorial",
+    "lat": 21.46347,
+    "lon": 83.980291,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "a-p-j-abdul-khalam-memorial",
+    "category_raw": "Historic (memorial)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.980291,
+        21.46347
+      ]
+    }
+  },
+  {
+    "name": "Pentha",
+    "lat": 20.579989,
+    "lon": 86.844179,
+    "source": "osm",
+    "category": "beach",
+    "place_id": "pentha",
+    "category_raw": "Beach",
+    "tags": [
+      "beach",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.844179,
+        20.579989
+      ]
+    }
+  },
+  {
+    "name": "Kala Bhoomi Odisha Crafts Museum",
+    "lat": 20.25213,
+    "lon": 85.807554,
+    "source": "osm",
+    "category": "museum",
+    "city": "Bhubaneswar",
+    "place_id": "kala-bhoomi-odisha-crafts-museum-bhubaneswar",
+    "category_raw": "Museum",
+    "tags": [
+      "museum",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.807554,
+        20.25213
+      ]
+    }
+  },
+  {
+    "name": "Sankaram Buddhist Archaeological Site",
+    "lat": 17.710235,
+    "lon": 83.015744,
+    "source": "osm",
+    "category": "heritage",
+    "place_id": "sankaram-buddhist-archaeological-site",
+    "category_raw": "Historic (archaeological_site)",
+    "tags": [
+      "heritage",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.015744,
+        17.710235
+      ]
+    }
+  },
+  {
+    "name": "Mangalajodi Wetlands",
+    "city": "Mangalajodi",
+    "district": "Khordha",
+    "category": "wildlife",
+    "category_raw": "wetland",
+    "source": "curated",
+    "lat": 20.077,
+    "lon": 85.393,
+    "description": "A wetland village on Chilika's northern edge where former bird poachers now work as protectors and boat guides — one of India's best community-conservation stories. Winter dawns bring thousands of migratory waders within a canoe's length.",
+    "insider_tip": "Book the dawn boat through the village ecotourism counter; Nov–Feb is peak birding season.",
+    "best_time": "November to February",
+    "tags": [
+      "hidden-gem",
+      "birding",
+      "eco",
+      "wetland",
+      "curated"
+    ],
+    "place_id": "mangalajodi-wetlands",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.393,
+        20.077
+      ]
+    }
+  },
+  {
+    "name": "Deomali Peak",
+    "city": "Deomali",
+    "district": "Koraput",
+    "category": "nature",
+    "category_raw": "mountain",
+    "source": "curated",
+    "lat": 18.756,
+    "lon": 82.724,
+    "description": "Odisha's highest peak (around 1,672 m) — a roll of green hills and tribal villages in Koraput. The drive up is as much the attraction as the summit panorama.",
+    "insider_tip": "Time it for sunset; combine with Koraput's Parab festival (Nov–Dec).",
+    "best_time": "October to February",
+    "tags": [
+      "hidden-gem",
+      "peak",
+      "tribal",
+      "nature",
+      "curated"
+    ],
+    "place_id": "deomali-peak",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.724,
+        18.756
+      ]
+    }
+  },
+  {
+    "name": "Hirakud Dam",
+    "city": "Sambalpur",
+    "district": "Sambalpur",
+    "category": "nature",
+    "category_raw": "dam",
+    "source": "curated",
+    "lat": 21.528,
+    "lon": 83.869,
+    "description": "One of the world's longest earthen dams (about 26 km) holding back the Mahanadi near Sambalpur. The dyke-top drive and the Gandhi Minar tower views are quintessentially Odia.",
+    "insider_tip": "Sunset from Gandhi Minar; monsoon-season water releases are dramatic.",
+    "best_time": "October to February",
+    "tags": [
+      "hidden-gem",
+      "dam",
+      "sunset",
+      "nature",
+      "curated"
+    ],
+    "place_id": "hirakud-dam",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.869,
+        21.528
+      ]
+    }
+  }
+]
