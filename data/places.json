@@ -906,7 +906,11 @@
         85.166667,
         20.4
       ]
-    }
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Baneswaranasi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "image_credit": "File:Baneswaranasi.jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "strong"
   },
   {
     "name": "Udayagiri",
@@ -1284,8 +1288,7 @@
     },
     "description": "Seven pool waterfalls in Sambalpur district is a scenic nature spot featuring cascading waters. Far from the tourist circuit, you'll likely share this quiet space with locals rather than crowds. Facilities are basic, so plan ahead before visiting.",
     "description_source": "ai_enriched",
-    "best_time": "October to February",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Lingaraj_Temple_complex_at_dusk_during_Shivratri_2020.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "best_time": "October to February"
   },
   {
     "name": "Chandli Dungri waterfalls",
@@ -1473,8 +1476,7 @@
     },
     "description": "Deojhar waterfalls is a scenic waterfall located in the Cuttack district. Tucked far from the tourist circuit, you will likely share this tranquil spot mostly with locals. Facilities are basic here, so it is best to plan ahead.",
     "description_source": "ai_enriched",
-    "best_time": "October to February",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Barabati_durga_Cuttack_Barabati_Fort_Front-1.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "best_time": "October to February"
   },
   {
     "name": "Upper Jonk",
@@ -1687,7 +1689,11 @@
         86.114242,
         19.866498
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Konark_Beach_Odisha_1.jpg/960px-Konark_Beach_Odisha_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:Konark Beach Odisha 1.jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "strong"
   },
   {
     "name": "Chandrabhaga beach",
@@ -1711,7 +1717,11 @@
       ]
     },
     "insider_tip": "Pair with the Sun Temple; February's Magha Saptami is the big day.",
-    "description_source": "hand_curated"
+    "description_source": "hand_curated",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Chandrabhaga_Beach_in_Odisha_02.jpg/960px-Chandrabhaga_Beach_in_Odisha_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:Chandrabhaga Beach in Odisha 02.jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "strong"
   },
   {
     "name": "Talasari beach",
@@ -1755,7 +1765,11 @@
         85.82497,
         19.7949
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Puri_Golden_beach_in_Puri_04.jpg/960px-Puri_Golden_beach_in_Puri_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:Puri Golden beach in Puri 04.jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "strong"
   },
   {
     "name": "Simlipal National Park",
@@ -1777,7 +1791,11 @@
         86.33,
         21.75
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Palpala_River_near_lulung%2C_Similipal_National_Park.jpg/960px-Palpala_River_near_lulung%2C_Similipal_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:Palpala River near lulung, Similipal National Park.jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "low"
   },
   {
     "name": "Bhitarkanika National Park",
@@ -1799,7 +1817,11 @@
         86.9341,
         20.6625
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Tropical_Cyclone_Yaas_approaching_India_%28MODIS_2021-05-25%29.jpg/960px-Tropical_Cyclone_Yaas_approaching_India_%28MODIS_2021-05-25%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:Tropical Cyclone Yaas approaching India (MODIS 2021-05-25).jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "low"
   },
   {
     "name": "Rushikonda",
@@ -1819,7 +1841,11 @@
         83.384867,
         17.79307
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Aerial_view_of_Rushikonda_beach.jpg/960px-Aerial_view_of_Rushikonda_beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:Aerial view of Rushikonda beach.jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "strong"
   },
   {
     "name": "rushikonda boating",
@@ -1839,7 +1865,11 @@
         83.386152,
         17.779335
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Motor_boat_at_Rushikonda_beach.JPG/960px-Motor_boat_at_Rushikonda_beach.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:Motor boat at Rushikonda beach.JPG",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "strong"
   },
   {
     "name": "Satpada",
@@ -1879,7 +1909,11 @@
         85.214053,
         19.665464
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Brahminy_kite_at_Nalbana_Bird_Sanctuary%2C_Odisha%2C_India_2012_%282%29.jpg/960px-Brahminy_kite_at_Nalbana_Bird_Sanctuary%2C_Odisha%2C_India_2012_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:Brahminy kite at Nalbana Bird Sanctuary, Odisha, India 2012 (2).jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "low"
   },
   {
     "name": "Sipakuda",
@@ -2085,7 +2119,11 @@
         84.830902,
         19.522593
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Jaugada_2018.jpg/960px-Jaugada_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:Jaugada 2018.jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "strong"
   },
   {
     "name": "Hemchandra Kanungo's Last Resi",
@@ -2498,7 +2536,11 @@
         83.963363,
         18.594928
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Amazing_stone_carving_on_small_portion_of_side_wall.jpg/960px-Amazing_stone_carving_on_small_portion_of_side_wall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:Amazing stone carving on small portion of side wall.jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "low"
   },
   {
     "name": "Manohara Vilasam",
@@ -2538,7 +2580,11 @@
         83.090477,
         17.762992
       ]
-    }
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Devipuram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "image_credit": "File:Devipuram.jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "strong"
   },
   {
     "name": "Durgapuja Mandap, Ruchika Market",
@@ -2709,7 +2755,11 @@
         83.013017,
         17.708555
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Votive_stupas_at_Bojjannakonda_Monastic_ruins.jpg/960px-Votive_stupas_at_Bojjannakonda_Monastic_ruins.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:Votive stupas at Bojjannakonda Monastic ruins.jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "strong"
   },
   {
     "name": "Thursday Onukudelli Market",
@@ -2772,7 +2822,11 @@
     },
     "description": "A steaming sulfur spring beside a forest road in Gajapati, where a natural tank draws pilgrims and picnickers alike. The drive through tribal market country is half the experience.",
     "insider_tip": "The OTDC rooms overlook the spring; winter mornings are the magic hour.",
-    "description_source": "hand_curated"
+    "description_source": "hand_curated",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Tapta_Pani_%28Hot_Spring%29%2C_Odisha_%282%29.jpg/960px-Tapta_Pani_%28Hot_Spring%29%2C_Odisha_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:Tapta Pani (Hot Spring), Odisha (2).jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "strong"
   },
   {
     "name": "Archeological Museum, Konark",
@@ -2812,7 +2866,11 @@
         85.896405,
         20.478879
       ]
-    }
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/The_workshop_of_Odisha_State_Maritime_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "image_credit": "File:The workshop of Odisha State Maritime Museum.jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "strong"
   },
   {
     "name": "Nandankanan Zoological Park",
@@ -2855,7 +2913,11 @@
         85.865097,
         20.484203
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Barabati_durga_Cuttack_Barabati_Fort_Front-2.JPG/960px-Barabati_durga_Cuttack_Barabati_Fort_Front-2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:Barabati durga Cuttack Barabati Fort Front-2.JPG",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "strong"
   },
   {
     "name": "Narsinghpur Plaza",
@@ -2935,7 +2997,11 @@
         83.038265,
         18.280557
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Borra_caves_1.jpg/960px-Borra_caves_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:Borra caves 1.jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "strong"
   },
   {
     "name": "संबलपुर",
@@ -2955,7 +3021,11 @@
         83.975344,
         21.468159
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Sambapur.jpg/960px-Sambapur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:Sambapur.jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "low"
   },
   {
     "name": "Kothavalasa Dam",
@@ -3136,7 +3206,11 @@
         83.414266,
         17.822167
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Viharas_ThotlaKonda.jpg/960px-Viharas_ThotlaKonda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:Viharas ThotlaKonda.jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "strong"
   },
   {
     "name": "Vaital Mandir",
@@ -3239,7 +3313,11 @@
         85.839099,
         20.243151
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Parasuramesvara_Temple.jpg/960px-Parasuramesvara_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:Parasuramesvara Temple.jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "low"
   },
   {
     "name": "ORE Terminal",
@@ -3342,7 +3420,11 @@
         84.908289,
         19.256351
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/%E0%AC%97%E0%AD%8B%E0%AC%AA%E0%AC%BE%E0%AC%B3%E0%AC%AA%E0%AD%81%E0%AC%B0_%E0%AC%AC%E0%AD%87%E0%AC%B3%E0%AC%BE%E0%AC%AD%E0%AD%82%E0%AC%AE%E0%AC%BF_Gopalpur_Sea_beach_1.jpg/960px-%E0%AC%97%E0%AD%8B%E0%AC%AA%E0%AC%BE%E0%AC%B3%E0%AC%AA%E0%AD%81%E0%AC%B0_%E0%AC%AC%E0%AD%87%E0%AC%B3%E0%AC%BE%E0%AC%AD%E0%AD%82%E0%AC%AE%E0%AC%BF_Gopalpur_Sea_beach_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_credit": "File:ଗୋପାଳପୁର ବେଳାଭୂମି Gopalpur Sea beach 1.jpg",
+    "image_source": "wikimedia_commons",
+    "image_confidence": "strong"
   },
   {
     "name": "Goseidhara Waterfall",
