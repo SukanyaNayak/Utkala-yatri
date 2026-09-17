@@ -86,3 +86,4 @@ The app will open automatically at `http://localhost:8501`.
 - **Week 2** MongoDB Atlas integration (destinations data model), Gemini chat assistant
 - **Week 3** Folium + OpenStreetMap map view, itinerary generation, routing (OpenRouteService/OSRM)
 - **Post-hackathon** Migrate to React (frontend) + FastAPI (backend), reusing `services/`
+Place descriptions: Wikipedia contributors, CC BY-SA 4.0. Facility data © OpenStreetMap contributors. AI-generated text is marked in data.

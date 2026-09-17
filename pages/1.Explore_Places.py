@@ -73,8 +73,21 @@ def render_details(place: dict) -> None:
                 st.success(ss[ai_key])
 
         with right:
+            img = place.get("image")
+            shown = False
+            if img:
+                try:
+                    st.image(img, use_container_width=True)
+                    shown = True
+                except Exception:
+                    pass
+            if not shown:
+                st.markdown(
+                    f"<div style='text-align:center;font-size:84px;"
+                    f"padding:20px'>{emoji}</div>",
+                    unsafe_allow_html=True,
+                )
             st.metric("Coordinates", f"{place['lat']:.4f}, {place['lon']:.4f}")
-
 all_places = place_service.get_all_places()
 st.caption(
     f"{len(all_places)} places across Odisha - search, click the map, or open a card."

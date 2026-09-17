@@ -114,3 +114,14 @@ def build_places_context(limit: int = 25) -> str:
         lines.append(f"- {p['name']} ({p.get('city', '')}) | "
                      f"{p.get('category', '')} | {desc}")
     return "\n".join(lines)
+def image_html(p: dict, height: int = 150) -> str:
+    """Real photo if present, else a category-tinted gradient placeholder."""
+    img = p.get("image")
+    if img:
+        return (f"<img src='{img}' style='width:100%;height:{height}px;"
+                f"object-fit:cover;border-radius:8px'>")
+    emoji, color = category_meta(p.get("category"))
+    return (f"<div style='width:100%;height:{height}px;border-radius:8px;"
+            f"background:linear-gradient(135deg,{color}33,{color}77);"
+            f"display:flex;align-items:center;justify-content:center;"
+            f"font-size:54px'>{emoji}</div>")

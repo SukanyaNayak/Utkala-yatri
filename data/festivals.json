@@ -1,0 +1,388 @@
+[
+  {
+    "festival_id": "rath_yatra",
+    "name": {"en": "Rath Yatra (Car Festival)", "hi": "रथ यात्रा", "or": "ରଥଯାତ୍ରା"},
+    "category": "religious",
+    "city": "Puri",
+    "district": "Puri",
+    "location": {"type": "Point", "coordinates": [85.8181, 19.8050]},
+    "typical_window": {"months": [6, 7], "note_en": "Ashadha Shukla Dwitiya; shifts with lunar calendar"},
+    "duration_days": 9,
+    "known_dates": [
+      {"year": 2025, "start": "2025-06-27", "end": "2025-07-05", "approximate": false},
+      {"year": 2026, "start": "2026-07-16", "end": "2026-07-24", "approximate": true}
+    ],
+    "description": {
+      "en": "Jagannath, Balabhadra and Subhadra ride giant wooden chariots pulled by lakhs of devotees along Puri's Bada Danda — one of the world's largest religious processions.",
+      "hi": "जगन्नाथ, बलभद्र और सुभद्रा की विशाल रथ यात्रा — विश्व के सबसे बड़े धार्मिक जुलूसों में से एक।",
+      "or": "ଜଗନ୍ନାଥ, ବଳଭଦ୍ର ଓ ସୁଭଦ୍ରାଙ୍କ ବିଶାଳ ରଥଯାତ୍ରା — ବିଶ୍ୱର ସବୁଠାରୁ ବଡ଼ ଧାର୍ମିକ ଶୋଭାଯାତ୍ରା ମଧ୍ୟରୁ ଅନ୍ୟତମ।"
+    },
+    "crowd_level": "very_high",
+    "travel_tips": {"en": "Book Puri hotels 2–3 months ahead; Bada Danda closes to vehicles; try Mahaprasad at Ananda Bazar."},
+    "tags": ["jagannath", "chariot", "puri", "unesco", "world-famous"],
+    "is_hidden_gem": false,
+    "official_source": "https://odishatourism.gov.in"
+  },
+  {
+    "festival_id": "durga_puja_cuttack",
+    "name": {"en": "Durga Puja", "hi": "दुर्गा पूजा", "or": "ଦୁର୍ଗାପୂଜା"},
+    "category": "religious",
+    "city": "Cuttack",
+    "district": "Cuttack",
+    "location": {"type": "Point", "coordinates": [85.8828, 20.4625]},
+    "typical_window": {"months": [9, 10], "note_en": "Ashwin Shukla Paksha; shifts with lunar calendar"},
+    "duration_days": 5,
+    "known_dates": [
+      {"year": 2025, "start": "2025-09-28", "end": "2025-10-02", "approximate": false}
+    ],
+    "description": {
+      "en": "Cuttack's centuries-old Durga Puja is famous for its Chandi Medha — massive silver backdrops behind emerald-crowned Durga idols across the old city.",
+      "hi": "कटक की दुर्गा पूजा अपनी चाँदी की चंडी मेढ़ा (silver tableaux) के लिए प्रसिद्ध है।",
+      "or": "କଟକର ଦୁର୍ଗାପୂଜା ତାହାର ପ୍ରସିଦ୍ଧ ଚାନ୍ଦୀ ମେଢ଼ା ପାଇଁ ଜଣାଶୁଣା।"
+    },
+    "crowd_level": "very_high",
+    "travel_tips": {"en": "Pandal-hopping is best on foot; stay in Cuttack city; visit after 7 PM for the lighting."},
+    "tags": ["durga", "silver-city", "pandal", "cuttack"],
+    "is_hidden_gem": false,
+    "official_source": "https://odishatourism.gov.in"
+  },
+  {
+    "festival_id": "bali_jatra",
+    "name": {"en": "Bali Jatra", "hi": "बाली यात्रा", "or": "ବାଳିଯାତ୍ରା"},
+    "category": "fair",
+    "city": "Cuttack",
+    "district": "Cuttack",
+    "location": {"type": "Point", "coordinates": [85.8662, 20.4930]},
+    "typical_window": {"months": [11], "note_en": "Starts on Kartik Purnima"},
+    "duration_days": 5,
+    "known_dates": [
+      {"year": 2025, "start": "2025-11-05", "end": "2025-11-09", "approximate": false}
+    ],
+    "description": {
+      "en": "One of Asia's largest open fairs on the Mahanadi banks, commemorating Odia maritime traders who sailed to Bali — boita floating, craft bazaars, food streets.",
+      "hi": "महानदी किनारे ओडिशा के समुद्री व्यापारिक इतिहास की स्मृति में आयोजित विशाल मेला।",
+      "or": "ଓଡ଼ିଆ ସାମୁଦ୍ରିକ ବାଣିଜ୍ୟ ସ୍ମୃତିରେ ମହାନଦୀ କୂଳରେ ହେଉଥିବା ବିଶାଳ ମେଳା।"
+    },
+    "crowd_level": "very_high",
+    "travel_tips": {"en": "Go on day 1 for Boita Bandana at dawn; evenings are extremely crowded."},
+    "tags": ["boita", "maritime", "mela", "mahanadi"],
+    "is_hidden_gem": false,
+    "official_source": "https://odishatourism.gov.in"
+  },
+  {
+    "festival_id": "konark_dance_festival",
+    "name": {"en": "Konark Dance Festival", "hi": "कोणार्क नृत्य महोत्सव", "or": "କୋଣାର୍କ ନୃତ୍ୟ ଉତ୍ସବ"},
+    "category": "art",
+    "city": "Konark",
+    "district": "Puri",
+    "location": {"type": "Point", "coordinates": [86.0945, 19.8876]},
+    "typical_window": {"months": [12], "note_en": "Fixed dates: Dec 1–5 every year"},
+    "duration_days": 5,
+    "known_dates": [
+      {"year": 2025, "start": "2025-12-01", "end": "2025-12-05", "approximate": false}
+    ],
+    "description": {
+      "en": "Classical Odissi, Bharatanatyam and other Indian dance forms performed against the floodlit Sun Temple, organised by OTDC every December.",
+      "hi": "सूर्य मंदिर के सामने ओडिसी और अन्य शास्त्रीय नृत्यों का वार्षिक उत्सव।",
+      "or": "ସୂର୍ଯ୍ୟ ମନ୍ଦିର ପୃଷ୍ଠପଟରେ ଓଡ଼ିଶୀ ଓ ଅନ୍ୟାନ୍ୟ ଶାସ୍ତ୍ରୀୟ ନୃତ୍ୟର ଉତ୍ସବ।"
+    },
+    "crowd_level": "high",
+    "travel_tips": {"en": "Book Konark/Puri stays early; carry a shawl — December nights are cool; combine with Chandrabhaga beach sunrise."},
+    "tags": ["odissi", "dance", "sun-temple", "otdc"],
+    "is_hidden_gem": false,
+    "official_source": "https://odishatourism.gov.in"
+  },
+  {
+    "festival_id": "mukteswar_dance_festival",
+    "name": {"en": "Mukteswar Dance Festival", "hi": "मुक्तेश्वर नृत्य महोत्सव", "or": "ମୁକ୍ତେଶ୍ୱର ନୃତ୍ୟ ଉତ୍ସବ"},
+    "category": "art",
+    "city": "Bhubaneswar",
+    "district": "Khordha",
+    "location": {"type": "Point", "coordinates": [85.8375, 20.2405]},
+    "typical_window": {"months": [1], "note_en": "Around Makar Sankranti"},
+    "duration_days": 3,
+    "known_dates": [
+      {"year": 2025, "start": "2025-01-14", "end": "2025-01-16", "approximate": true}
+    ],
+    "description": {
+      "en": "Odissi recitals in the courtyard of the exquisite 10th-century Mukteswar Temple around Makar Sankranti.",
+      "hi": "10वीं शताब्दी के मुक्तेश्वर मंदिर में ओडिसी नृत्य।",
+      "or": "ମୁକ୍ତେଶ୍ୱର ମନ୍ଦିର ପ୍ରାଙ୍ଗଣରେ ଓଡ଼ିଶୀ ନୃତ୍ୟ।"
+    },
+    "crowd_level": "medium",
+    "travel_tips": {"en": "Free/low-cost entry; combine with the Ekamra Heritage Walks in Old Town Bhubaneswar."},
+    "tags": ["odissi", "temple", "bhubaneswar"],
+    "is_hidden_gem": true,
+    "official_source": "https://odishatourism.gov.in"
+  },
+  {
+    "festival_id": "rajarani_music_festival",
+    "name": {"en": "Rajarani Music Festival", "hi": "राजारानी संगीत महोत्सव", "or": "ରାଜାରାଣୀ ସଙ୍ଗୀତ ସମାରୋହ"},
+    "category": "art",
+    "city": "Bhubaneswar",
+    "district": "Khordha",
+    "location": {"type": "Point", "coordinates": [85.8330, 20.2380]},
+    "typical_window": {"months": [1], "note_en": "Mid-to-late January"},
+    "duration_days": 3,
+    "known_dates": [],
+    "description": {
+      "en": "Three evenings of Hindustani and Carnatic music at the sculptural Rajarani Temple.",
+      "hi": "राजाराणी मंदिर में शास्त्रीय संगीत की तीन शामें।",
+      "or": "ରାଜାରାଣୀ ମନ୍ଦିରରେ ଶାସ୍ତ୍ରୀୟ ସଙ୍ଗୀତ ସମାରୋହ।"
+    },
+    "crowd_level": "medium",
+    "travel_tips": {"en": "Check exact dates with OTDC each January."},
+    "tags": ["music", "classical", "bhubaneswar"],
+    "is_hidden_gem": true,
+    "official_source": "https://odishatourism.gov.in"
+  },
+  {
+    "festival_id": "dhanu_yatra",
+    "name": {"en": "Dhanu Yatra", "hi": "धनु यात्रा", "or": "ଧନୁଯାତ୍ରା"},
+    "category": "cultural",
+    "city": "Bargarh",
+    "district": "Bargarh",
+    "location": {"type": "Point", "coordinates": [83.6137, 21.3334]},
+    "typical_window": {"months": [12, 1], "note_en": "Late Dec to early Jan"},
+    "duration_days": 11,
+    "known_dates": [
+      {"year": 2025, "start": "2025-12-27", "end": "2026-01-05", "approximate": true}
+    ],
+    "description": {
+      "en": "The world's largest open-air theatre: Bargarh town becomes mythical Mathura and the Krishna story plays out across streets, ponds and the Jeera river for ~11 days.",
+      "hi": "दुनिया का सबसे बड़ा ओपन-एयर थिएटर — बरगढ़ शहर मथुरा बन जाता है।",
+      "or": "ବିଶ୍ୱର ସବୁଠାରୁ ବଡ଼ ଖୋଲା ରଙ୍ଗମଞ୍ଚ — ବରଗଡ଼ ସହର ମଥୁରା ପରି ହୋଇଯାଏ।"
+    },
+    "crowd_level": "high",
+    "travel_tips": {"en": "Stay in Bargarh town; the Kansa darbar scenes draw the biggest crowds; entire town performs."},
+    "tags": ["theatre", "krishna", "open-air"],
+    "is_hidden_gem": true,
+    "official_source": "https://odishatourism.gov.in"
+  },
+  {
+    "festival_id": "raja_parba",
+    "name": {"en": "Raja Parba", "hi": "रज पर्व", "or": "ରଜ ପର୍ବ"},
+    "category": "cultural",
+    "city": "Bhubaneswar",
+    "district": "Khordha",
+    "location": {"type": "Point", "coordinates": [85.8245, 20.2961]},
+    "typical_window": {"months": [6], "note_en": "Three fixed days from ~June 14 (solar calendar)"},
+    "duration_days": 3,
+    "known_dates": [
+      {"year": 2025, "start": "2025-06-14", "end": "2025-06-16", "approximate": true}
+    ],
+    "description": {
+      "en": "A three-day celebration of womanhood and the earth's annual 'menstruation' — swings on banyan branches, pithas, and a ban on ploughing; unmistakably Odia.",
+      "hi": "स्त्रीत्व और धरती के 'रजस्वला' होने का तीन दिवसीय उत्सव — झूला, पिठे और खेती पर रोक।",
+      "or": "ଝିଅମାନଙ୍କ ଓ ଧରିତ୍ରୀଙ୍କ ରଜସ୍ୱଳା ପାଳନ — ଡଲି, ପିଠା ଓ ହଳ ବନ୍ଦ।"
+    },
+    "crowd_level": "medium",
+    "travel_tips": {"en": "Try Raja pithas like podapitha; statewide celebration, best experienced in villages and old town areas."},
+    "tags": ["swings", "pitha", "harvest", "unique-odisha"],
+    "is_hidden_gem": true,
+    "official_source": "https://odishatourism.gov.in"
+  },
+  {
+    "festival_id": "kumar_purnima",
+    "name": {"en": "Kumar Purnima", "hi": "कुमार पूर्णिमा", "or": "କୁମାର ପୁଣିମା"},
+    "category": "cultural",
+    "city": "Bhubaneswar",
+    "district": "Khordha",
+    "location": {"type": "Point", "coordinates": [85.8245, 20.2961]},
+    "typical_window": {"months": [10], "note_en": "Ashwin full moon"},
+    "duration_days": 2,
+    "known_dates": [
+      {"year": 2025, "start": "2025-10-06", "end": "2025-10-07", "approximate": true}
+    ],
+    "description": {
+      "en": "Autumn full-moon festival: unmarried girls worship the moon at dawn and dusk with folk songs; Lakshmi Puja follows.",
+      "hi": "शरद पूर्णिमा पर कुमार कन्याओं द्वारा चंद्र पूजा; इसके बाद लक्ष्मी पूजा।",
+      "or": "ଶରଦ ପୁଣିମାରେ କୁମାରୀ ଝିଅମାନଙ୍କ ଚନ୍ଦ୍ର ପୂଜା; ପରେ ଲକ୍ଷ୍ମୀ ପୂଜା।"
+    },
+    "crowd_level": "medium",
+    "travel_tips": {"en": "Enjoy Kumar Purnima folk songs; statewide."},
+    "tags": ["full-moon", "folk-songs", "lakshmi-puja"],
+    "is_hidden_gem": false,
+    "official_source": "https://odishatourism.gov.in"
+  },
+  {
+    "festival_id": "nuakhai",
+    "name": {"en": "Nuakhai", "hi": "नुआखाई", "or": "ନୂଆଖାଇ"},
+    "category": "cultural",
+    "city": "Sambalpur",
+    "district": "Sambalpur",
+    "location": {"type": "Point", "coordinates": [83.9813, 21.4669]},
+    "typical_window": {"months": [8, 9], "note_en": "Bhadrapada Shukla Panchami; day after Ganesh Chaturthi"},
+    "duration_days": 2,
+    "known_dates": [
+      {"year": 2025, "start": "2025-08-29", "end": "2025-08-30", "approximate": true}
+    ],
+    "description": {
+      "en": "Western Odisha's harvest homecoming — the season's first grains are offered to the deity, followed by 'Nuakhai Juhar' greetings and family feasts.",
+      "hi": "पश्चिमी ओडिशा का फसल उत्सव — 'नुआखाई जुहार' की बधाई और पारिवारिक भोज।",
+      "or": "ପଶ୍ଚିମ ଓଡ଼ିଶାର ନୂଆଧାନ ପର୍ବ — 'ନୂଆଖାଇ ଜୁହାର' ଓ ପାରିବାରିକ ଭୋଜ।"
+    },
+    "crowd_level": "medium",
+    "travel_tips": {"en": "Great time to see Sambalpuri folk dance; western Odisha is a different world from the coast."},
+    "tags": ["harvest", "western-odisha", "sambalpuri"],
+    "is_hidden_gem": true,
+    "official_source": "https://odishatourism.gov.in"
+  },
+  {
+    "festival_id": "magha_saptami",
+    "name": {"en": "Magha Saptami (Chandrabhaga Mela)", "hi": "माघ सप्तमी (चंद्रभागा मेला)", "or": "ମାଘ ସପ୍ତମୀ (ଚନ୍ଦ୍ରଭାଗା ମେଳା)"},
+    "category": "religious",
+    "city": "Chandrabhaga, Konark",
+    "district": "Puri",
+    "location": {"type": "Point", "coordinates": [86.1010, 19.8920]},
+    "typical_window": {"months": [2], "note_en": "Magha Shukla Saptami"},
+    "duration_days": 1,
+    "known_dates": [
+      {"year": 2025, "start": "2025-02-04", "end": "2025-02-04", "approximate": true}
+    ],
+    "description": {
+      "en": "Lakhs of pilgrims bathe at dawn at Chandrabhaga beach near Konark in honour of the Sun god.",
+      "hi": "सूर्य देवता के सम्मान में चंद्रभागा समुद्र तट पर प्रभात स्नान।",
+      "or": "ସୂର୍ଯ୍ୟ ଦେବତାଙ୍କ ସମ୍ମାନରେ ଚନ୍ଦ୍ରଭାଗା ବେଳାଭୂମିରେ ପ୍ରାତସ୍ନାନ।"
+    },
+    "crowd_level": "high",
+    "travel_tips": {"en": "Reach the beach by 4:30 AM for the sunrise bath; dress warm."},
+    "tags": ["sun-worship", "sea-bath", "konark"],
+    "is_hidden_gem": true,
+    "official_source": "https://odishatourism.gov.in"
+  },
+  {
+    "festival_id": "sital_sasthi",
+    "name": {"en": "Sital Sasthi", "hi": "शीतल षष्ठी", "or": "ଶୀତଳ ଷଷ୍ଠୀ"},
+    "category": "religious",
+    "city": "Sambalpur",
+    "district": "Sambalpur",
+    "location": {"type": "Point", "coordinates": [83.9813, 21.4669]},
+    "typical_window": {"months": [5, 6], "note_en": "Jyeshtha Shukla Shashthi"},
+    "duration_days": 3,
+    "known_dates": [
+      {"year": 2025, "start": "2025-05-31", "end": "2025-06-02", "approximate": true}
+    ],
+    "description": {
+      "en": "Sambalpur's grand 'wedding of Shiva' — the divine marriage of Shiva and Parvati re-enacted with decorated chariots, dance troupes and all-night processions.",
+      "hi": "शिव-पार्वती के दिव्य विवाह का भव्य जुलूस — संबलपुर का प्रसिद्ध उत्सव।",
+      "or": "ଶିବ-ପାର୍ବତୀଙ୍କ ଦିବ୍ୟ ବିବାହର ଭବ୍ୟ ଶୋଭାଯାତ୍ରା — ସାମ୍ବଲପୁରର ପ୍ରସିଦ୍ଧ ପର୍ବ।"
+    },
+    "crowd_level": "high",
+    "travel_tips": {"en": "The night procession is the highlight; book early, hotels fill up."},
+    "tags": ["shiva", "procession", "sambalpur"],
+    "is_hidden_gem": true,
+    "official_source": "https://odishatourism.gov.in"
+  },
+  {
+    "festival_id": "chhau_chaitra_parva",
+    "name": {"en": "Chaitra Parva (Chhau Festival)", "hi": "चैत्र पर्व (छऊ महोत्सव)", "or": "ଚୈତ୍ର ପର୍ବ (ଛଉ ଉତ୍ସବ)"},
+    "category": "tribal",
+    "city": "Baripada",
+    "district": "Mayurbhanj",
+    "location": {"type": "Point", "coordinates": [86.7224, 21.9447]},
+    "typical_window": {"months": [4], "note_en": "Mid-April, Chaitra month"},
+    "duration_days": 4,
+    "known_dates": [
+      {"year": 2025, "start": "2025-04-12", "end": "2025-04-15", "approximate": true}
+    ],
+    "description": {
+      "en": "Night-long Chhau dance — a UNESCO-listed martial dance form — performed during Chaitra Parva in Baripada, with the royal family's patronage tradition.",
+      "hi": "यूनेस्को-सूचीबद्ध छऊ नृत्य — बरीपदा में रातभर का मंच।",
+      "or": "ୟୁନେସ୍କୋ ସ୍ୱୀକୃତ ଛଉ ନୃତ୍ୟ — ବାରିପଦାରେ ରାତିରେ ପରିବେଷଣ।"
+    },
+    "crowd_level": "medium",
+    "travel_tips": {"en": "Baripada is the gateway to Similipal Tiger Reserve — combine both."},
+    "tags": ["chhau", "unesco", "mask-dance", "tribal"],
+    "is_hidden_gem": true,
+    "official_source": "https://odishatourism.gov.in"
+  },
+  {
+    "festival_id": "kalinga_mahotsav",
+    "name": {"en": "Kalinga Mahotsav", "hi": "कलिंग महोत्सव", "or": "କଳିଙ୍ଗ ମହୋତ୍ସବ"},
+    "category": "art",
+    "city": "Dhauli",
+    "district": "Khordha",
+    "location": {"type": "Point", "coordinates": [85.8385, 20.1933]},
+    "typical_window": {"months": [2], "note_en": "Early February"},
+    "duration_days": 2,
+    "known_dates": [
+      {"year": 2025, "start": "2025-02-06", "end": "2025-02-07", "approximate": true}
+    ],
+    "description": {
+      "en": "Martial arts and dance festival at the Dhauli Shanti Stupa — on the battlefield where Emperor Ashoka renounced war after the Kalinga war.",
+      "hi": "धौलि शांति स्तूप पर मार्शल आर्ट और नृत्य महोत्सव — कलिंग युद्ध के स्थल पर।",
+      "or": "ଧଉଳି ଶାନ୍ତି ସ୍ତୂପ ନିକଟରେ ମାର୍ଶାଲ ଆର୍ଟ ଓ ନୃତ୍ୟ ଉତ୍ସବ।"
+    },
+    "crowd_level": "medium",
+    "travel_tips": {"en": "Pairs beautifully with a Dhauli Peace Pagoda visit; sunset performances."},
+    "tags": ["martial-arts", "dhauli", "ashoka", "peace"],
+    "is_hidden_gem": true,
+    "official_source": "https://odishatourism.gov.in"
+  },
+  {
+    "festival_id": "taratarini_mela",
+    "name": {"en": "Taratarini Mela", "hi": "तारातारिणी मेला", "or": "ତାରତାରିଣୀ ମେଳା"},
+    "category": "religious",
+    "city": "Taratarini",
+    "district": "Ganjam",
+    "location": {"type": "Point", "coordinates": [84.8850, 18.3880]},
+    "typical_window": {"months": [3, 4], "note_en": "Every Tuesday of Chaitra month"},
+    "duration_days": 1,
+    "known_dates": [],
+    "description": {
+      "en": "One of Odisha's oldest fairs at the twin-goddess Taratarini hill shrine on the Rushikulya river, near Berhampur.",
+      "hi": "ऋषिकुल्या नदी किनारे तारातारिणी हिल श्राइन पर ओडिशा का प्राचीन मेला।",
+      "or": "ଋଷିକୁଲ୍ୟା ନଦୀ କୂଳରେ ତାରତାରିଣୀ ପୀଠର ପ୍ରାଚୀନ ମେଳା।"
+    },
+    "crowd_level": "high",
+    "travel_tips": {"en": "Ropeway to the hilltop shrine; Chaitra Tuesdays are peak days."},
+    "tags": ["shakti-peetha", "mela", "ganjam"],
+    "is_hidden_gem": true,
+    "official_source": "https://odishatourism.gov.in"
+  },
+  {
+    "festival_id": "parab_koraput",
+    "name": {"en": "Parab Festival", "hi": "परब महोत्सव", "or": "ପରବ ମହୋତ୍ସବ"},
+    "category": "tribal",
+    "city": "Koraput",
+    "district": "Koraput",
+    "location": {"type": "Point", "coordinates": [82.7128, 18.8111]},
+    "typical_window": {"months": [11, 12], "note_en": "Nov–Dec, district-level"},
+    "duration_days": 4,
+    "known_dates": [],
+    "description": {
+      "en": "Koraput's district festival of tribal heritage — Desia and Gadaba dance, music, handicrafts, set among the Eastern Ghats.",
+      "hi": "कोरापुट का आदिवासी सांस्कृतिक महोत्सव — नृत्य, संगीत और हस्तशिल्प।",
+      "or": "କୋରାପୁଟର ଆଦିବାସୀ ସାଂସ୍କୃତିକ ମହୋତ୍ସବ — ନୃତ୍ୟ, ସଙ୍ଗୀତ ଓ ହସ୍ତଶିଳ୍ପ।"
+    },
+    "crowd_level": "medium",
+    "travel_tips": {"en": "Combine with Duduma waterfall and Deomali peak; cool nights."},
+    "tags": ["tribal", "eastern-ghats", "koraput"],
+    "is_hidden_gem": true,
+    "official_source": "https://odishatourism.gov.in"
+  },
+  {
+    "festival_id": "joranda_mela",
+    "name": {"en": "Joranda Mela", "hi": "जोरन्दा मेला", "or": "ଯୋରନ୍ଦା ମେଳା"},
+    "category": "religious",
+    "city": "Joranda",
+    "district": "Dhenkanal",
+    "location": {"type": "Point", "coordinates": [84.9556, 20.6867]},
+    "typical_window": {"months": [1, 2], "note_en": "Magha Purnima"},
+    "duration_days": 2,
+    "known_dates": [
+      {"year": 2025, "start": "2025-02-12", "end": "2025-02-13", "approximate": true}
+    ],
+    "description": {
+      "en": "Annual congregation of Mahima ascetics — India's unique monotheistic 'Alekh' order — offering ghee to the eternal flame.",
+      "hi": "महिमा धर्म के साधुओं का वार्षिक समागम — अनोखा एकेश्वरवादी संप्रदाय।",
+      "or": "ମହିମା ଧର୍ମର ସାଧୁମାନଙ୍କ ବାର୍ଷିକ ସମାବେଶ।"
+    },
+    "crowd_level": "medium",
+    "travel_tips": {"en": "Respect the ascetics' silence rules; pair with Kapilash temple nearby."},
+    "tags": ["mahima", "dhenkanal", "offbeat"],
+    "is_hidden_gem": true,
+    "official_source": "https://odishatourism.gov.in"
+  }
+]

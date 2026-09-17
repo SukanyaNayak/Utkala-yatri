@@ -50,12 +50,13 @@ m = folium.Map(location=[20.1, 84.5], zoom_start=7, tiles="OpenStreetMap")
 gem_icon = {"heritage": "🏰", "nature": "🌿", "wildlife": "🐅", "beach": "🐚"}
 for p in gems:
     folium.Marker([p["lat"], p["lon"]],
-                  tooltip=f"{gem_icon.get(p.get('category'), '💎')} {p['name']}",
+                  tooltip=f"💎 {p['name']}",
                   popup=folium.Popup(
-                      f"<b>{p['name']}</b><br>{(p.get('description') or '')[:140]}",
+                      f"<div style='width:210px'><b>{p['name']}</b><br>"
+                      f"{(p.get('description') or '')[:140]}</div>",
                       max_width=240),
-                  icon=folium.DivIcon(html="<div style='font-size:20px'>💎</div>"
-                      )).add_to(m)
+                  icon=folium.DivIcon(html="<div style='font-size:20px'>💎</div>")
+                  ).add_to(m)
 st_folium(m, height=380, use_container_width=True)
 
 # ---- cards, 2-wide with more story room ----
@@ -64,6 +65,7 @@ for i in range(0, len(gems), 2):
     for col, p in zip(row, gems[i:i + 2]):
         with col, st.container(border=True):
             st.markdown(f"### 💎 {p['name']}")
+            st.markdown(place_service.image_html(p), unsafe_allow_html=True)
             st.caption(f"{p.get('city') or p.get('district') or 'Odisha'} · "
                        f"{p.get('category', '')}")
             if p.get("description"):

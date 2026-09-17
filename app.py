@@ -95,7 +95,8 @@ with st.expander("ℹ️ About this build"):
         "kept separate from the UI layer (in `services/` and `utils/`) "
         "to make a future migration to React + FastAPI straightforward."
     )
-
+st.caption("Data: OpenStreetMap contributors · Wikipedia contributors (CC BY-SA 4.0) · "
+           "AI-assisted content is provenance-tagged.")
 # --------------------------------------------------------------------------
 # Footer
 # --------------------------------------------------------------------------

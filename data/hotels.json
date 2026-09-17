@@ -1,0 +1,5799 @@
+[
+  {
+    "name": "Mayfair Lagoon",
+    "lat": 20.296,
+    "lon": 85.8155,
+    "source": "curated",
+    "description": "Upscale lagoon resort at Jaydev Vihar; pool and gardens; near airport",
+    "category": "other",
+    "city": "Bhubaneswar",
+    "price": "8000-15000",
+    "rating": "4.6",
+    "tags": [
+      "luxury",
+      "pool",
+      "business",
+      "other",
+      "curated"
+    ],
+    "hotel_id": "mayfair-lagoon-bhubaneswar",
+    "category_raw": "hotel",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.8155,
+        20.296
+      ]
+    }
+  },
+  {
+    "name": "Swosti Premium",
+    "lat": 20.259,
+    "lon": 85.8395,
+    "source": "curated",
+    "description": "Large business hotel on Janpath; central and reliable",
+    "category": "other",
+    "city": "Bhubaneswar",
+    "price": "4000-7000",
+    "rating": "4.4",
+    "tags": [
+      "central",
+      "business",
+      "other",
+      "curated"
+    ],
+    "hotel_id": "swosti-premium-bhubaneswar",
+    "category_raw": "hotel",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.8395,
+        20.259
+      ]
+    }
+  },
+  {
+    "name": "The Crown",
+    "lat": 20.268,
+    "lon": 85.842,
+    "source": "curated",
+    "description": "Well-rated mid-range hotel near Kharavela Nagar",
+    "category": "other",
+    "city": "Bhubaneswar",
+    "price": "3000-5000",
+    "rating": "4.1",
+    "tags": [
+      "central",
+      "other",
+      "curated"
+    ],
+    "hotel_id": "the-crown-bhubaneswar",
+    "category_raw": "hotel",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.842,
+        20.268
+      ]
+    }
+  },
+  {
+    "name": "Hotel Holiday Resort",
+    "lat": 19.7985,
+    "lon": 85.8275,
+    "source": "curated",
+    "description": "Sea-facing rooms on Chakratirtha Road; walkable to beach",
+    "category": "other",
+    "city": "Puri",
+    "price": "3500-6500",
+    "rating": "4.2",
+    "tags": [
+      "sea-view",
+      "beach",
+      "other",
+      "curated"
+    ],
+    "hotel_id": "hotel-holiday-resort-puri",
+    "category_raw": "hotel",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.8275,
+        19.7985
+      ]
+    }
+  },
+  {
+    "name": "Mayfair Waves",
+    "lat": 19.7955,
+    "lon": 85.8305,
+    "source": "curated",
+    "description": "Beachfront upscale resort; spa and pool",
+    "category": "other",
+    "city": "Puri",
+    "price": "7000-12000",
+    "rating": "4.5",
+    "tags": [
+      "luxury",
+      "beach",
+      "pool",
+      "other",
+      "curated"
+    ],
+    "hotel_id": "mayfair-waves-puri",
+    "category_raw": "hotel",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.8305,
+        19.7955
+      ]
+    }
+  },
+  {
+    "name": "OTDC Panthanivas Puri",
+    "lat": 19.804,
+    "lon": 85.8185,
+    "source": "curated",
+    "description": "Government-run lodge; dependable budget option near the temple",
+    "category": "other",
+    "city": "Puri",
+    "price": "1500-3000",
+    "rating": "3.9",
+    "tags": [
+      "budget",
+      "govt",
+      "other",
+      "curated"
+    ],
+    "hotel_id": "otdc-panthanivas-puri-puri",
+    "category_raw": "hotel",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.8185,
+        19.804
+      ]
+    }
+  },
+  {
+    "name": "OTDC Panthanivas Konark",
+    "lat": 19.8863,
+    "lon": 86.0928,
+    "source": "curated",
+    "description": "Govt lodge steps from the Sun Temple",
+    "category": "other",
+    "city": "Konark",
+    "price": "1200-2500",
+    "rating": "3.8",
+    "tags": [
+      "budget",
+      "govt",
+      "heritage",
+      "other",
+      "curated"
+    ],
+    "hotel_id": "otdc-panthanivas-konark-konark",
+    "category_raw": "hotel",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.0928,
+        19.8863
+      ]
+    }
+  },
+  {
+    "name": "Swosti Chilika Resort",
+    "lat": 19.723,
+    "lon": 85.48,
+    "source": "curated",
+    "description": "Resort on Chilika lake shore at Barkul; dolphin and bird tours",
+    "category": "other",
+    "city": "Barkul",
+    "price": "3500-6000",
+    "rating": "4.3",
+    "tags": [
+      "lake",
+      "resort",
+      "nature",
+      "other",
+      "curated"
+    ],
+    "hotel_id": "swosti-chilika-resort-barkul",
+    "category_raw": "hotel",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.48,
+        19.723
+      ]
+    }
+  },
+  {
+    "name": "Mangalajodi Ecotourism Stay",
+    "lat": 20.008,
+    "lon": 85.421,
+    "source": "curated",
+    "description": "Community-owned wetland eco-stay; winter migratory birds",
+    "category": "other",
+    "city": "Mangalajodi",
+    "price": "1500-2500",
+    "rating": "4.4",
+    "tags": [
+      "eco",
+      "hidden-gem",
+      "birding",
+      "other",
+      "curated"
+    ],
+    "hotel_id": "mangalajodi-ecotourism-stay-mangalajodi",
+    "category_raw": "hotel",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.421,
+        20.008
+      ]
+    }
+  },
+  {
+    "name": "OTDC Panthanivas - Barkul",
+    "lat": 19.705375,
+    "lon": 85.190372,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "otdc-panthanivas-barkul",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.190372,
+        19.705375
+      ]
+    }
+  },
+  {
+    "name": "Hotel Roxy",
+    "lat": 20.459285,
+    "lon": 85.882309,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-roxy",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.882309,
+        20.459285
+      ]
+    }
+  },
+  {
+    "name": "Hotel Monalisa",
+    "lat": 20.459268,
+    "lon": 85.88044,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-monalisa",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.88044,
+        20.459268
+      ]
+    }
+  },
+  {
+    "name": "Hotel Kalinga Ashoke",
+    "lat": 20.257297,
+    "lon": 85.839989,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-kalinga-ashoke",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.839989,
+        20.257297
+      ]
+    }
+  },
+  {
+    "name": "Marchikote Inn",
+    "lat": 19.80646,
+    "lon": 85.82344,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "marchikote-inn",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.82344,
+        19.80646
+      ]
+    }
+  },
+  {
+    "name": "Hotel Sitara",
+    "lat": 19.796327,
+    "lon": 85.82384,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-sitara",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.82384,
+        19.796327
+      ]
+    }
+  },
+  {
+    "name": "Hotel Samraj",
+    "lat": 19.807473,
+    "lon": 85.821588,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-samraj",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.821588,
+        19.807473
+      ]
+    }
+  },
+  {
+    "name": "Hotel Subhadra",
+    "lat": 19.80919,
+    "lon": 85.823366,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-subhadra",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.823366,
+        19.80919
+      ]
+    }
+  },
+  {
+    "name": "Hotel Sriram",
+    "lat": 19.812912,
+    "lon": 85.830751,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-sriram",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.830751,
+        19.812912
+      ]
+    }
+  },
+  {
+    "name": "Hotel Sonali",
+    "lat": 19.793697,
+    "lon": 85.81961,
+    "source": "osm",
+    "category": "other",
+    "city": "Puri",
+    "hotel_id": "hotel-sonali-puri",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.81961,
+        19.793697
+      ]
+    }
+  },
+  {
+    "name": "Hawa Mahal",
+    "lat": 19.744771,
+    "lon": 85.213427,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hawa-mahal",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.213427,
+        19.744771
+      ]
+    }
+  },
+  {
+    "name": "Hotel Narayani",
+    "lat": 19.705369,
+    "lon": 85.188771,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-narayani",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.188771,
+        19.705369
+      ]
+    }
+  },
+  {
+    "name": "Hotel Chilika",
+    "lat": 19.705474,
+    "lon": 85.187948,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-chilika",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.187948,
+        19.705474
+      ]
+    }
+  },
+  {
+    "name": "OTDC Panthanivas - Satapada",
+    "lat": 19.667166,
+    "lon": 85.439793,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "otdc-panthanivas-satapada",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.439793,
+        19.667166
+      ]
+    }
+  },
+  {
+    "name": "Hotel Unique",
+    "lat": 21.467926,
+    "lon": 83.976348,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-unique",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.976348,
+        21.467926
+      ]
+    }
+  },
+  {
+    "name": "Sarojini Naidu Hall",
+    "lat": 22.318354,
+    "lon": 87.307487,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "sarojini-naidu-hall",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        87.307487,
+        22.318354
+      ]
+    }
+  },
+  {
+    "name": "Hotel Babylon International",
+    "lat": 21.23615,
+    "lon": 81.681742,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-babylon-international",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.681742,
+        21.23615
+      ]
+    }
+  },
+  {
+    "name": "Govt college Girls Hostel",
+    "lat": 22.224844,
+    "lon": 84.809693,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "govt-college-girls-hostel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.809693,
+        22.224844
+      ]
+    }
+  },
+  {
+    "name": "Rajmahal",
+    "lat": 20.261052,
+    "lon": 85.836632,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "rajmahal",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.836632,
+        20.261052
+      ]
+    }
+  },
+  {
+    "name": "Technology Guest House",
+    "lat": 22.315888,
+    "lon": 87.304014,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "technology-guest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        87.304014,
+        22.315888
+      ]
+    }
+  },
+  {
+    "name": "CEC Guest House",
+    "lat": 22.314717,
+    "lon": 87.305527,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "cec-guest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        87.305527,
+        22.314717
+      ]
+    }
+  },
+  {
+    "name": "Panthanivas",
+    "lat": 19.887363,
+    "lon": 86.098105,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "panthanivas",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.098105,
+        19.887363
+      ]
+    }
+  },
+  {
+    "name": "May Fair Hotel & Resorts",
+    "lat": 20.300726,
+    "lon": 85.819445,
+    "source": "osm",
+    "category": "other",
+    "city": "Bhubaneshwar",
+    "hotel_id": "may-fair-hotel-resorts-bhubaneshwar",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.819445,
+        20.300726
+      ]
+    }
+  },
+  {
+    "name": "Hotel GINGER",
+    "lat": 20.303327,
+    "lon": 85.82313,
+    "source": "osm",
+    "category": "other",
+    "city": "Bhubaneswar",
+    "hotel_id": "hotel-ginger-bhubaneswar",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.82313,
+        20.303327
+      ]
+    }
+  },
+  {
+    "name": "hotel kharvel",
+    "lat": 20.260341,
+    "lon": 85.790748,
+    "source": "osm",
+    "category": "other",
+    "city": "bhubaneshwar",
+    "hotel_id": "hotel-kharvel-bhubaneshwar",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.790748,
+        20.260341
+      ]
+    }
+  },
+  {
+    "name": "Hotel Digantika",
+    "lat": 19.752327,
+    "lon": 85.209223,
+    "source": "osm",
+    "category": "other",
+    "city": "Balugaon",
+    "hotel_id": "hotel-digantika-balugaon",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.209223,
+        19.752327
+      ]
+    }
+  },
+  {
+    "name": "Khendelwal hotel",
+    "lat": 21.447693,
+    "lon": 83.990916,
+    "source": "osm",
+    "category": "other",
+    "city": "Sambalpur, Odisha",
+    "hotel_id": "khendelwal-hotel-sambalpur-odisha",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.990916,
+        21.447693
+      ]
+    }
+  },
+  {
+    "name": "Hotel Ramya",
+    "lat": 21.50416,
+    "lon": 86.920327,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-ramya",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.920327,
+        21.50416
+      ]
+    }
+  },
+  {
+    "name": "Hotel Suraj",
+    "lat": 21.504945,
+    "lon": 86.913865,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-suraj",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.913865,
+        21.504945
+      ]
+    }
+  },
+  {
+    "name": "Hotel Chandrabhaga",
+    "lat": 21.507318,
+    "lon": 86.909415,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-chandrabhaga",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.909415,
+        21.507318
+      ]
+    }
+  },
+  {
+    "name": "Vijetha Inn",
+    "lat": 18.295448,
+    "lon": 83.897699,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "vijetha-inn",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.897699,
+        18.295448
+      ]
+    }
+  },
+  {
+    "name": "Hotel Beach Paradise",
+    "lat": 17.846958,
+    "lon": 83.409538,
+    "source": "osm",
+    "category": "other",
+    "city": "Visakhapatnam, Andhra Pradesh",
+    "hotel_id": "hotel-beach-paradise-visakhapatnam-andhra-pradesh",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.409538,
+        17.846958
+      ]
+    }
+  },
+  {
+    "name": "Swadhin Hotel",
+    "lat": 19.803741,
+    "lon": 85.843631,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "swadhin-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.843631,
+        19.803741
+      ]
+    }
+  },
+  {
+    "name": "Hotel Sun Village",
+    "lat": 19.890484,
+    "lon": 86.100245,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-sun-village",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.100245,
+        19.890484
+      ]
+    }
+  },
+  {
+    "name": "Hotel Deluxe",
+    "lat": 19.889398,
+    "lon": 86.100556,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-deluxe",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.100556,
+        19.889398
+      ]
+    }
+  },
+  {
+    "name": "Emanuil Lodge",
+    "lat": 19.804229,
+    "lon": 85.843575,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "emanuil-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.843575,
+        19.804229
+      ]
+    }
+  },
+  {
+    "name": "Konark Hotel",
+    "lat": 19.888615,
+    "lon": 86.097885,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "konark-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.097885,
+        19.888615
+      ]
+    }
+  },
+  {
+    "name": "Royal Lodge",
+    "lat": 19.889826,
+    "lon": 86.100456,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "royal-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.100456,
+        19.889826
+      ]
+    }
+  },
+  {
+    "name": "New Santi Hotel",
+    "lat": 19.88964,
+    "lon": 86.100512,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "new-santi-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.100512,
+        19.88964
+      ]
+    }
+  },
+  {
+    "name": "Sidharth Inn",
+    "lat": 19.803487,
+    "lon": 85.843637,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "sidharth-inn",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.843637,
+        19.803487
+      ]
+    }
+  },
+  {
+    "name": "Hotel Sweet Home",
+    "lat": 19.803211,
+    "lon": 85.846461,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-sweet-home",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.846461,
+        19.803211
+      ]
+    }
+  },
+  {
+    "name": "Santoshi Hotel",
+    "lat": 19.88849,
+    "lon": 86.09789,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "santoshi-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.09789,
+        19.88849
+      ]
+    }
+  },
+  {
+    "name": "Sunrise Lodge",
+    "lat": 19.889071,
+    "lon": 86.097846,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "sunrise-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.097846,
+        19.889071
+      ]
+    }
+  },
+  {
+    "name": "Brianchi hotel",
+    "lat": 19.89104,
+    "lon": 86.09906,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "brianchi-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.09906,
+        19.89104
+      ]
+    }
+  },
+  {
+    "name": "Elegant Guest House",
+    "lat": 20.269286,
+    "lon": 85.842174,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "elegant-guest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.842174,
+        20.269286
+      ]
+    }
+  },
+  {
+    "name": "Hotel Richi",
+    "lat": 20.26824,
+    "lon": 85.843481,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-richi",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.843481,
+        20.26824
+      ]
+    }
+  },
+  {
+    "name": "Krishna Palace",
+    "lat": 19.801975,
+    "lon": 85.836891,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "krishna-palace",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.836891,
+        19.801975
+      ]
+    }
+  },
+  {
+    "name": "Draupadi",
+    "lat": 21.499906,
+    "lon": 86.921198,
+    "source": "osm",
+    "category": "other",
+    "city": "Balasore",
+    "hotel_id": "draupadi-balasore",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.921198,
+        21.499906
+      ]
+    }
+  },
+  {
+    "name": "M M Residency",
+    "lat": 18.814371,
+    "lon": 82.702388,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "m-m-residency",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.702388,
+        18.814371
+      ]
+    }
+  },
+  {
+    "name": "rasoi inn",
+    "lat": 22.070701,
+    "lon": 82.160011,
+    "source": "osm",
+    "category": "other",
+    "city": "bilaspur",
+    "hotel_id": "rasoi-inn-bilaspur",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.160011,
+        22.070701
+      ]
+    }
+  },
+  {
+    "name": "MarWARI HOTEL AND LODGE",
+    "lat": 22.057219,
+    "lon": 82.17081,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "marwari-hotel-and-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.17081,
+        22.057219
+      ]
+    }
+  },
+  {
+    "name": "Hotel Kapilas",
+    "lat": 19.168779,
+    "lon": 83.411999,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-kapilas",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.411999,
+        19.168779
+      ]
+    }
+  },
+  {
+    "name": "LLOYD Guest House (Akaltara)",
+    "lat": 22.030216,
+    "lon": 82.425168,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "lloyd-guest-house-akaltara",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.425168,
+        22.030216
+      ]
+    }
+  },
+  {
+    "name": "Hotel Prakash Palace",
+    "lat": 21.218632,
+    "lon": 81.645366,
+    "source": "osm",
+    "category": "other",
+    "city": "Raipur,",
+    "hotel_id": "hotel-prakash-palace-raipur",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.645366,
+        21.218632
+      ]
+    }
+  },
+  {
+    "name": "M N International",
+    "lat": 22.227391,
+    "lon": 84.863372,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "m-n-international",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.863372,
+        22.227391
+      ]
+    }
+  },
+  {
+    "name": "Adarsh hotel",
+    "lat": 22.225749,
+    "lon": 84.861623,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "adarsh-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.861623,
+        22.225749
+      ]
+    }
+  },
+  {
+    "name": "Hotel New Sea Hawk",
+    "lat": 19.792323,
+    "lon": 85.815274,
+    "source": "osm",
+    "category": "other",
+    "city": "Puri",
+    "hotel_id": "hotel-new-sea-hawk-puri",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.815274,
+        19.792323
+      ]
+    }
+  },
+  {
+    "name": "OTDC Panthanivas",
+    "lat": 19.487156,
+    "lon": 84.395127,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "otdc-panthanivas",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.395127,
+        19.487156
+      ]
+    }
+  },
+  {
+    "name": "Santana Hotel",
+    "lat": 19.804284,
+    "lon": 85.849002,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "santana-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.849002,
+        19.804284
+      ]
+    }
+  },
+  {
+    "name": "Guesthouse",
+    "lat": 21.067311,
+    "lon": 86.505275,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "guesthouse",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.505275,
+        21.067311
+      ]
+    }
+  },
+  {
+    "name": "Pantha Nivas, Chandipur",
+    "lat": 21.452414,
+    "lon": 87.040337,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "pantha-nivas-chandipur",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        87.040337,
+        21.452414
+      ]
+    }
+  },
+  {
+    "name": "Hotel Dwarika",
+    "lat": 20.464688,
+    "lon": 85.884879,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-dwarika",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.884879,
+        20.464688
+      ]
+    }
+  },
+  {
+    "name": "Guesthouse",
+    "lat": 22.409814,
+    "lon": 87.326054,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "guesthouse-2",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        87.326054,
+        22.409814
+      ]
+    }
+  },
+  {
+    "name": "Santana",
+    "lat": 19.805335,
+    "lon": 85.85166,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "santana",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.85166,
+        19.805335
+      ]
+    }
+  },
+  {
+    "name": "Govt. Guest house",
+    "lat": 18.095138,
+    "lon": 83.520883,
+    "source": "osm",
+    "category": "other",
+    "city": "Vizianagaram",
+    "hotel_id": "govt-guest-house-vizianagaram",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.520883,
+        18.095138
+      ]
+    }
+  },
+  {
+    "name": "Coffee Guesthouse",
+    "lat": 17.864467,
+    "lon": 82.355125,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "coffee-guesthouse",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.355125,
+        17.864467
+      ]
+    }
+  },
+  {
+    "name": "Shree Vishnu Darshan Holiday Home",
+    "lat": 19.806985,
+    "lon": 85.821093,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "shree-vishnu-darshan-holiday-home",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.821093,
+        19.806985
+      ]
+    }
+  },
+  {
+    "name": "Hotel Blue Moon",
+    "lat": 17.713052,
+    "lon": 83.299453,
+    "source": "osm",
+    "category": "other",
+    "city": "visakhapatnam",
+    "hotel_id": "hotel-blue-moon-visakhapatnam",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.299453,
+        17.713052
+      ]
+    }
+  },
+  {
+    "name": "IOCL Guest House",
+    "lat": 20.296068,
+    "lon": 86.617673,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "iocl-guest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.617673,
+        20.296068
+      ]
+    }
+  },
+  {
+    "name": "PPL Guest House",
+    "lat": 20.276856,
+    "lon": 86.623126,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "ppl-guest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.623126,
+        20.276856
+      ]
+    }
+  },
+  {
+    "name": "Shree Mandir Hotel",
+    "lat": 20.267436,
+    "lon": 86.661369,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "shree-mandir-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.661369,
+        20.267436
+      ]
+    }
+  },
+  {
+    "name": "Hotel Golden Anchor",
+    "lat": 20.260305,
+    "lon": 86.654337,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-golden-anchor",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.654337,
+        20.260305
+      ]
+    }
+  },
+  {
+    "name": "Country Inn and Suits",
+    "lat": 20.2596,
+    "lon": 86.654504,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "country-inn-and-suits",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.654504,
+        20.2596
+      ]
+    }
+  },
+  {
+    "name": "Empire Hotel",
+    "lat": 20.258813,
+    "lon": 86.653549,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "empire-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.653549,
+        20.258813
+      ]
+    }
+  },
+  {
+    "name": "Hotel Padma",
+    "lat": 20.258291,
+    "lon": 86.655597,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-padma",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.655597,
+        20.258291
+      ]
+    }
+  },
+  {
+    "name": "Hotel Sea Pearl",
+    "lat": 20.308814,
+    "lon": 86.624125,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-sea-pearl",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.624125,
+        20.308814
+      ]
+    }
+  },
+  {
+    "name": "Tillu Hotel",
+    "lat": 21.236077,
+    "lon": 81.622803,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "tillu-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.622803,
+        21.236077
+      ]
+    }
+  },
+  {
+    "name": "Kiran hotel",
+    "lat": 21.243535,
+    "lon": 81.635822,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "kiran-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.635822,
+        21.243535
+      ]
+    }
+  },
+  {
+    "name": "Indian Coffee House",
+    "lat": 21.246164,
+    "lon": 81.641689,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "indian-coffee-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.641689,
+        21.246164
+      ]
+    }
+  },
+  {
+    "name": "Nalco guest house",
+    "lat": 17.71584,
+    "lon": 83.311481,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "nalco-guest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.311481,
+        17.71584
+      ]
+    }
+  },
+  {
+    "name": "Ganpati Palace",
+    "lat": 20.891721,
+    "lon": 82.511311,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "ganpati-palace",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.511311,
+        20.891721
+      ]
+    }
+  },
+  {
+    "name": "Golden Orchid",
+    "lat": 20.297,
+    "lon": 85.819513,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "golden-orchid",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.819513,
+        20.297
+      ]
+    }
+  },
+  {
+    "name": "Home like Guesthouse",
+    "lat": 20.246333,
+    "lon": 85.841785,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "home-like-guesthouse",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.841785,
+        20.246333
+      ]
+    }
+  },
+  {
+    "name": "Divine Beach Homestay",
+    "lat": 19.802533,
+    "lon": 85.846148,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "divine-beach-homestay",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.846148,
+        19.802533
+      ]
+    }
+  },
+  {
+    "name": "Airport Park Villa",
+    "lat": 20.246452,
+    "lon": 85.824792,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "airport-park-villa",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.824792,
+        20.246452
+      ]
+    }
+  },
+  {
+    "name": "Hotel Sapphire Plaza",
+    "lat": 20.26651,
+    "lon": 85.846761,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-sapphire-plaza",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.846761,
+        20.26651
+      ]
+    }
+  },
+  {
+    "name": "Swopna Hotel & Dhaba",
+    "lat": 20.140075,
+    "lon": 85.508952,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "swopna-hotel-dhaba",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.508952,
+        20.140075
+      ]
+    }
+  },
+  {
+    "name": "Hotel SREE JAGANNATH",
+    "lat": 20.1402,
+    "lon": 85.510152,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-sree-jagannath",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.510152,
+        20.1402
+      ]
+    }
+  },
+  {
+    "name": "MAA MANGALA HOTEL",
+    "lat": 20.139909,
+    "lon": 85.510982,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "maa-mangala-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.510982,
+        20.139909
+      ]
+    }
+  },
+  {
+    "name": "Hotel Devansh Residency",
+    "lat": 19.084384,
+    "lon": 82.0244,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-devansh-residency",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.0244,
+        19.084384
+      ]
+    }
+  },
+  {
+    "name": "Hotel Laxmi Palace",
+    "lat": 19.087522,
+    "lon": 82.026898,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-laxmi-palace",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.026898,
+        19.087522
+      ]
+    }
+  },
+  {
+    "name": "Bastariya",
+    "lat": 19.085389,
+    "lon": 82.024573,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "bastariya",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.024573,
+        19.085389
+      ]
+    }
+  },
+  {
+    "name": "Hotel Mona",
+    "lat": 19.085179,
+    "lon": 82.024467,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-mona",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.024467,
+        19.085179
+      ]
+    }
+  },
+  {
+    "name": "Hotel Suri International",
+    "lat": 19.082925,
+    "lon": 82.014711,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-suri-international",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.014711,
+        19.082925
+      ]
+    }
+  },
+  {
+    "name": "Hotel Rainbow and Bar",
+    "lat": 19.087418,
+    "lon": 82.020924,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-rainbow-and-bar",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.020924,
+        19.087418
+      ]
+    }
+  },
+  {
+    "name": "HOTEL KONARK",
+    "lat": 19.793492,
+    "lon": 85.816076,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-konark",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.816076,
+        19.793492
+      ]
+    }
+  },
+  {
+    "name": "Swosti",
+    "lat": 19.255906,
+    "lon": 84.904465,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "swosti",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.904465,
+        19.255906
+      ]
+    }
+  },
+  {
+    "name": "Royale Midtown",
+    "lat": 20.264989,
+    "lon": 85.839517,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "royale-midtown",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.839517,
+        20.264989
+      ]
+    }
+  },
+  {
+    "name": "Hotel Aahar",
+    "lat": 21.717565,
+    "lon": 87.111337,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-aahar",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        87.111337,
+        21.717565
+      ]
+    }
+  },
+  {
+    "name": "Hotel Shyam",
+    "lat": 21.51366,
+    "lon": 86.895326,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-shyam",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.895326,
+        21.51366
+      ]
+    }
+  },
+  {
+    "name": "Hotel Maa",
+    "lat": 20.945084,
+    "lon": 86.13436,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-maa",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.13436,
+        20.945084
+      ]
+    }
+  },
+  {
+    "name": "Narayani Lodging",
+    "lat": 20.944525,
+    "lon": 86.13308,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "narayani-lodging",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.13308,
+        20.944525
+      ]
+    }
+  },
+  {
+    "name": "Smile Holiday",
+    "lat": 19.794898,
+    "lon": 85.816127,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "smile-holiday",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.816127,
+        19.794898
+      ]
+    }
+  },
+  {
+    "name": "Special Cicuit House",
+    "lat": 18.817472,
+    "lon": 82.706947,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "special-cicuit-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.706947,
+        18.817472
+      ]
+    }
+  },
+  {
+    "name": "Hotel Krishna Resorts and Restaurant (pure veg)",
+    "lat": 19.802139,
+    "lon": 85.840398,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-krishna-resorts-and-restaurant-pure-veg",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.840398,
+        19.802139
+      ]
+    }
+  },
+  {
+    "name": "Gyan wine shop",
+    "lat": 19.328261,
+    "lon": 84.964916,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "gyan-wine-shop",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.964916,
+        19.328261
+      ]
+    }
+  },
+  {
+    "name": "RS HOTELS",
+    "lat": 18.780331,
+    "lon": 84.089719,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "rs-hotels",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.089719,
+        18.780331
+      ]
+    }
+  },
+  {
+    "name": "hitesh oyo",
+    "lat": 18.770658,
+    "lon": 84.092776,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hitesh-oyo",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.092776,
+        18.770658
+      ]
+    }
+  },
+  {
+    "name": "AMCOSA functional hall",
+    "lat": 17.711976,
+    "lon": 83.311178,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "amcosa-functional-hall",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.311178,
+        17.711976
+      ]
+    }
+  },
+  {
+    "name": "Jublee home",
+    "lat": 17.712467,
+    "lon": 83.312186,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "jublee-home",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.312186,
+        17.712467
+      ]
+    }
+  },
+  {
+    "name": "beach view guest house",
+    "lat": 17.709517,
+    "lon": 83.314618,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "beach-view-guest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.314618,
+        17.709517
+      ]
+    }
+  },
+  {
+    "name": "Trinity holy church",
+    "lat": 17.708903,
+    "lon": 83.313749,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "trinity-holy-church",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.313749,
+        17.708903
+      ]
+    }
+  },
+  {
+    "name": "Zion house of prayer",
+    "lat": 17.710058,
+    "lon": 83.312923,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "zion-house-of-prayer",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.312923,
+        17.710058
+      ]
+    }
+  },
+  {
+    "name": "Budhil Hotel",
+    "lat": 17.725798,
+    "lon": 83.306851,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "budhil-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.306851,
+        17.725798
+      ]
+    }
+  },
+  {
+    "name": "Desia Camp",
+    "lat": 18.56909,
+    "lon": 82.50206,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "desia-camp",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.50206,
+        18.56909
+      ]
+    }
+  },
+  {
+    "name": "Hotel Sai national",
+    "lat": 17.725526,
+    "lon": 83.298378,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-sai-national",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.298378,
+        17.725526
+      ]
+    }
+  },
+  {
+    "name": "sai ram parlour",
+    "lat": 18.103119,
+    "lon": 83.409897,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "sai-ram-parlour",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.409897,
+        18.103119
+      ]
+    }
+  },
+  {
+    "name": "Canteen",
+    "lat": 18.019712,
+    "lon": 83.401023,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "canteen",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.401023,
+        18.019712
+      ]
+    }
+  },
+  {
+    "name": "Glaze",
+    "lat": 19.212351,
+    "lon": 82.549123,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "glaze",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.549123,
+        19.212351
+      ]
+    }
+  },
+  {
+    "name": "The Welcome Resorts",
+    "lat": 21.527981,
+    "lon": 84.019063,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "the-welcome-resorts",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.019063,
+        21.527981
+      ]
+    }
+  },
+  {
+    "name": "Hotel Manisha",
+    "lat": 19.21855,
+    "lon": 82.546999,
+    "source": "osm",
+    "category": "other",
+    "city": "Nabarangpur",
+    "hotel_id": "hotel-manisha-nabarangpur",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.546999,
+        19.21855
+      ]
+    }
+  },
+  {
+    "name": "Ashoka Plaza, gopalpur on sea",
+    "lat": 19.259639,
+    "lon": 84.902109,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "ashoka-plaza-gopalpur-on-sea",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.902109,
+        19.259639
+      ]
+    }
+  },
+  {
+    "name": "Bhanu's house",
+    "lat": 17.739675,
+    "lon": 82.893911,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "bhanu-s-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.893911,
+        17.739675
+      ]
+    }
+  },
+  {
+    "name": "Oyo Town House",
+    "lat": 20.298434,
+    "lon": 85.81292,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "oyo-town-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.81292,
+        20.298434
+      ]
+    }
+  },
+  {
+    "name": "New Shankar International",
+    "lat": 19.800515,
+    "lon": 85.844958,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "new-shankar-international",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.844958,
+        19.800515
+      ]
+    }
+  },
+  {
+    "name": "Hotel Centre Park",
+    "lat": 19.906115,
+    "lon": 83.164595,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-centre-park",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.164595,
+        19.906115
+      ]
+    }
+  },
+  {
+    "name": "Hotel Royal Midtown",
+    "lat": 19.909028,
+    "lon": 83.169859,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-royal-midtown",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.169859,
+        19.909028
+      ]
+    }
+  },
+  {
+    "name": "Rockdale",
+    "lat": 17.716364,
+    "lon": 83.308347,
+    "source": "osm",
+    "category": "other",
+    "city": "Visakhapatnam",
+    "hotel_id": "rockdale-visakhapatnam",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.308347,
+        17.716364
+      ]
+    }
+  },
+  {
+    "name": "Four Points by Sheraton",
+    "lat": 17.720888,
+    "lon": 83.312397,
+    "source": "osm",
+    "category": "other",
+    "city": "Visakhapatnam",
+    "hotel_id": "four-points-by-sheraton-visakhapatnam",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.312397,
+        17.720888
+      ]
+    }
+  },
+  {
+    "name": "Green Park",
+    "lat": 17.715375,
+    "lon": 83.306264,
+    "source": "osm",
+    "category": "other",
+    "city": "Visakhapatnam",
+    "hotel_id": "green-park-visakhapatnam",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.306264,
+        17.715375
+      ]
+    }
+  },
+  {
+    "name": "Royal Fort",
+    "lat": 17.723132,
+    "lon": 83.309375,
+    "source": "osm",
+    "category": "other",
+    "city": "Visakhapatnam",
+    "hotel_id": "royal-fort-visakhapatnam",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.309375,
+        17.723132
+      ]
+    }
+  },
+  {
+    "name": "Meghalaya",
+    "lat": 17.723369,
+    "lon": 83.309713,
+    "source": "osm",
+    "category": "other",
+    "city": "Visakhapatnam",
+    "hotel_id": "meghalaya-visakhapatnam",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.309713,
+        17.723369
+      ]
+    }
+  },
+  {
+    "name": "Ambica Sea Green",
+    "lat": 17.718696,
+    "lon": 83.331216,
+    "source": "osm",
+    "category": "other",
+    "city": "Visakhapatnam",
+    "hotel_id": "ambica-sea-green-visakhapatnam",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.331216,
+        17.718696
+      ]
+    }
+  },
+  {
+    "name": "anupamsworld guest house",
+    "lat": 22.205107,
+    "lon": 87.259043,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "anupamsworld-guest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        87.259043,
+        22.205107
+      ]
+    }
+  },
+  {
+    "name": "New Executive hostel",
+    "lat": 22.092986,
+    "lon": 82.18012,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "new-executive-hostel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.18012,
+        22.092986
+      ]
+    }
+  },
+  {
+    "name": "Adhikaari Niwas",
+    "lat": 22.092723,
+    "lon": 82.180072,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "adhikaari-niwas",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.180072,
+        22.092723
+      ]
+    }
+  },
+  {
+    "name": "Hotel Maa Mangala",
+    "lat": 20.393823,
+    "lon": 85.826368,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-maa-mangala",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.826368,
+        20.393823
+      ]
+    }
+  },
+  {
+    "name": "Hotel Zoo park",
+    "lat": 20.393279,
+    "lon": 85.826419,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-zoo-park",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.826419,
+        20.393279
+      ]
+    }
+  },
+  {
+    "name": "The Biryani House",
+    "lat": 20.393343,
+    "lon": 85.826092,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "the-biryani-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.826092,
+        20.393343
+      ]
+    }
+  },
+  {
+    "name": "Tiffin box",
+    "lat": 20.379361,
+    "lon": 85.824842,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "tiffin-box",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.824842,
+        20.379361
+      ]
+    }
+  },
+  {
+    "name": "Jyostna",
+    "lat": 20.37611,
+    "lon": 85.823983,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "jyostna",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.823983,
+        20.37611
+      ]
+    }
+  },
+  {
+    "name": "Maa Sarala Hotel",
+    "lat": 20.380926,
+    "lon": 85.824725,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "maa-sarala-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.824725,
+        20.380926
+      ]
+    }
+  },
+  {
+    "name": "Mandap Pravelion",
+    "lat": 20.382074,
+    "lon": 85.826322,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "mandap-pravelion",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.826322,
+        20.382074
+      ]
+    }
+  },
+  {
+    "name": "मधुबन लॉज",
+    "lat": 18.891116,
+    "lon": 81.349782,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "मध-बन-ल-ज",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.349782,
+        18.891116
+      ]
+    }
+  },
+  {
+    "name": "Triveni MCL Guest House, Bandhbahal",
+    "lat": 21.755712,
+    "lon": 83.868091,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "triveni-mcl-guest-house-bandhbahal",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.868091,
+        21.755712
+      ]
+    }
+  },
+  {
+    "name": "Hotel Orbit",
+    "lat": 22.42247,
+    "lon": 87.308809,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-orbit",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        87.308809,
+        22.42247
+      ]
+    }
+  },
+  {
+    "name": "Chitrakote Homestay",
+    "lat": 19.203366,
+    "lon": 81.70711,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "chitrakote-homestay",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.70711,
+        19.203366
+      ]
+    }
+  },
+  {
+    "name": "Hotel Alishan Palace",
+    "lat": 20.473605,
+    "lon": 82.924472,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-alishan-palace",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.924472,
+        20.473605
+      ]
+    }
+  },
+  {
+    "name": "Govt official guest house",
+    "lat": 21.534066,
+    "lon": 86.53048,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "govt-official-guest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.53048,
+        21.534066
+      ]
+    }
+  },
+  {
+    "name": "SVA Hotel Grand",
+    "lat": 18.299611,
+    "lon": 83.904442,
+    "source": "osm",
+    "category": "other",
+    "city": "Srikakulam",
+    "hotel_id": "sva-hotel-grand-srikakulam",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.904442,
+        18.299611
+      ]
+    }
+  },
+  {
+    "name": "Varam Residency",
+    "lat": 18.30559,
+    "lon": 83.894547,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "varam-residency",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.894547,
+        18.30559
+      ]
+    }
+  },
+  {
+    "name": "Venus Vegetarian Meals",
+    "lat": 18.295027,
+    "lon": 83.894719,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "venus-vegetarian-meals",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.894719,
+        18.295027
+      ]
+    }
+  },
+  {
+    "name": "न्यू भगत लॉज, पुराना बस स्टेन्ड, बिलासपुर",
+    "lat": 22.075056,
+    "lon": 82.158223,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "न-य-भगत-ल-ज-प-र-न-बस-स-ट-न-ड-ब-ल-सप-र",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.158223,
+        22.075056
+      ]
+    }
+  },
+  {
+    "name": "NIFT Guest House",
+    "lat": 20.351824,
+    "lon": 85.8172,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "nift-guest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.8172,
+        20.351824
+      ]
+    }
+  },
+  {
+    "name": "Hotel Shakti Continental",
+    "lat": 20.840022,
+    "lon": 85.101459,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-shakti-continental",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.101459,
+        20.840022
+      ]
+    }
+  },
+  {
+    "name": "Hi In",
+    "lat": 17.736357,
+    "lon": 83.341077,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hi-in",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.341077,
+        17.736357
+      ]
+    }
+  },
+  {
+    "name": "Rajiv Gandhi University of Knowledge and Technology",
+    "lat": 18.287413,
+    "lon": 83.82563,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "rajiv-gandhi-university-of-knowledge-and-technology",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.82563,
+        18.287413
+      ]
+    }
+  },
+  {
+    "name": "hotel golden",
+    "lat": 21.991219,
+    "lon": 83.104399,
+    "source": "osm",
+    "category": "other",
+    "city": "Kharsia",
+    "hotel_id": "hotel-golden-kharsia",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.104399,
+        21.991219
+      ]
+    }
+  },
+  {
+    "name": "OYO 60899 V3 Comforts",
+    "lat": 17.807859,
+    "lon": 83.208096,
+    "source": "osm",
+    "category": "other",
+    "city": "visakhapatnam",
+    "hotel_id": "oyo-60899-v3-comforts-visakhapatnam",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.208096,
+        17.807859
+      ]
+    }
+  },
+  {
+    "name": "Vimsen Palace Hotel",
+    "lat": 20.945569,
+    "lon": 86.13689,
+    "source": "osm",
+    "category": "other",
+    "city": "Jajpur Road",
+    "hotel_id": "vimsen-palace-hotel-jajpur-road",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.13689,
+        20.945569
+      ]
+    }
+  },
+  {
+    "name": "Panchali Hotel",
+    "lat": 20.946175,
+    "lon": 86.137187,
+    "source": "osm",
+    "category": "other",
+    "city": "Jajpur Road",
+    "hotel_id": "panchali-hotel-jajpur-road",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.137187,
+        20.946175
+      ]
+    }
+  },
+  {
+    "name": "Hotel Sampark",
+    "lat": 21.072538,
+    "lon": 86.507326,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-sampark",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.507326,
+        21.072538
+      ]
+    }
+  },
+  {
+    "name": "Biswa Rent Service",
+    "lat": 21.483166,
+    "lon": 83.966451,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "biswa-rent-service",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.966451,
+        21.483166
+      ]
+    }
+  },
+  {
+    "name": "MCL Guest House",
+    "lat": 20.320297,
+    "lon": 85.826863,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "mcl-guest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.826863,
+        20.320297
+      ]
+    }
+  },
+  {
+    "name": "Geetamala Guest House",
+    "lat": 22.307232,
+    "lon": 87.304176,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "geetamala-guest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        87.304176,
+        22.307232
+      ]
+    }
+  },
+  {
+    "name": "TRANSIT HOUSE, BHARATPUR TOWNSHIP",
+    "lat": 20.923651,
+    "lon": 85.140013,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "transit-house-bharatpur-township",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.140013,
+        20.923651
+      ]
+    }
+  },
+  {
+    "name": "Hotel Trinity Grand",
+    "lat": 21.9043,
+    "lon": 83.375386,
+    "source": "osm",
+    "category": "other",
+    "city": "Raigarh",
+    "hotel_id": "hotel-trinity-grand-raigarh",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.375386,
+        21.9043
+      ]
+    }
+  },
+  {
+    "name": "Maa Bhagabati Lodge",
+    "lat": 20.261904,
+    "lon": 85.837292,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "maa-bhagabati-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.837292,
+        20.261904
+      ]
+    }
+  },
+  {
+    "name": "Sree Chakra Residency Hotel",
+    "lat": 20.262667,
+    "lon": 85.837791,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "sree-chakra-residency-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.837791,
+        20.262667
+      ]
+    }
+  },
+  {
+    "name": "Koli Lodge",
+    "lat": 20.263093,
+    "lon": 85.838656,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "koli-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.838656,
+        20.263093
+      ]
+    }
+  },
+  {
+    "name": "Hotel Tazz Odisha",
+    "lat": 20.26397,
+    "lon": 85.838726,
+    "source": "osm",
+    "category": "other",
+    "city": "bhubaneswar",
+    "hotel_id": "hotel-tazz-odisha-bhubaneswar",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.838726,
+        20.26397
+      ]
+    }
+  },
+  {
+    "name": "OYO The Pinnacle Home Stay",
+    "lat": 20.276649,
+    "lon": 85.818742,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "oyo-the-pinnacle-home-stay",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.818742,
+        20.276649
+      ]
+    }
+  },
+  {
+    "name": "NCN Lodge",
+    "lat": 17.9079,
+    "lon": 83.186173,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "ncn-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.186173,
+        17.9079
+      ]
+    }
+  },
+  {
+    "name": "Arya Palace",
+    "lat": 20.26402,
+    "lon": 85.838876,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "arya-palace",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.838876,
+        20.26402
+      ]
+    }
+  },
+  {
+    "name": "Hotel SVN Lake Palace",
+    "lat": 18.108531,
+    "lon": 83.400695,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-svn-lake-palace",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.400695,
+        18.108531
+      ]
+    }
+  },
+  {
+    "name": "Satyadeva Lodge",
+    "lat": 18.049641,
+    "lon": 82.036465,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "satyadeva-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.036465,
+        18.049641
+      ]
+    }
+  },
+  {
+    "name": "Rasool Lodge",
+    "lat": 18.050122,
+    "lon": 82.033571,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "rasool-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.033571,
+        18.050122
+      ]
+    }
+  },
+  {
+    "name": "Srinivasa Lodge",
+    "lat": 18.047116,
+    "lon": 82.032446,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "srinivasa-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.032446,
+        18.047116
+      ]
+    }
+  },
+  {
+    "name": "Burley Cottage",
+    "lat": 17.724955,
+    "lon": 83.317883,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "burley-cottage",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.317883,
+        17.724955
+      ]
+    }
+  },
+  {
+    "name": "Sri Lakshmi Lodge",
+    "lat": 17.743158,
+    "lon": 83.235134,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "sri-lakshmi-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.235134,
+        17.743158
+      ]
+    }
+  },
+  {
+    "name": "Treebo Trend King's Court",
+    "lat": 20.326223,
+    "lon": 85.818509,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "treebo-trend-king-s-court",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.818509,
+        20.326223
+      ]
+    }
+  },
+  {
+    "name": "Hotel Harita",
+    "lat": 17.719143,
+    "lon": 83.293002,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-harita",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.293002,
+        17.719143
+      ]
+    }
+  },
+  {
+    "name": "Hotel Swagath",
+    "lat": 19.170472,
+    "lon": 83.412289,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-swagath",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.412289,
+        19.170472
+      ]
+    }
+  },
+  {
+    "name": "Travellers Inn",
+    "lat": 19.803196,
+    "lon": 85.844603,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "travellers-inn",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.844603,
+        19.803196
+      ]
+    }
+  },
+  {
+    "name": "OYO Sindhura Guest House",
+    "lat": 17.739188,
+    "lon": 83.304904,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "oyo-sindhura-guest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.304904,
+        17.739188
+      ]
+    }
+  },
+  {
+    "name": "raju guest house",
+    "lat": 18.388298,
+    "lon": 83.877233,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "raju-guest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.877233,
+        18.388298
+      ]
+    }
+  },
+  {
+    "name": "Nest Guest House",
+    "lat": 20.241053,
+    "lon": 85.837194,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "nest-guest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.837194,
+        20.241053
+      ]
+    }
+  },
+  {
+    "name": "Savera Restaurant",
+    "lat": 17.724784,
+    "lon": 83.308507,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "savera-restaurant",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.308507,
+        17.724784
+      ]
+    }
+  },
+  {
+    "name": "Athidhi devo bava",
+    "lat": 17.731475,
+    "lon": 83.336484,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "athidhi-devo-bava",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.336484,
+        17.731475
+      ]
+    }
+  },
+  {
+    "name": "LOTUS PARADISE",
+    "lat": 19.17113,
+    "lon": 83.412703,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "lotus-paradise",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.412703,
+        19.17113
+      ]
+    }
+  },
+  {
+    "name": "IMPERIAL INN",
+    "lat": 18.707454,
+    "lon": 82.853082,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "imperial-inn",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.853082,
+        18.707454
+      ]
+    }
+  },
+  {
+    "name": "BALKRISHNA PALACE",
+    "lat": 18.865451,
+    "lon": 82.574351,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "balkrishna-palace",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.574351,
+        18.865451
+      ]
+    }
+  },
+  {
+    "name": "Hotel Lucky International",
+    "lat": 21.50051,
+    "lon": 86.930277,
+    "source": "osm",
+    "category": "other",
+    "city": "Balasore",
+    "hotel_id": "hotel-lucky-international-balasore",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.930277,
+        21.50051
+      ]
+    }
+  },
+  {
+    "name": "OYO 68763 Hotel Ananya Residency",
+    "lat": 21.504558,
+    "lon": 86.926961,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "oyo-68763-hotel-ananya-residency",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.926961,
+        21.504558
+      ]
+    }
+  },
+  {
+    "name": "OYO 81150 Hotel Tipsy",
+    "lat": 21.497185,
+    "lon": 86.921547,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "oyo-81150-hotel-tipsy",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.921547,
+        21.497185
+      ]
+    }
+  },
+  {
+    "name": "Royal Stay Inn",
+    "lat": 17.816982,
+    "lon": 83.206841,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "royal-stay-inn",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.206841,
+        17.816982
+      ]
+    }
+  },
+  {
+    "name": "Homes & Villas",
+    "lat": 19.16738,
+    "lon": 83.420999,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "homes-villas",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.420999,
+        19.16738
+      ]
+    }
+  },
+  {
+    "name": "Nana Hotel",
+    "lat": 18.702367,
+    "lon": 82.845763,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "nana-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.845763,
+        18.702367
+      ]
+    }
+  },
+  {
+    "name": "Hotel Aether",
+    "lat": 19.610763,
+    "lon": 84.668916,
+    "source": "osm",
+    "category": "other",
+    "city": "Asika",
+    "hotel_id": "hotel-aether-asika",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.668916,
+        19.610763
+      ]
+    }
+  },
+  {
+    "name": "Om Leisure Resort (Chilika) - Satapada",
+    "lat": 19.666356,
+    "lon": 85.442181,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "om-leisure-resort-chilika-satapada",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.442181,
+        19.666356
+      ]
+    }
+  },
+  {
+    "name": "Fabhotel Sagar Royale",
+    "lat": 20.278481,
+    "lon": 85.835602,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "fabhotel-sagar-royale",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.835602,
+        20.278481
+      ]
+    }
+  },
+  {
+    "name": "Lotus Eco Resort",
+    "lat": 19.857654,
+    "lon": 86.074829,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "lotus-eco-resort",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.074829,
+        19.857654
+      ]
+    }
+  },
+  {
+    "name": "Sri Venkateswara Lodge",
+    "lat": 18.10934,
+    "lon": 83.398326,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "sri-venkateswara-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.398326,
+        18.10934
+      ]
+    }
+  },
+  {
+    "name": "LVR Lodge",
+    "lat": 18.109326,
+    "lon": 83.398376,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "lvr-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.398376,
+        18.109326
+      ]
+    }
+  },
+  {
+    "name": "Sai Krupa Lodge",
+    "lat": 18.110799,
+    "lon": 83.397573,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "sai-krupa-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.397573,
+        18.110799
+      ]
+    }
+  },
+  {
+    "name": "Hotel Hindustan International (HHI)",
+    "lat": 20.273932,
+    "lon": 85.845571,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-hindustan-international-hhi",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.845571,
+        20.273932
+      ]
+    }
+  },
+  {
+    "name": "Ajay Hotel",
+    "lat": 17.75609,
+    "lon": 81.371143,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "ajay-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.371143,
+        17.75609
+      ]
+    }
+  },
+  {
+    "name": "Baba Hotel",
+    "lat": 17.757963,
+    "lon": 81.371272,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "baba-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.371272,
+        17.757963
+      ]
+    }
+  },
+  {
+    "name": "Krishna Tower",
+    "lat": 21.940813,
+    "lon": 86.728752,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "krishna-tower",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.728752,
+        21.940813
+      ]
+    }
+  },
+  {
+    "name": "Lemon Tree Premier",
+    "lat": 20.31156,
+    "lon": 85.816968,
+    "source": "osm",
+    "category": "other",
+    "city": "Bhubaneswar",
+    "hotel_id": "lemon-tree-premier-bhubaneswar",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.816968,
+        20.31156
+      ]
+    }
+  },
+  {
+    "name": "Hotel Sowbhagya",
+    "lat": 17.718956,
+    "lon": 83.306097,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-sowbhagya",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.306097,
+        17.718956
+      ]
+    }
+  },
+  {
+    "name": "m p p house",
+    "lat": 18.495596,
+    "lon": 83.278994,
+    "source": "osm",
+    "category": "other",
+    "city": "Ramabhadrapuram",
+    "hotel_id": "m-p-p-house-ramabhadrapuram",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.278994,
+        18.495596
+      ]
+    }
+  },
+  {
+    "name": "rest house",
+    "lat": 20.803037,
+    "lon": 82.20633,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "rest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.20633,
+        20.803037
+      ]
+    }
+  },
+  {
+    "name": "Signature Hotels",
+    "lat": 17.716265,
+    "lon": 83.203552,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "signature-hotels",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.203552,
+        17.716265
+      ]
+    }
+  },
+  {
+    "name": "Vani Lodge",
+    "lat": 17.712313,
+    "lon": 83.297353,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "vani-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.297353,
+        17.712313
+      ]
+    }
+  },
+  {
+    "name": "Hotel Wonderful Inn",
+    "lat": 17.712611,
+    "lon": 83.297069,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-wonderful-inn",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.297069,
+        17.712611
+      ]
+    }
+  },
+  {
+    "name": "Hotel Taj Mahal",
+    "lat": 17.712512,
+    "lon": 83.298162,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-taj-mahal",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.298162,
+        17.712512
+      ]
+    }
+  },
+  {
+    "name": "My Room Luxury Stay",
+    "lat": 17.741122,
+    "lon": 83.327185,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "my-room-luxury-stay",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.327185,
+        17.741122
+      ]
+    }
+  },
+  {
+    "name": "Guest House",
+    "lat": 17.74165,
+    "lon": 83.327344,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "guest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.327344,
+        17.74165
+      ]
+    }
+  },
+  {
+    "name": "Sun Residency",
+    "lat": 18.304409,
+    "lon": 83.876516,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "sun-residency",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.876516,
+        18.304409
+      ]
+    }
+  },
+  {
+    "name": "Sri SNK Grand",
+    "lat": 17.808324,
+    "lon": 83.208644,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "sri-snk-grand",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.208644,
+        17.808324
+      ]
+    }
+  },
+  {
+    "name": "Hotel Square Inn",
+    "lat": 17.746735,
+    "lon": 83.331673,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-square-inn",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.331673,
+        17.746735
+      ]
+    }
+  },
+  {
+    "name": "Sai Jutika Grand Lodge",
+    "lat": 17.716143,
+    "lon": 83.293499,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "sai-jutika-grand-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.293499,
+        17.716143
+      ]
+    }
+  },
+  {
+    "name": "KNR Residency",
+    "lat": 17.719607,
+    "lon": 83.293883,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "knr-residency",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.293883,
+        17.719607
+      ]
+    }
+  },
+  {
+    "name": "Hotel Golden Tulip",
+    "lat": 17.719782,
+    "lon": 83.302702,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-golden-tulip",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.302702,
+        17.719782
+      ]
+    }
+  },
+  {
+    "name": "North Way Hotel",
+    "lat": 17.718278,
+    "lon": 83.302437,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "north-way-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.302437,
+        17.718278
+      ]
+    }
+  },
+  {
+    "name": "Hotel Akshara",
+    "lat": 17.728021,
+    "lon": 83.293121,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-akshara",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.293121,
+        17.728021
+      ]
+    }
+  },
+  {
+    "name": "Archaeological Survey of India (New Guest House)",
+    "lat": 20.484859,
+    "lon": 85.862436,
+    "source": "osm",
+    "category": "other",
+    "city": "Biju Patnaik Colony",
+    "hotel_id": "archaeological-survey-of-india-new-guest-house-biju-patnaik-",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.862436,
+        20.484859
+      ]
+    }
+  },
+  {
+    "name": "Spectrum Hotel",
+    "lat": 19.312397,
+    "lon": 84.790347,
+    "source": "osm",
+    "category": "other",
+    "city": "Berhampur",
+    "hotel_id": "spectrum-hotel-berhampur",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.790347,
+        19.312397
+      ]
+    }
+  },
+  {
+    "name": "Keerthi Residency",
+    "lat": 17.735358,
+    "lon": 83.320724,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "keerthi-residency",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.320724,
+        17.735358
+      ]
+    }
+  },
+  {
+    "name": "Hotel Ambica Grand",
+    "lat": 17.734779,
+    "lon": 83.31554,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-ambica-grand",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.31554,
+        17.734779
+      ]
+    }
+  },
+  {
+    "name": "Hotel Vytla Residency",
+    "lat": 18.10762,
+    "lon": 83.39756,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-vytla-residency",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.39756,
+        18.10762
+      ]
+    }
+  },
+  {
+    "name": "Woodland Hotel",
+    "lat": 18.107696,
+    "lon": 83.397113,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "woodland-hotel",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.397113,
+        18.107696
+      ]
+    }
+  },
+  {
+    "name": "Hotel Lata Grand",
+    "lat": 17.724444,
+    "lon": 83.313494,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-lata-grand",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.313494,
+        17.724444
+      ]
+    }
+  },
+  {
+    "name": "Bobbili guesthouse",
+    "lat": 18.558897,
+    "lon": 83.342295,
+    "source": "osm",
+    "category": "other",
+    "city": "Bobbili",
+    "hotel_id": "bobbili-guesthouse-bobbili",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.342295,
+        18.558897
+      ]
+    }
+  },
+  {
+    "name": "Wing house",
+    "lat": 18.573297,
+    "lon": 83.354335,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "wing-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.354335,
+        18.573297
+      ]
+    }
+  },
+  {
+    "name": "Guntur Mess",
+    "lat": 18.489166,
+    "lon": 83.282829,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "guntur-mess",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.282829,
+        18.489166
+      ]
+    }
+  },
+  {
+    "name": "SVR Gopal Residency",
+    "lat": 18.103281,
+    "lon": 83.400719,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "svr-gopal-residency",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.400719,
+        18.103281
+      ]
+    }
+  },
+  {
+    "name": "Hotel Skml",
+    "lat": 18.115751,
+    "lon": 83.41047,
+    "source": "osm",
+    "category": "other",
+    "city": "Vizianagaram",
+    "hotel_id": "hotel-skml-vizianagaram",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.41047,
+        18.115751
+      ]
+    }
+  },
+  {
+    "name": "Blue Earth",
+    "lat": 18.107796,
+    "lon": 83.396338,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "blue-earth",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.396338,
+        18.107796
+      ]
+    }
+  },
+  {
+    "name": "Hotel Shakuntala Nivas",
+    "lat": 21.410689,
+    "lon": 86.730462,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-shakuntala-nivas",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.730462,
+        21.410689
+      ]
+    }
+  },
+  {
+    "name": "Sri Gobinda Yatri Nivas",
+    "lat": 21.410928,
+    "lon": 86.729128,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "sri-gobinda-yatri-nivas",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.729128,
+        21.410928
+      ]
+    }
+  },
+  {
+    "name": "The Nirvana Palace",
+    "lat": 21.408683,
+    "lon": 86.735625,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "the-nirvana-palace",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.735625,
+        21.408683
+      ]
+    }
+  },
+  {
+    "name": "Hotel Nirupama",
+    "lat": 21.409549,
+    "lon": 86.726108,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-nirupama",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.726108,
+        21.409549
+      ]
+    }
+  },
+  {
+    "name": "Hotel Royal Hill&ludge",
+    "lat": 21.409114,
+    "lon": 86.736928,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-royal-hill-ludge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.736928,
+        21.409114
+      ]
+    }
+  },
+  {
+    "name": "Mahendra niwas(Hotel & Restaurant)\nPanchalingswar",
+    "lat": 21.409335,
+    "lon": 86.733349,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "mahendra-niwas-hotel-restaurant-panchalingswar",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.733349,
+        21.409335
+      ]
+    }
+  },
+  {
+    "name": "Pravashini Nivas",
+    "lat": 21.40709,
+    "lon": 86.740628,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "pravashini-nivas",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.740628,
+        21.40709
+      ]
+    }
+  },
+  {
+    "name": "MOUNTAIN TRAIL",
+    "lat": 21.406937,
+    "lon": 86.742584,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "mountain-trail",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.742584,
+        21.406937
+      ]
+    }
+  },
+  {
+    "name": "Panthasala (KR Resorts), Panchalingeswar",
+    "lat": 21.41117,
+    "lon": 86.730891,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "panthasala-kr-resorts-panchalingeswar",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.730891,
+        21.41117
+      ]
+    }
+  },
+  {
+    "name": "Madhusudan Nivas",
+    "lat": 21.409055,
+    "lon": 86.735425,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "madhusudan-nivas",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.735425,
+        21.409055
+      ]
+    }
+  },
+  {
+    "name": "Hotel Holistic blue",
+    "lat": 21.410592,
+    "lon": 86.733226,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-holistic-blue",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.733226,
+        21.410592
+      ]
+    }
+  },
+  {
+    "name": "Siva rama lodge",
+    "lat": 18.764214,
+    "lon": 84.419181,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "siva-rama-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        84.419181,
+        18.764214
+      ]
+    }
+  },
+  {
+    "name": "Hotel Rohit Rohini",
+    "lat": 19.793983,
+    "lon": 85.811921,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-rohit-rohini",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.811921,
+        19.793983
+      ]
+    }
+  },
+  {
+    "name": "Adritra Guest House",
+    "lat": 19.795792,
+    "lon": 85.813688,
+    "source": "osm",
+    "category": "other",
+    "city": "Puri",
+    "hotel_id": "adritra-guest-house-puri",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.813688,
+        19.795792
+      ]
+    }
+  },
+  {
+    "name": "Hotel Geetha Inn",
+    "lat": 17.726181,
+    "lon": 83.30141,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-geetha-inn",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.30141,
+        17.726181
+      ]
+    }
+  },
+  {
+    "name": "Hotel Simhadri Lodge",
+    "lat": 17.725924,
+    "lon": 83.301414,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-simhadri-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.301414,
+        17.725924
+      ]
+    }
+  },
+  {
+    "name": "Lakshmi Residency",
+    "lat": 17.726545,
+    "lon": 83.301674,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "lakshmi-residency",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.301674,
+        17.726545
+      ]
+    }
+  },
+  {
+    "name": "RR Inn Lodge",
+    "lat": 17.726414,
+    "lon": 83.299018,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "rr-inn-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.299018,
+        17.726414
+      ]
+    }
+  },
+  {
+    "name": "Roxy GKR",
+    "lat": 20.294501,
+    "lon": 85.826485,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "roxy-gkr",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.826485,
+        20.294501
+      ]
+    }
+  },
+  {
+    "name": "Sri Srinivasa Guest House",
+    "lat": 17.716226,
+    "lon": 83.303977,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "sri-srinivasa-guest-house",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.303977,
+        17.716226
+      ]
+    }
+  },
+  {
+    "name": "Hotel Ocean Spice",
+    "lat": 17.743282,
+    "lon": 83.344301,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-ocean-spice",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.344301,
+        17.743282
+      ]
+    }
+  },
+  {
+    "name": "Raj",
+    "lat": 21.628423,
+    "lon": 82.180922,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "raj",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.180922,
+        21.628423
+      ]
+    }
+  },
+  {
+    "name": "Hotel New Prince",
+    "lat": 17.715236,
+    "lon": 83.299785,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-new-prince",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.299785,
+        17.715236
+      ]
+    }
+  },
+  {
+    "name": "Hotel Rajdhani",
+    "lat": 17.715321,
+    "lon": 83.299555,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-rajdhani",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.299555,
+        17.715321
+      ]
+    }
+  },
+  {
+    "name": "Sree Surya Residency",
+    "lat": 17.71565,
+    "lon": 83.299311,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "sree-surya-residency",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.299311,
+        17.71565
+      ]
+    }
+  },
+  {
+    "name": "Hotel Sai Central",
+    "lat": 17.715208,
+    "lon": 83.300695,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-sai-central",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.300695,
+        17.715208
+      ]
+    }
+  },
+  {
+    "name": "Hotel Sinka Grand",
+    "lat": 17.727848,
+    "lon": 83.296902,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "hotel-sinka-grand",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.296902,
+        17.727848
+      ]
+    }
+  },
+  {
+    "name": "Guest house of SCGM",
+    "lat": 19.808504,
+    "lon": 85.821913,
+    "source": "osm",
+    "category": "other",
+    "city": "Puri",
+    "hotel_id": "guest-house-of-scgm-puri",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.821913,
+        19.808504
+      ]
+    }
+  },
+  {
+    "name": "Gour Govinda Swami ashram guesthouse",
+    "lat": 19.791836,
+    "lon": 85.802801,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "gour-govinda-swami-ashram-guesthouse",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.802801,
+        19.791836
+      ]
+    }
+  },
+  {
+    "name": "Sri Srirup Siddhanti Gaudiya Sevashram",
+    "lat": 19.79409,
+    "lon": 85.811709,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "sri-srirup-siddhanti-gaudiya-sevashram",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.811709,
+        19.79409
+      ]
+    }
+  },
+  {
+    "name": "Vizvit Lodge",
+    "lat": 17.896793,
+    "lon": 83.185516,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "vizvit-lodge",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.185516,
+        17.896793
+      ]
+    }
+  },
+  {
+    "name": "Hotel Sukadev Homes",
+    "lat": 19.809948,
+    "lon": 85.826781,
+    "source": "osm",
+    "category": "other",
+    "city": "Puri",
+    "hotel_id": "hotel-sukadev-homes-puri",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.826781,
+        19.809948
+      ]
+    }
+  },
+  {
+    "name": "Hotel Bishnu Bhaban",
+    "lat": 19.804005,
+    "lon": 85.816716,
+    "source": "osm",
+    "category": "other",
+    "city": "Puri",
+    "hotel_id": "hotel-bishnu-bhaban-puri",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.816716,
+        19.804005
+      ]
+    }
+  },
+  {
+    "name": "OYO Flagship Hotel Gayatri",
+    "lat": 17.715162,
+    "lon": 83.308564,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "oyo-flagship-hotel-gayatri",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.308564,
+        17.715162
+      ]
+    }
+  },
+  {
+    "name": "The Royal Comforts",
+    "lat": 17.737626,
+    "lon": 83.327881,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "the-royal-comforts",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.327881,
+        17.737626
+      ]
+    }
+  },
+  {
+    "name": "Shree ji inn",
+    "lat": 21.229034,
+    "lon": 81.609125,
+    "source": "osm",
+    "category": "other",
+    "hotel_id": "shree-ji-inn",
+    "category_raw": "hotel",
+    "tags": [
+      "other",
+      "osm"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.609125,
+        21.229034
+      ]
+    }
+  }
+]

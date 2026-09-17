@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "route-bhubaneswar-to-puri",
+    "from_place": "Bhubaneswar",
+    "to_place": "Puri",
+    "distance_km_approx": 60,
+    "duration_minutes_approx": 90,
+    "mode": "road",
+    "notes": "Approximate figures for MVP display only. Real distance/duration will be computed via OpenRouteService/OSRM in a later week.",
+    "demo_data": true
+  },
+  {
+    "slug": "route-puri-to-konark",
+    "from_place": "Puri",
+    "to_place": "Konark",
+    "distance_km_approx": 35,
+    "duration_minutes_approx": 55,
+    "mode": "road",
+    "notes": "Approximate figures for MVP display only. Real distance/duration will be computed via OpenRouteService/OSRM in a later week.",
+    "demo_data": true
+  },
+  {
+    "slug": "route-bhubaneswar-to-konark",
+    "from_place": "Bhubaneswar",
+    "to_place": "Konark",
+    "distance_km_approx": 65,
+    "duration_minutes_approx": 100,
+    "mode": "road",
+    "notes": "Approximate figures for MVP display only. Real distance/duration will be computed via OpenRouteService/OSRM in a later week.",
+    "demo_data": true
+  },
+  {
+    "slug": "route-bhubaneswar-to-chilika",
+    "from_place": "Bhubaneswar",
+    "to_place": "Chilika",
+    "distance_km_approx": 55,
+    "duration_minutes_approx": 85,
+    "mode": "road",
+    "notes": "Approximate figures for MVP display only. Real distance/duration will be computed via OpenRouteService/OSRM in a later week.",
+    "demo_data": true
+  },
+  {
+    "slug": "route-bhubaneswar-to-similipal",
+    "from_place": "Bhubaneswar",
+    "to_place": "Similipal",
+    "distance_km_approx": 260,
+    "duration_minutes_approx": 360,
+    "mode": "road",
+    "notes": "Approximate figures for MVP display only. Real distance/duration will be computed via OpenRouteService/OSRM in a later week.",
+    "demo_data": true
+  }
+]

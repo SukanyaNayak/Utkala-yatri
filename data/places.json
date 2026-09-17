@@ -538,7 +538,9 @@
         86.699851,
         20.735061
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Rajkanika_Rajabati.jpg/960px-Rajkanika_Rajabati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_source": "manual_commons"
   },
   {
     "name": "Gajlaxmi palace",
@@ -5090,6 +5092,8 @@
         83.869,
         21.528
       ]
-    }
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Hirakud_Dam_Panorama_%28cropped%29.jpg/960px-Hirakud_Dam_Panorama_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_source": "manual_commons"
   }
 ]

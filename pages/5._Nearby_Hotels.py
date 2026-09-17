@@ -52,6 +52,11 @@ for i, h in enumerate(hotels[:24]):
     with cols[i % 3], st.container(border=True):
         price = h.get("price") or h.get("price_range_inr") or "Price N/A"
         st.markdown(f"**🏨 {h['name'][:40]}**")
+        if h.get("image"):
+            try:
+                st.image(h["image"], use_container_width=True)
+            except Exception:
+                pass
         st.caption(f"{h.get('city') or 'Odisha'} · {h['distance_km']} km from "
                    f"{base['name'][:20]}")
         st.write(f"💰 {price}"
