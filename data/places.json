@@ -5095,5 +5095,30 @@
     },
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Hirakud_Dam_Panorama_%28cropped%29.jpg/960px-Hirakud_Dam_Panorama_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "image_source": "manual_commons"
+  },
+  {
+    "place_id": "biraja-temple",
+    "name": "Biraja Temple",
+    "city": "Jajpur town",
+    "district": "Jajpur",
+    "lat": 20.833764,
+    "lon": 86.338144,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        86.338144,
+        20.833764
+      ]
+    },
+    "category": "temple",
+    "description": "It is one of the most sacred Shakti Pethas in India.Tradition says the navel of Goddess Sati fell here.",
+    "source": "curated",
+    "tags": [
+      "temple",
+      "curated",
+      "hidden-gem"
+    ],
+    "best_time": "October to March",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Front_view_from_left_side_of_Viraja%28also_named_as_Biraja%29_Temple_as_per_list_of_State_Protected_Monuments_in_Odisha._Serial_Number_S-OR-105.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
   }
 ]
