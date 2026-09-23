@@ -4,11 +4,13 @@ import streamlit as st
 from streamlit_folium import st_folium
 
 from services import hotel_service, place_service
+from utils.i18n import t, language_picker
 
 st.set_page_config(page_title="Nearby Hotels · UtkalaYatri", page_icon="🏨",
                    layout="wide")
+language_picker()
 
-st.title("🏨 Nearby Hotels")
+st.title(t("hotels_title"))
 st.caption("Real hotels across Odisha, ranked by distance from anywhere you're "
            "exploring.")
 
@@ -17,15 +19,16 @@ curated = [p for p in places if p.get("source") == "curated"] or places
 label = lambda p: f"{p['name']} ({p.get('city', '')})"
 
 c1, c2, c3 = st.columns([2, 1, 1])
-base = c1.selectbox("Hotels near", curated, format_func=label)
-radius = c2.slider("Search radius (km)", 5, 100, 25, step=5)
+base = c1.selectbox(t("hotels_near"), curated, format_func=label)
+radius = c2.slider(t("radius"), 5, 100, 25, step=5)
 band = c3.selectbox("Price band", ["All", "budget", "mid", "premium"])
 
 hotels = hotel_service.get_hotels_near(base["lat"], base["lon"],
                                        radius_km=radius, limit=40)
 if band != "All":
     hotels = [h for h in hotels
-              if hotel_service.price_band(h.get("price", h.get("price_range_inr", ""))) == band]
+              if hotel_service.price_band(
+                  h.get("price") or h.get("price_range_inr") or "") == band]
 
 st.success(f"📍 **{base['name']}** — {len(hotels)} hotel(s) within {radius} km")
 
@@ -65,7 +68,7 @@ for i, h in enumerate(hotels[:24]):
         if notes:
             st.write(notes[:100] + ("…" if len(notes) > 100 else ""))
         if h.get("tags"):
-            st.caption(" ".join(f"`#{t}`" for t in h["tags"][:4]))
+            st.caption(" ".join(f"`#{tag}`" for tag in h["tags"][:4]))
 
 if not hotels:
     st.info("No hotels in this radius — widen the search or pick another place.")

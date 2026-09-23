@@ -4,13 +4,17 @@ import streamlit as st
 from streamlit_folium import st_folium
 
 from services import place_service
+from services.translate_service import localized_text
+from utils.i18n import t, language_picker
 
 st.set_page_config(page_title="Hidden Gems · UtkalaYatri", page_icon="💎",
                    layout="wide")
+language_picker()
 
+ss = st.session_state
 GEM_TAGS = {"hidden-gem", "hidden_gem", "offbeat", "lesser-known", "gem"}
 
-st.title("💎 Hidden Gems of Odisha")
+st.title(t("gems_title"))
 st.caption("Beyond the guidebooks — waterfalls, tribal heritage, eco-stays and "
            "quiet beaches most tourists never find.")
 
@@ -20,19 +24,13 @@ places = place_service.get_all_places()
 def is_gem(p: dict) -> bool:
     if p.get("is_hidden_gem"):
         return True
-    tags = {str(t).lower() for t in p.get("tags", [])}
+    tags = {str(tag).lower() for tag in p.get("tags", [])}
     return bool(tags & GEM_TAGS)
 
 
 gems = [p for p in places if is_gem(p)]
 # a gem without a story isn't a gem card — drop it (quality over quantity)
 gems = [p for p in gems if (p.get("description") or "").strip()]
-# curated offbeat entries (Daringbadi, Mangalajodi, Chilika…) carry tags;
-# fall back to low-traffic categories if tagging is sparse
-if len(gems) < 5:
-    gems = [p for p in places
-            if p.get("category") in ("nature", "wildlife")
-            and (p.get("description") or "").strip()]
 # curated stories first — they're the real gems
 gems.sort(key=lambda p: 0 if p.get("source") == "curated" else 1)
 
@@ -47,7 +45,6 @@ if query:
 
 # ---- map ----
 m = folium.Map(location=[20.1, 84.5], zoom_start=7, tiles="OpenStreetMap")
-gem_icon = {"heritage": "🏰", "nature": "🌿", "wildlife": "🐅", "beach": "🐚"}
 for p in gems:
     folium.Marker([p["lat"], p["lon"]],
                   tooltip=f"💎 {p['name']}",
@@ -69,10 +66,14 @@ for i in range(0, len(gems), 2):
             st.caption(f"{p.get('city') or p.get('district') or 'Odisha'} · "
                        f"{p.get('category', '')}")
             if p.get("description"):
-                st.write(p["description"])
+                text, was_translated = localized_text(p["description"],
+                                                      ss.get("lang", "en"))
+                st.write(text)
+                if was_translated:
+                    st.caption("🌐 AI-translated")
             if p.get("insider_tip"):
                 st.info(f"🗝️ {p['insider_tip']}")
             if p.get("best_time"):
                 st.info(f"🗓️ Best time: **{p['best_time']}**")
             if p.get("tags"):
-                st.caption(" ".join(f"`#{t}`" for t in p["tags"][:6]))
+                st.caption(" ".join(f"`#{tag}`" for tag in p["tags"][:6]))

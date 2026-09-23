@@ -1,15 +1,19 @@
 """Place Explorer - search, interactive map, click-to-select, details view."""
+from services.translate_service import localized_text
 import folium
 import streamlit as st
 from streamlit_folium import st_folium
 
 from services import gemini_service, place_service
+from utils.i18n import t, language_picker
 
 st.set_page_config(
     page_title="Explore Places - UtkalaYatri",
-    page_icon="[map]",
+    page_icon="🗺️",
     layout="wide",
 )
+
+language_picker()   # must come AFTER st.set_page_config
 
 ODISHA_CENTER = [20.35, 85.30]
 PAGE_SIZE = 24
@@ -24,6 +28,7 @@ def chip(text: str, color: str) -> str:
             f"border:1px solid {color}55;border-radius:12px;padding:2px 10px;"
             f"font-size:12px;margin:0 4px 4px 0;display:inline-block'>{text}</span>")
 
+
 def render_details(place: dict) -> None:
     emoji, color = place_service.category_meta(place.get("category"))
     with st.container(border=True):
@@ -35,9 +40,15 @@ def render_details(place: dict) -> None:
                 f"{place.get('category', 'other')}"
             )
             if place.get("best_time"):
-                st.info(f"Best time to visit: {place['best_time']}")
+                st.info(f"🗓️ {t('best_time')}: **{place['best_time']}**")
+            if place.get("insider_tip"):
+                st.info(f"🗝️ **{t('insider_tip')}:** {place['insider_tip']}")
             if place.get("description"):
-                st.write(place["description"])
+                text, was_translated = localized_text(
+                    place["description"], ss.get("lang", "en"))
+                st.write(text)
+                if was_translated:
+                    st.caption("🌐 AI-translated")
             if place.get("tags"):
                 clean_tags = [
                     tag for tag in place.get("tags", [])
@@ -52,7 +63,7 @@ def render_details(place: dict) -> None:
 
             # --- AI Insights ---
             ai_key = f"ai_{place['place_id']}"
-            if st.button("✨ AI Insights", type="primary"):
+            if st.button(t("ai_insights"), type="primary"):
                 if not gemini_service.is_configured():
                     st.warning(gemini_service.config_error()
                                or "Gemini unavailable.")
@@ -88,6 +99,9 @@ def render_details(place: dict) -> None:
                     unsafe_allow_html=True,
                 )
             st.metric("Coordinates", f"{place['lat']:.4f}, {place['lon']:.4f}")
+
+
+st.title(t("explore_title"))
 all_places = place_service.get_all_places()
 st.caption(
     f"{len(all_places)} places across Odisha - search, click the map, or open a card."
@@ -95,7 +109,7 @@ st.caption(
 
 c1, c2 = st.columns([2, 1])
 query = c1.text_input(
-    "Search",
+    t("search"),
     placeholder="temple, beach, Chilika, waterfall...",
     label_visibility="collapsed",
 )
@@ -106,7 +120,7 @@ counts = {
     for category in cats
 }
 category = c2.selectbox(
-    "Category",
+    t("category"),
     cats,
     format_func=lambda value: (
         f"All ({len(all_places)})" if value == "All"
@@ -153,7 +167,7 @@ if clicked and clicked != ss["_last_click"]:
         ss["selected_place_id"] = nearby[0]["place_id"]
         st.rerun()
 
-st.subheader(f"Places - {len(places)} result(s)")
+st.subheader(f"{t('explore_title')} - {len(places)} {t('results')}")
 if not places:
     st.info("No places match - try a different search or category.")
 
@@ -176,7 +190,13 @@ for index, place in enumerate(shown):
         )
         description = place.get("description") or ""
         if description:
-            st.write(description[:110] + ("..." if len(description) > 110 else ""))
-        if st.button("View details", key=f"view_{place['place_id']}"):
+            if len(shown) <= 30:                     # safe: ≤30 Gemini calls, cached
+                text, was_translated = localized_text(description, ss.get("lang", "en"))
+                st.write(text[:110] + ("..." if len(text) > 110 else ""))
+                if was_translated:
+                    st.caption("🌐")
+            else:                                    # "Show all" mode: keep English
+                st.write(description[:110] + ("..." if len(description) > 110 else ""))
+        if st.button(t("view_details"), key=f"view_{place['place_id']}"):
             ss["selected_place_id"] = place["place_id"]
             st.rerun()

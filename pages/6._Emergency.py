@@ -4,11 +4,13 @@ import streamlit as st
 from streamlit_folium import st_folium
 
 from services import hotel_service, place_service
+from utils.i18n import t, language_picker
 
 st.set_page_config(page_title="Emergency · UtkalaYatri", page_icon="🚨",
                    layout="wide")
+language_picker()
 
-st.title("🚨 Emergency Services")
+st.title(t("emergency_title"))
 st.markdown("### National helplines — work anywhere in India")
 hc = st.columns(4)
 helplines = [("112", "🆘 All-in-one emergency"), ("100", "👮 Police"),
@@ -47,10 +49,11 @@ if nearby:
             folium.Marker([e["lat"], e["lon"]], tooltip=f"{emoji} {e.get('name')}",
                           icon=folium.Icon(color=color)).add_to(m)
     st_folium(m, height=360, use_container_width=True)
+    st.caption("Facility data © OpenStreetMap contributors — coordinates may "
+               "be community-mapped; always call **112** in a real emergency.")
 else:
     st.warning("No facility coordinates in the data yet — the national "
-               "helplines above work everywhere. "
-               "*(Add lat/lon to emergency.json to enable the map.)*")
+               "helplines above work everywhere.")
 
 st.info("💾 Save this page before you travel. In an emergency call **112** — "
         "it routes to police, medical and fire services across Odisha.")

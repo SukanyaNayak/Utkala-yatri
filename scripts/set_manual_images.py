@@ -12,8 +12,8 @@ IMAGES = {
     "Deomali Peak" :"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Deomali_hill_top_Koraput_India.jpg/960px-Deomali_hill_top_Koraput_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "Hirakud Dam":"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Hirakud_Dam_Panorama_%28cropped%29.jpg/960px-Hirakud_Dam_Panorama_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "Tribal Museum Rourkela":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Tribal_Museum_Chiang_Mai_DSCN5454a.jpg/960px-Tribal_Museum_Chiang_Mai_DSCN5454a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "Kanika Palace":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Rajkanika_Rajabati.jpg/960px-Rajkanika_Rajabati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-
+    "Kanika Palace":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Rajkanika_Rajabati.jpg/960px-Rajkanika_Rajabati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "Bhitarkanika National Park":"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Bhitarkanika_National_Park_inside_pathway_.jpg/960px-Bhitarkanika_National_Park_inside_pathway_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
 }
 places = json.loads(FILE.read_text(encoding="utf-8"))
 print(f"{len(places)} places loaded, {len(IMAGES)} dict entries to apply\n")

@@ -11,9 +11,11 @@ from services.festival_service import (
     get_upcoming_festivals,
     search_festivals,
 )
+from utils.i18n import t, language_picker
 
 st.set_page_config(page_title="Festivals · UtkalaYatri", page_icon="🎪",
                    layout="wide")
+language_picker()
 
 ss = st.session_state
 ss.setdefault("fest_lang", "en")
@@ -42,15 +44,21 @@ def loc(f: dict, field: str) -> str:
     return block.get(ss["fest_lang"]) or block.get("en", "")
 
 
-st.title("🎪 Festivals of Odisha")
+st.title(t("festivals_title"))
 all_fest = get_all_festivals()
 
 # ---- language + quick stats ----
 this_month = date.today().month
 lc1, lc2, lc3, lc4 = st.columns([1, 1, 1, 2])
-ss["fest_lang"] = lc1.selectbox("Language", list(LANG_LABELS),
-                                format_func=lambda k: LANG_LABELS[k],
-                                label_visibility="collapsed")
+# festival content language: follows the UI language on first visit,
+# then user-selectable (manual override wins) — same pattern as chat
+if "fest_lang" not in ss:
+    ss["fest_lang"] = ss["lang"] if ss["lang"] in LANG_LABELS else "en"
+ss["fest_lang"] = lc1.selectbox(
+    t("lang"), list(LANG_LABELS),
+    index=list(LANG_LABELS).index(ss["fest_lang"])
+    if ss["fest_lang"] in LANG_LABELS else 0,
+    format_func=lambda k: LANG_LABELS[k], label_visibility="collapsed")
 lc2.metric("Festivals", len(all_fest))
 lc3.metric("In this month",
            sum(1 for f in all_fest
@@ -79,9 +87,9 @@ month_sel = c1.selectbox(
     "Month",
     ["All"] + [f"{i:02d} · {calendar.month_name[i]}" for i in range(1, 13)])
 cat_sel = c2.selectbox(
-    "Category",
+    t("category"),
     ["All"] + sorted({f.get("category", "other") for f in all_fest}))
-query = c3.text_input("Search", label_visibility="collapsed",
+query = c3.text_input(t("search"), label_visibility="collapsed",
                       placeholder="Search festival, city or tag…")
 
 festivals = search_festivals(query) if query else list(all_fest)
@@ -145,8 +153,8 @@ for i in range(0, len(festivals), 2):
                     if f.get("official_source"):
                         st.caption(f"[official source]({f['official_source']})")
             if f.get("tags"):
-                st.markdown("".join(chip(f"#{t}", color)
-                                    for t in f["tags"][:6]),
+                st.markdown("".join(chip(f"#{tag}", color)
+                                    for tag in f["tags"][:6]),
                             unsafe_allow_html=True)
 
 st.caption("Planning a trip? The 📅 Trip Planner automatically flags festivals "

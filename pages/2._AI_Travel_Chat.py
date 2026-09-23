@@ -1,12 +1,14 @@
 """AI Travel Chat — text & voice in, text & audio out. Grounded in app data."""
 import streamlit as st
-
 from services import chatbot_service, gemini_service
+from utils.i18n import t, language_picker
+
 from services.stt_service import transcribe
 from services.tts_service import detect_lang, synthesize
 
 st.set_page_config(page_title="AI Travel Chat · UtkalaYatri",
                    page_icon="🤖", layout="wide")
+language_picker()
 
 ss = st.session_state
 ss.setdefault("chat_history", [])
@@ -24,7 +26,7 @@ SUGGESTIONS = [
 LANG_LABELS = {"auto": "🌐 Auto", "en": "English", "hi": "हिन्दी", "or": "ଓଡ଼ିଆ"}
 
 
-def render_audio(text: str, key: str = "") -> None:
+def render_audio(text: str) -> None:
     """Audio player attached to the message, with an honest per-language note."""
     lang = detect_lang(text, ss["chat_lang"])
     audio = synthesize(text, lang)
@@ -37,15 +39,24 @@ def render_audio(text: str, key: str = "") -> None:
     else:
         st.caption("🔇 Audio temporarily unavailable — try again in a moment.")
 
-st.title("🤖 AI Travel Chat")
+
+st.title(t("chat_title"))
 st.caption("Your AI guide to Odisha — type or 🎙️ speak your question; toggle 🔊 "
            "to hear the replies.")
 
 ctl = st.columns([1, 1, 2])
+
+# Reply language: initialized from the UI language (first visit),
+# then user-selectable (manual override wins).
+if "chat_lang" not in ss:
+    ss["chat_lang"] = ss["lang"] if ss["lang"] in LANG_LABELS else "auto"
 ss["chat_lang"] = ctl[0].selectbox(
-    "Reply language", list(LANG_LABELS),
+    t("lang"), list(LANG_LABELS),
+    index=list(LANG_LABELS).index(ss["chat_lang"])
+    if ss["chat_lang"] in LANG_LABELS else 0,
     format_func=lambda k: LANG_LABELS[k], label_visibility="collapsed")
-if ctl[1].button("🗑️ Clear chat", use_container_width=True):
+
+if ctl[1].button(t("clear_chat"), use_container_width=True):
     ss["chat_history"] = []
     ss["tts_played"] = set()
     st.rerun()
@@ -79,8 +90,8 @@ for i, msg in enumerate(ss["chat_history"]):
         st.write(msg["content"])
         if msg["role"] == "assistant" and msg["content"]:
             if i in ss["tts_played"]:
-                render_audio(msg["content"], key=f"tts_{i}")
-            elif st.button("🔊 Listen", key=f"ttsbtn_{i}"):
+                render_audio(msg["content"])
+            elif st.button(t("listen"), key=f"ttsbtn_{i}"):
                 ss["tts_played"].add(i)
                 st.rerun()
 
@@ -94,7 +105,7 @@ if not ss["chat_history"]:
             ss["pending"] = text
             st.rerun()
 
-# ---- input + generation (input ALWAYS mounted every run) ----
+# ---- input + generation (chat_input ALWAYS mounted every run) ----
 chat_value = st.chat_input("Ask about places, festivals, trip plans…")
 user_msg = ss.pop("pending", None) or chat_value
 
@@ -119,8 +130,6 @@ if user_msg:
                          "(it may be busy) — please try again in a moment.")
                 st.warning(reply)
         if reply and ss["tts_enabled"]:
-            render_audio(reply, key=f"tts_new_{len(ss['chat_history'])}")
+            render_audio(reply)
 
     ss["chat_history"].append({"role": "assistant", "content": reply})
-    if reply and ss["tts_enabled"]:
-        ss["tts_played"].add(len(ss["chat_history"]) - 1)
