@@ -196,7 +196,8 @@
       "fort",
       "heritage",
       "history",
-      "curated"
+      "curated",
+      "hidden-gem"
     ],
     "best_time": "October to February",
     "place_id": "barabati-fort-cuttack",
@@ -222,7 +223,8 @@
       "hills",
       "nature",
       "cool-climate",
-      "curated"
+      "curated",
+      "hidden-gem"
     ],
     "best_time": "October to February",
     "place_id": "daringbadi-daringbadi",
@@ -623,7 +625,8 @@
     "category_raw": "archaeological site",
     "tags": [
       "heritage",
-      "wikidata"
+      "wikidata",
+      "hidden-gem"
     ],
     "location": {
       "type": "Point",
@@ -879,7 +882,8 @@
     "category_raw": "archaeological site",
     "tags": [
       "heritage",
-      "wikidata"
+      "wikidata",
+      "hidden-gem"
     ],
     "location": {
       "type": "Point",
@@ -1259,7 +1263,8 @@
     "category_raw": "waterfall",
     "tags": [
       "nature",
-      "wikidata"
+      "wikidata",
+      "hidden-gem"
     ],
     "location": {
       "type": "Point",
@@ -1330,7 +1335,8 @@
     "category_raw": "waterfall",
     "tags": [
       "nature",
-      "wikidata"
+      "wikidata",
+      "hidden-gem"
     ],
     "location": {
       "type": "Point",
@@ -1353,7 +1359,8 @@
     "category_raw": "waterfall",
     "tags": [
       "nature",
-      "wikidata"
+      "wikidata",
+      "hidden-gem"
     ],
     "location": {
       "type": "Point",
@@ -1376,7 +1383,8 @@
     "category_raw": "waterfall",
     "tags": [
       "nature",
-      "wikidata"
+      "wikidata",
+      "hidden-gem"
     ],
     "location": {
       "type": "Point",
@@ -1663,7 +1671,8 @@
     "category_raw": "waterfall",
     "tags": [
       "nature",
-      "wikidata"
+      "wikidata",
+      "hidden-gem"
     ],
     "location": {
       "type": "Point",
@@ -1711,7 +1720,8 @@
     "category_raw": "beach",
     "tags": [
       "beach",
-      "wikidata"
+      "wikidata",
+      "hidden-gem"
     ],
     "location": {
       "type": "Point",
@@ -1813,7 +1823,8 @@
     "category_raw": "national park",
     "tags": [
       "wildlife",
-      "wikidata"
+      "wikidata",
+      "hidden-gem"
     ],
     "location": {
       "type": "Point",
@@ -2666,7 +2677,8 @@
     "category_raw": "Viewpoint",
     "tags": [
       "nature",
-      "osm"
+      "osm",
+      "hidden-gem"
     ],
     "location": {
       "type": "Point",
@@ -2817,7 +2829,8 @@
     "category_raw": "Attraction",
     "tags": [
       "other",
-      "osm"
+      "osm",
+      "hidden-gem"
     ],
     "location": {
       "type": "Point",
@@ -2911,7 +2924,8 @@
     "category_raw": "Historic (monument)",
     "tags": [
       "heritage",
-      "osm"
+      "osm",
+      "hidden-gem"
     ],
     "location": {
       "type": "Point",
@@ -4766,7 +4780,8 @@
     "category_raw": "Viewpoint",
     "tags": [
       "nature",
-      "osm"
+      "osm",
+      "hidden-gem"
     ],
     "location": {
       "type": "Point",
