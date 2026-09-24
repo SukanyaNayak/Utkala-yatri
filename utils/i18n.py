@@ -34,6 +34,12 @@ T = {
         "hotels_near": "Hotels near",
         "radius": "Search radius (km)",
         "facilities_near": "Facilities near you",
+        "starting_from": "🏁 Starting from",
+        "destinations": "📍 Destinations (2–6 works best)",
+        "trip_days": "Days",
+        "travel_mode": "Travel mode",
+        "trip_cost": "💰 Estimated trip cost",
+        "total": "Total",
     },
     "hi": {
         "lang": "भाषा",
@@ -61,6 +67,12 @@ T = {
         "hotels_near": "इनके पास होटल",
         "radius": "खोज त्रिज्या (किमी)",
         "facilities_near": "आपके नज़दीक सुविधाएं",
+        "starting_from": "🏁 यहाँ से शुरू",
+        "destinations": "📍 गंतव्य (2–6 सबसे अच्छे)",
+        "trip_days": "दिन",
+        "travel_mode": "यात्रा का साधन",
+        "trip_cost": "💰 अनुमानित यात्रा लागत",
+        "total": "कुल",
     },
     "or": {
         "lang": "ଭାଷା",
@@ -88,6 +100,12 @@ T = {
         "hotels_near": "ଏହି ସ୍ଥାନ ପାଖରେ ହୋଟଲ",
         "radius": "ଖୋଜା ବ୍ୟାସାର୍ଦ୍ଧ (କିମି)",
         "facilities_near": "ଆପଣଙ୍କ ପାଖରେ ସୁବିଧା",
+        "starting_from": "🏁 ଏହି ସ୍ଥାନରୁ ଆରମ୍ଭ",
+        "destinations": "📍 ଗନ୍ତବ୍ୟ (୨–୬ ସର୍ବୋତ୍ତମ)",
+        "trip_days": "ଦିନ",
+        "travel_mode": "ଯାତ୍ରା ମାଧ୍ୟମ",
+        "trip_cost": "💰 ଆନ୍ଦାଜିତ ଯାତ୍ରା ଖର୍ଚ୍ଚ",
+        "total": "ମୋଟ",
     },
 }
 

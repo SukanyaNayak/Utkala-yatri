@@ -32,8 +32,8 @@ curated = [p for p in places if p.get("source") == "curated"] or places
 label = lambda p: f"{p['name']} ({p.get('city', '')})"
 
 c1, c2 = st.columns([1, 2])
-start_place = c1.selectbox("🏁 Starting from", curated, format_func=label)
-stops = c2.multiselect("📍 Destinations (2–6 works best)", curated,
+start_place = c1.selectbox(t("starting_from"), curated, format_func=label)
+stops = c2.multiselect(t("destinations"), curated,
                        format_func=label,
                        default=[p for p in curated
                                 if p["name"] == "Konark Sun Temple"][:2])
@@ -42,8 +42,8 @@ c3, c4, c5 = st.columns(3)
 trip_start = c3.date_input("🗓️ Trip starts",
                            value=date.today() + timedelta(days=1),
                            min_value=date.today())
-days = c4.slider("Days", 1, 7, 3)
-mode = c5.radio("Travel mode", list(RATE_PER_KM), horizontal=True)
+days = c4.slider(t("trip_days"), 1, 7, 3)
+mode = c5.radio(t("travel_mode"), list(RATE_PER_KM), horizontal=True)
 
 if len(stops) < 1:
     st.info("Select at least one destination to build a plan.")
@@ -109,10 +109,50 @@ leg_by_stop = {ordered[i]["place_id"]: legs[i] for i in range(len(ordered))}
 for d, group in enumerate(day_stops[:days], 1):
     with st.container(border=True):
         st.markdown(f"**Day {d}**")
-        for j, p in enumerate(group):
+        for p in group:
             emoji, _ = place_service.category_meta(p.get("category"))
             leg = leg_by_stop.get(p["place_id"])
             travel = (f" · 🚗 {leg['distance_km']} km, "
                       f"~{leg['duration_min']} min from previous"
                       if leg else "")
-            st.markdown
+            st.markdown(f"- {emoji} **{p['name']}**{travel}")
+            if p.get("insider_tip"):
+                st.caption(f"   🗝️ {p['insider_tip']}")
+            elif p.get("best_time"):
+                st.caption(f"   ⏰ Best time: {p['best_time']}")
+
+# ---- cost calculator ----
+st.subheader(t("trip_cost"))
+cc1, cc2, cc3, cc4 = st.columns(4)
+travelers = cc1.number_input("Travellers", 1, 10, 2)
+stay = cc2.number_input("Stay / night (₹)", 500, 20000, 1500, step=250)
+food_day = cc3.number_input("Food / person / day (₹)", 100, 5000, 600, step=50)
+misc_day = cc4.number_input("Misc / day (₹)", 0, 5000, 500, step=50)
+
+travel_cost = total_km * RATE_PER_KM[mode]
+nights = max(0, days - 1)
+total = travel_cost + nights * stay + travelers * days * (food_day + misc_day)
+
+k1, k2, k3, k4 = st.columns(4)
+k1.metric(f"{mode} fuel/fare", f"₹{travel_cost:,.0f}", f"{total_km:.0f} km")
+k2.metric("Stay", f"₹{nights * stay:,.0f}", f"{nights} night(s)")
+k3.metric("Food + misc", f"₹{travelers * days * (food_day + misc_day):,.0f}",
+          f"{travelers} × {days} d")
+k4.metric(t("total"), f"₹{total:,.0f}", "estimate")
+
+# ---- optional AI polish ----
+plan_key = f"{trip_start}_{days}_{len(ordered)}_{mode}"
+if gemini_service.is_configured() and st.button("✨ Ask AI to refine this plan"):
+    with st.spinner("UtkalaYatri AI is reviewing your plan…"):
+        summary = "\n".join(
+            f"Day {d}: " + ", ".join(p["name"] for p in group)
+            for d, group in enumerate(day_stops[:days], 1))
+        fest = "; ".join(f["name"]["en"] for f in during[:4]) or "none"
+        ss["plan_ai"][plan_key] = gemini_service.ask(
+            f"Trip plan for Odisha ({trip_start} to {trip_end}, {mode}):\n{summary}\n"
+            f"Road total ~{total_km:.0f} km. Festivals during trip: {fest}.\n\n"
+            "Give: 1) one ordering/timing fix if any, 2) one food or local tip, "
+            "3) one caution (crowds/traffic/weather). Max 90 words, bullets.",
+            system=chatbot_service.build_system_prompt("en"))
+if ss["plan_ai"].get(plan_key):
+    st.info(ss["plan_ai"][plan_key])
