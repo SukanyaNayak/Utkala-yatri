@@ -40,6 +40,25 @@ T = {
         "travel_mode": "Travel mode",
         "trip_cost": "💰 Estimated trip cost",
         "total": "Total",
+        "tagline": "Pick your stops and dates — UtkalaYatri sequences them, draws real road routes, estimates costs, and flags festivals along the way.",
+        "trip_starts": "🗓️ Trip starts",
+        "happening_during": "🎪 Happening during your trip:",
+        "no_festivals": "No major festivals fall inside your dates — the Festivals page shows what's coming up next.",
+        "your_plan": "🧭 Your {days}-day plan — {km} km, ~{hrs} h {mins} m on the road",
+        "estimate_routing": " *(straight-line estimates — routing service unreachable)*",
+        "day": "Day {d}",
+        "from_previous": " · 🚗 {km} km, ~{min} min from previous",
+        "best_time_short": "⏰ Best time: {bt}",
+        "travellers": "Travellers",
+        "stay_night": "Stay / night (₹)",
+        "food_day": "Food / person / day (₹)",
+        "misc_day": "Misc / day (₹)",
+        "fuel_fare": "{mode} fuel/fare",
+        "stay": "Stay",
+        "food_misc": "Food + misc",
+        "nights": "{n} night(s)",
+        "estimate": "estimate",
+        
     },
     "hi": {
         "lang": "भाषा",
@@ -73,6 +92,24 @@ T = {
         "travel_mode": "यात्रा का साधन",
         "trip_cost": "💰 अनुमानित यात्रा लागत",
         "total": "कुल",
+        "tagline": "अपने स्थान और तारीखें चुनें — UtkalaYatri उन्हें क्रम में लगाता है, असली सड़क मार्ग बनाता है, लागत आँकता है, और रास्ते के त्योहार बताता है।",
+        "trip_starts": "🗓️ यात्रा शुरू",
+        "happening_during": "🎪 आपकी यात्रा के दौरान:",
+        "no_festivals": "आपकी तारीखों में कोई बड़ा त्योहार नहीं आता — आगामी त्योहारों के लिए त्योहार पेज देखें।",
+        "your_plan": "🧭 आपकी {days}-दिन की योजना — {km} किमी, ~{hrs} घं {mins} मि सड़क पर",
+        "estimate_routing": " *(सीधी-रेखा अनुमान — रूटिंग सेवा उपलब्ध नहीं)*",
+        "day": "दिन {d}",
+        "from_previous": " · 🚗 {km} किमी, ~{min} मि पिछले से",
+        "best_time_short": "⏰ सर्वोत्तम समय: {bt}",
+        "travellers": "यात्री",
+        "stay_night": "प्रति रात का स्थाय (₹)",
+        "food_day": "प्रति व्यक्ति प्रति दिन भोजन (₹)",
+        "misc_day": "प्रति दिन विविध (₹)",
+        "fuel_fare": "{mode} ईंधन/किराया",
+        "stay": "स्थाय",
+        "food_misc": "भोजन + विविध",
+        "nights": "{n} रात(ें)",
+        "estimate": "अनुमान",
     },
     "or": {
         "lang": "ଭାଷା",
@@ -106,6 +143,24 @@ T = {
         "travel_mode": "ଯାତ୍ରା ମାଧ୍ୟମ",
         "trip_cost": "💰 ଆନ୍ଦାଜିତ ଯାତ୍ରା ଖର୍ଚ୍ଚ",
         "total": "ମୋଟ",
+        "tagline": "ଆପଣଙ୍କ ସ୍ଥାନ ଓ ତାରିଖ ବଛନ୍ତୁ — UtkalaYatri ସେଗୁଡ଼ିକୁ କ୍ରମରେ ସଜାଏ, ପ୍ରକୃତ ରାସ୍ତା ମାର୍ଗ ଆଙ୍କେ, ଖର୍ଚ୍ଚ ଆକଳନ କରେ ଓ ବାଟରେ ପର୍ବ ଜଣାଏ।",
+        "trip_starts": "🗓️ ଯାତ୍ରା ଆରମ୍ଭ",
+        "happening_during": "🎪 ଆପଣଙ୍କ ଯାତ୍ରା ସମୟରେ:",
+        "no_festivals": "ଆପଣଙ୍କ ତାରିଖରେ କୌଣସି ବଡ଼ ପର୍ବ ପଡ଼ୁନାହିଁ — ଆସନ୍ତା ପର୍ବ ପାଇଁ ପର୍ବ ପୃଷ୍ଠା ଦେଖନ୍ତୁ।",
+        "your_plan": "🧭 ଆପଣଙ୍କ {days}-ଦିନିଆ ଯୋଜନା — {km} କିମି, ~{hrs} ଘ {mins} ମି ରାସ୍ତାରେ",
+        "estimate_routing": " *(ସିଧା-ରେଖା ଆକଳନ — ରାଉଟିଂ ସେବା ମିଳୁନାହିଁ)*",
+        "day": "ଦିନ {d}",
+        "from_previous": " · 🚗 {km} କିମି, ~{min} ମି ପୂର୍ବବର୍ତ୍ତୀଠାରୁ",
+        "best_time_short": "⏰ ସର୍ବୋତ୍ତମ ସମୟ: {bt}",
+        "travellers": "ଯାତ୍ରୀ",
+        "stay_night": "ପ୍ରତି ରାତି ରହଣି (₹)",
+        "food_day": "ପ୍ରତି ବ୍ୟକ୍ତି ପ୍ରତି ଦିନ ଖାଦ୍ୟ (₹)",
+        "misc_day": "ପ୍ରତି ଦିନ ବିବିଧ (₹)",
+        "fuel_fare": "{mode} ଇନ୍ଧନ/ଭଡ଼ା",
+        "stay": "ରହଣି",
+        "food_misc": "ଖାଦ୍ୟ + ବିବିଧ",
+        "nights": "{n} ରାତି",
+        "estimate": "ଆକଳନ",
     },
 }
 
@@ -114,7 +169,9 @@ def t(key: str) -> str:
     """Translate a UI label for the chosen language (en fallback → key)."""
     lang = st.session_state.get("lang", "en")
     return T.get(lang, T["en"]).get(key) or T["en"].get(key, key)
-
+def tf(key: str, **kwargs) -> str:
+    """t() with {placeholders} filled: tf('your_plan', days=3, km=59, hrs=0, mins=56)"""
+    return t(key).format(**kwargs)
 
 def language_picker() -> None:
     """Sidebar selector — call once at the top of every page."""

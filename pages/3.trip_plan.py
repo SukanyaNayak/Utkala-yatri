@@ -11,7 +11,7 @@ from streamlit_folium import st_folium
 from services import chatbot_service, gemini_service, place_service
 from services.festival_service import get_festivals_during
 from services.routing_service import get_route_between, order_stops
-from utils.i18n import t, language_picker
+from utils.i18n import t, tf, language_picker
 
 st.set_page_config(page_title="Trip Planner · UtkalaYatri", page_icon="📅",
                    layout="wide")
@@ -24,8 +24,7 @@ LEG_COLORS = ["#e74c3c", "#2980b9", "#27ae60", "#8e44ad", "#f39c12", "#16a085"]
 RATE_PER_KM = {"🛵 Bike": 2.5, "🚗 Car": 8.0}
 
 st.title(t("planner_title"))
-st.caption("Pick your stops and dates — UtkalaYatri sequences them, draws real "
-           "road routes, estimates costs, and flags festivals along the way.")
+st.caption(t("tagline"))
 
 places = place_service.get_all_places()
 curated = [p for p in places if p.get("source") == "curated"] or places
@@ -39,14 +38,14 @@ stops = c2.multiselect(t("destinations"), curated,
                                 if p["name"] == "Konark Sun Temple"][:2])
 
 c3, c4, c5 = st.columns(3)
-trip_start = c3.date_input("🗓️ Trip starts",
+trip_start = c3.date_input(t("trip_starts"),
                            value=date.today() + timedelta(days=1),
                            min_value=date.today())
 days = c4.slider(t("trip_days"), 1, 7, 3)
 mode = c5.radio(t("travel_mode"), list(RATE_PER_KM), horizontal=True)
 
 if len(stops) < 1:
-    st.info("Select at least one destination to build a plan.")
+    st.info(t("no_festivals"))
     st.stop()
 
 trip_end = trip_start + timedelta(days=days - 1)
@@ -73,11 +72,10 @@ if during:
         mnames = " / ".join(calendar.month_name[m]
                             for m in f.get("typical_months", []))
         return f"**{name}** ({f['city']}, typically {mnames or 'varies'})"
-    st.success("🎪 **Happening during your trip:** "
+    st.success(t("happening_during") + " "
                + " · ".join(fest_label(f) for f in during[:4]))
 else:
-    st.info("No major festivals fall inside your dates — the Festivals page "
-            "shows what's coming up next.")
+    st.info(t("no_festivals"))
 
 # ---- map ----
 m = folium.Map(location=[ordered[0]["lat"], ordered[0]["lon"]], zoom_start=8)
@@ -98,47 +96,47 @@ for i, (p, leg) in enumerate(zip(ordered, legs)):
 st_folium(m, height=400, use_container_width=True)
 
 # ---- day-wise itinerary ----
-st.subheader(f"🧭 Your {days}-day plan — {total_km:.0f} km, "
-             f"~{total_min // 60} h {total_min % 60:02d} m on the road"
-             + ("" if live_routing else
-                " *(straight-line estimates — routing service unreachable)*"))
+st.subheader(tf("your_plan", days=days, km=f"{total_km:.0f}",
+                hrs=total_min // 60, mins=f"{total_min % 60:02d}")
+             + ("" if live_routing else t("estimate_routing")))
 per_day = ceil(len(ordered) / days)
 day_stops = [ordered[i:i + per_day] for i in range(0, len(ordered), per_day)]
 leg_by_stop = {ordered[i]["place_id"]: legs[i] for i in range(len(ordered))}
 
 for d, group in enumerate(day_stops[:days], 1):
     with st.container(border=True):
-        st.markdown(f"**Day {d}**")
+        st.markdown(f"**{tf('day', d=d)}**")
         for p in group:
             emoji, _ = place_service.category_meta(p.get("category"))
             leg = leg_by_stop.get(p["place_id"])
-            travel = (f" · 🚗 {leg['distance_km']} km, "
-                      f"~{leg['duration_min']} min from previous"
+            travel = (tf("from_previous", km=leg["distance_km"],
+                         min=leg["duration_min"])
                       if leg else "")
             st.markdown(f"- {emoji} **{p['name']}**{travel}")
             if p.get("insider_tip"):
                 st.caption(f"   🗝️ {p['insider_tip']}")
             elif p.get("best_time"):
-                st.caption(f"   ⏰ Best time: {p['best_time']}")
+                st.caption("   " + tf("best_time_short", bt=p["best_time"]))
 
 # ---- cost calculator ----
 st.subheader(t("trip_cost"))
 cc1, cc2, cc3, cc4 = st.columns(4)
-travelers = cc1.number_input("Travellers", 1, 10, 2)
-stay = cc2.number_input("Stay / night (₹)", 500, 20000, 1500, step=250)
-food_day = cc3.number_input("Food / person / day (₹)", 100, 5000, 600, step=50)
-misc_day = cc4.number_input("Misc / day (₹)", 0, 5000, 500, step=50)
+travelers = cc1.number_input(t("travellers"), 1, 10, 2)
+stay = cc2.number_input(t("stay_night"), 500, 20000, 1500, step=250)
+food_day = cc3.number_input(t("food_day"), 100, 5000, 600, step=50)
+misc_day = cc4.number_input(t("misc_day"), 0, 5000, 500, step=50)
 
 travel_cost = total_km * RATE_PER_KM[mode]
 nights = max(0, days - 1)
 total = travel_cost + nights * stay + travelers * days * (food_day + misc_day)
 
 k1, k2, k3, k4 = st.columns(4)
-k1.metric(f"{mode} fuel/fare", f"₹{travel_cost:,.0f}", f"{total_km:.0f} km")
-k2.metric("Stay", f"₹{nights * stay:,.0f}", f"{nights} night(s)")
-k3.metric("Food + misc", f"₹{travelers * days * (food_day + misc_day):,.0f}",
+k1.metric(tf("fuel_fare", mode=mode), f"₹{travel_cost:,.0f}",
+          f"{total_km:.0f} km")
+k2.metric(t("stay"), f"₹{nights * stay:,.0f}", tf("nights", n=nights))
+k3.metric(t("food_misc"), f"₹{travelers * days * (food_day + misc_day):,.0f}",
           f"{travelers} × {days} d")
-k4.metric(t("total"), f"₹{total:,.0f}", "estimate")
+k4.metric(t("total"), f"₹{total:,.0f}", t("estimate"))
 
 # ---- optional AI polish ----
 plan_key = f"{trip_start}_{days}_{len(ordered)}_{mode}"
