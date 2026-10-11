@@ -4,15 +4,12 @@ import streamlit as st
 from streamlit_folium import st_folium
 
 from services import hotel_service, place_service
-from utils.i18n import t, language_picker
+from utils.i18n import t, tf, language_picker
 
-st.set_page_config(page_title="Nearby Hotels · UtkalaYatri", page_icon="🏨",
-                   layout="wide")
-language_picker()
+
 
 st.title(t("hotels_title"))
-st.caption("Real hotels across Odisha, ranked by distance from anywhere you're "
-           "exploring.")
+st.caption(t("hotels_caption"))
 
 places = place_service.get_all_places()
 curated = [p for p in places if p.get("source") == "curated"] or places
@@ -21,7 +18,9 @@ label = lambda p: f"{p['name']} ({p.get('city', '')})"
 c1, c2, c3 = st.columns([2, 1, 1])
 base = c1.selectbox(t("hotels_near"), curated, format_func=label)
 radius = c2.slider(t("radius"), 5, 100, 25, step=5)
-band = c3.selectbox("Price band", ["All", "budget", "mid", "premium"])
+# sentinel value stays "All" (the filter below compares it) — only the LABEL translates
+band = c3.selectbox(t("price_band"), ["All", "budget", "mid", "premium"],
+                    format_func=lambda b: t("band_all") if b == "All" else b)
 
 hotels = hotel_service.get_hotels_near(base["lat"], base["lon"],
                                        radius_km=radius, limit=40)
@@ -30,7 +29,7 @@ if band != "All":
               if hotel_service.price_band(
                   h.get("price") or h.get("price_range_inr") or "") == band]
 
-st.success(f"📍 **{base['name']}** — {len(hotels)} hotel(s) within {radius} km")
+st.success(tf("hotels_found", base=base["name"], n=len(hotels), r=radius))
 
 # ---- map ----
 m = folium.Map(location=[base["lat"], base["lon"]], zoom_start=10)
@@ -53,15 +52,17 @@ st_folium(m, height=380, use_container_width=True)
 cols = st.columns(3)
 for i, h in enumerate(hotels[:24]):
     with cols[i % 3], st.container(border=True):
-        price = h.get("price") or h.get("price_range_inr") or "Price N/A"
+        price = h.get("price") or h.get("price_range_inr") or t("price_na")
         st.markdown(f"**🏨 {h['name'][:40]}**")
         if h.get("image"):
             try:
                 st.image(h["image"], use_container_width=True)
             except Exception:
                 pass
-        st.caption(f"{h.get('city') or 'Odisha'} · {h['distance_km']} km from "
-                   f"{base['name'][:20]}")
+        st.caption(tf("km_from",
+                      city=h.get("city") or t("state"),
+                      d=h["distance_km"],
+                      base=base["name"][:20]))
         st.write(f"💰 {price}"
                  + (f"  ·  ⭐ {h['rating']}" if h.get("rating") else ""))
         notes = h.get("description") or h.get("notes")
@@ -71,4 +72,4 @@ for i, h in enumerate(hotels[:24]):
             st.caption(" ".join(f"`#{tag}`" for tag in h["tags"][:4]))
 
 if not hotels:
-    st.info("No hotels in this radius — widen the search or pick another place.")
+    st.info(t("no_hotels"))

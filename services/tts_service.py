@@ -1,5 +1,7 @@
 """Text-to-speech for chatbot replies — multi-engine, demo-safe.
 
+Works under BOTH Streamlit and FastAPI (via services.cache_compat).
+
 Engines:
   en/hi -> gTTS (Google Translate voices), edge-tts as backup
   or    -> edge-tts (Microsoft) IF an Odia voice exists, else graceful
@@ -14,7 +16,7 @@ import asyncio
 import io
 import re
 
-import streamlit as st
+from services.cache_compat import cache_data
 
 
 def detect_lang(text: str, chosen: str = "auto") -> str:
@@ -45,7 +47,7 @@ def _vget(v, key: str) -> str:
 
 
 # ---------- engine 1: gTTS (raises on failure -> never cached) ----------
-@st.cache_data(show_spinner=False)
+@cache_data
 def _gtts_bytes(text: str, lang: str) -> bytes:
     from gtts import gTTS
     from gtts.lang import tts_langs
@@ -57,7 +59,7 @@ def _gtts_bytes(text: str, lang: str) -> bytes:
 
 
 # ---------- engine 2: edge-tts (Microsoft neural voices) ----------
-@st.cache_data(show_spinner=False, ttl=3600)
+@cache_data(ttl=3600)
 def _edge_voices() -> list[dict]:
     """Fetch the Microsoft voice list. Raises on failure (never cached)."""
     import edge_tts
@@ -84,7 +86,8 @@ def _edge_voice_for(lang: str) -> str | None:
             return v.get("ShortName")
     return candidates[0].get("ShortName")
 
-@st.cache_data(show_spinner=False)
+
+@cache_data
 def _edge_bytes(text: str, voice: str) -> bytes:
     import edge_tts
 

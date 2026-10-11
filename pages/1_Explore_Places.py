@@ -1,19 +1,14 @@
 """Place Explorer - search, interactive map, click-to-select, details view."""
+from utils.i18n import t, tf, language_picker
 from services.translate_service import localized_text
 import folium
 import streamlit as st
 from streamlit_folium import st_folium
 
 from services import gemini_service, place_service
-from utils.i18n import t, language_picker
 
-st.set_page_config(
-    page_title="Explore Places - UtkalaYatri",
-    page_icon="🗺️",
-    layout="wide",
-)
 
-language_picker()   # must come AFTER st.set_page_config
+
 
 ODISHA_CENTER = [20.35, 85.30]
 PAGE_SIZE = 24
@@ -103,14 +98,13 @@ def render_details(place: dict) -> None:
 
 st.title(t("explore_title"))
 all_places = place_service.get_all_places()
-st.caption(
-    f"{len(all_places)} places across Odisha - search, click the map, or open a card."
-)
+
+st.caption(tf("places_caption", n=len(all_places)))
 
 c1, c2 = st.columns([2, 1])
 query = c1.text_input(
     t("search"),
-    placeholder="temple, beach, Chilika, waterfall...",
+    placeholder=t("search_ph"),
     label_visibility="collapsed",
 )
 cats = ["All"] + place_service.get_categories()
@@ -123,7 +117,7 @@ category = c2.selectbox(
     t("category"),
     cats,
     format_func=lambda value: (
-        f"All ({len(all_places)})" if value == "All"
+        f"{t('all')} ({len(all_places)})" if value == "All"
         else f"{value} ({counts.get(value, 0)})"
     ),
     label_visibility="collapsed",
@@ -172,7 +166,7 @@ if not places:
     st.info("No places match - try a different search or category.")
 
 show_all = st.toggle(
-    f"Show all {len(places)} results",
+    tf("show_all", n=len(places)),
     value=bool(ss.get("show_all")),
     disabled=len(places) <= PAGE_SIZE,
 )

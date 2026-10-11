@@ -1,7 +1,7 @@
 """Speech-to-text: WAV recording -> text, via Gemini. Cached + demo-safe."""
 from __future__ import annotations
 
-import streamlit as st
+from services.cache_compat import cache_data
 
 from services import gemini_service
 
@@ -13,8 +13,8 @@ _TRANSCRIBE_PROMPT = (
     f"If the audio is silent or unintelligible, output exactly: {_UNINTELLIGIBLE}"
 )
 
+@cache_data
 
-@st.cache_data(show_spinner=False)
 def transcribe(audio_bytes: bytes) -> str:
     """Return the transcribed text, or "" if it couldn't be heard."""
     if not audio_bytes:

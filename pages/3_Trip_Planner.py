@@ -13,9 +13,6 @@ from services.festival_service import get_festivals_during
 from services.routing_service import get_route_between, order_stops
 from utils.i18n import t, tf, language_picker
 
-st.set_page_config(page_title="Trip Planner · UtkalaYatri", page_icon="📅",
-                   layout="wide")
-language_picker()
 
 ss = st.session_state
 ss.setdefault("plan_ai", {})

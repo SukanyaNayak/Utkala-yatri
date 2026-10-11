@@ -13,7 +13,7 @@ import os
 from math import asin, cos, radians, sin, sqrt
 
 import requests
-import streamlit as st
+from services.cache_compat import cache_data
 
 OSRM_URL = "https://router.project-osrm.org/route/v1/driving"
 ORS_URL = "https://api.openrouteservice.org/v2/directions/driving-car"
@@ -36,8 +36,8 @@ def _haversine_km(lat1, lon1, lat2, lon2) -> float:
     a = sin((lat2 - lat1) / 2) ** 2 + cos(lat1) * cos(lat2) * sin((lon2 - lon1) / 2) ** 2
     return 2 * 6371 * asin(sqrt(a))
 
+@cache_data
 
-@st.cache_data(show_spinner=False, ttl=3600)
 def _fetch(lat1, lon1, lat2, lon2) -> dict | None:
     prov = provider()
     try:

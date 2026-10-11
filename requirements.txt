@@ -1,23 +1,11 @@
-# --- Core app ---
-streamlit==1.38.0
-python-dotenv==1.0.1
-
-# --- Database ---
-pymongo==4.8.0
-
-# --- AI (wired up in a later week; included now so env stays stable) ---
-google-generativeai==0.8.3
-
-# --- Maps (wired up in a later week) ---
-folium==0.17.0
-streamlit-folium==0.23.1
-
-# --- Routing (used later: OpenRouteService client / OSRM via requests) ---
-openrouteservice==2.3.3
-requests==2.32.3
-
-# --- Data handling ---
-pandas==2.2.2
-
-# --- Panchang calculations ---
-ephem==4.1.5
+streamlit>=1.39
+pymongo[srv]>=4.6
+dnspython>=2.4
+google-genai>=1.0
+python-dotenv>=1.0
+pandas>=2.0
+folium>=0.15
+streamlit-folium>=0.20
+requests>=2.31
+gtts>=2.4
+edge-tts>=6.1

@@ -1,13 +1,10 @@
 [theme]
-primaryColor = "#D97706"
+base = "light"
+primaryColor = "#D35400"                 # sun-temple terracotta
 backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F5F0E6"
-textColor = "#262626"
+secondaryBackgroundColor = "#FFF7EF"     # warm cream for cards/sidebar
+textColor = "#2C2C2C"
 font = "sans serif"
 
 [server]
-runOnSave = true
 headless = true
-
-[browser]
-gatherUsageStats = false

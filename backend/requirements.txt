@@ -1,0 +1,12 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-multipart>=0.0.9
+# plus everything already in the project venv:
+streamlit>=1.39
+pymongo[srv]>=4.6
+dnspython>=2.4
+google-genai>=1.0
+python-dotenv>=1.0
+requests>=2.31
+gtts>=2.4
+edge-tts>=6.1

@@ -11,20 +11,16 @@ from services.festival_service import (
     get_upcoming_festivals,
     search_festivals,
 )
-from utils.i18n import t, language_picker
+from utils.i18n import t, tf, language_picker, content_lang
 
-st.set_page_config(page_title="Festivals · UtkalaYatri", page_icon="🎪",
-                   layout="wide")
-language_picker()
+
 
 ss = st.session_state
-ss.setdefault("fest_lang", "en")
 
 CATEGORY_COLORS = {"religious": "#e74c3c", "cultural": "#8e44ad",
                    "art": "#2980b9", "tribal": "#27ae60", "fair": "#f39c12"}
-CROWD_LABEL = {"very_high": "👥👥👥 very high", "high": "👥👥 high",
-               "medium": "👥 moderate"}
-LANG_LABELS = {"en": "English", "hi": "हिन्दी", "or": "ଓଡ଼ିଆ"}
+CROWD_LABEL = {"very_high": "crowd_very_high", "high": "crowd_high",
+               "medium": "crowd_medium"}
 DATE_BADGE = {"verified": "✅", "computed": "🧮"}   # else 📅 typical window
 
 
@@ -39,37 +35,35 @@ def chip(text: str, color: str) -> str:
 
 
 def loc(f: dict, field: str) -> str:
-    """Localized text field with English fallback."""
+    """Native festival text in the global content language, English fallback."""
     block = f.get(field) or {}
-    return block.get(ss["fest_lang"]) or block.get("en", "")
+    lang = content_lang()
+    return block.get(lang) or block.get("en", "")
+
+
+def crowd(level: str) -> str:
+    return t(CROWD_LABEL.get(level, "crowd_medium")) if level in CROWD_LABEL \
+        else "👥"
 
 
 st.title(t("festivals_title"))
+st.caption(t("fest_caption"))
 all_fest = get_all_festivals()
 
-# ---- language + quick stats ----
+# ---- quick stats ----
 this_month = date.today().month
-lc1, lc2, lc3, lc4 = st.columns([1, 1, 1, 2])
-# festival content language: follows the UI language on first visit,
-# then user-selectable (manual override wins) — same pattern as chat
-if "fest_lang" not in ss:
-    ss["fest_lang"] = ss["lang"] if ss["lang"] in LANG_LABELS else "en"
-ss["fest_lang"] = lc1.selectbox(
-    t("lang"), list(LANG_LABELS),
-    index=list(LANG_LABELS).index(ss["fest_lang"])
-    if ss["fest_lang"] in LANG_LABELS else 0,
-    format_func=lambda k: LANG_LABELS[k], label_visibility="collapsed")
-lc2.metric("Festivals", len(all_fest))
-lc3.metric("In this month",
-           sum(1 for f in all_fest
-               if this_month in f.get("typical_window", {}).get("months", [])))
-lc4.metric("Hidden gems 💎",
-           sum(1 for f in all_fest if f.get("is_hidden_gem")))
+m1, m2, m3 = st.columns(3)
+m1.metric(t("metric_festivals"), len(all_fest))
+m2.metric(t("metric_this_month"),
+          sum(1 for f in all_fest
+              if this_month in f.get("typical_window", {}).get("months", [])))
+m3.metric(t("metric_gems"),
+          sum(1 for f in all_fest if f.get("is_hidden_gem")))
 
 # ---- upcoming strip ----
 upcoming = get_upcoming_festivals(days_ahead=90, limit=6)
 if upcoming:
-    st.subheader("🗓️ Coming up in the next 90 days")
+    st.subheader(t("upcoming_90"))
     cols = st.columns(min(3, len(upcoming)))
     for i, f in enumerate(upcoming):
         with cols[i % len(cols)], st.container(border=True):
@@ -79,28 +73,30 @@ if upcoming:
                        f"{badge_for(f)}{approx}")
 
 st.divider()
-st.subheader("All festivals")
+st.subheader(t("all_festivals"))
 
 # ---- filters ----
 c1, c2, c3 = st.columns([1, 1, 2])
 month_sel = c1.selectbox(
-    "Month",
-    ["All"] + [f"{i:02d} · {calendar.month_name[i]}" for i in range(1, 13)])
+    t("month"),
+    [t("month_all")] + [f"{i:02d} · {calendar.month_name[i]}"
+                        for i in range(1, 13)])
 cat_sel = c2.selectbox(
     t("category"),
-    ["All"] + sorted({f.get("category", "other") for f in all_fest}))
+    [t("month_all")] + sorted({f.get("category", "other")
+                               for f in all_fest}))
 query = c3.text_input(t("search"), label_visibility="collapsed",
-                      placeholder="Search festival, city or tag…")
+                      placeholder=t("fest_search_ph"))
 
 festivals = search_festivals(query) if query else list(all_fest)
-if month_sel != "All":
+if month_sel != t("month_all"):
     mnum = int(month_sel[:2])
     festivals = [f for f in festivals
                  if mnum in f.get("typical_window", {}).get("months", [])]
-if cat_sel != "All":
+if cat_sel != t("month_all"):
     festivals = [f for f in festivals if f.get("category") == cat_sel]
 
-st.caption(f"{len(festivals)} festival(s)")
+st.caption(tf("fest_results", n=len(festivals)))
 
 # ---- map ----
 m = folium.Map(location=[20.35, 85.30], zoom_start=7, tiles="OpenStreetMap")
@@ -122,30 +118,32 @@ st_folium(m, height=420, use_container_width=True)
 
 # ---- cards ----
 if not festivals:
-    st.info("No festivals match — try another month, category or search.")
+    st.info(t("no_fest_match"))
 for i in range(0, len(festivals), 2):
     row = st.columns(2)
     for col, f in zip(row, festivals[i:i + 2]):
         color = CATEGORY_COLORS.get(f.get("category"), "#3388ff")
         with col, st.container(border=True):
-            head = f"### {loc(f, 'name')}" + (" 💎" if f.get("is_hidden_gem") else "")
+            head = (f"### {loc(f, 'name')}"
+                    + (" 💎" if f.get("is_hidden_gem") else ""))
             st.markdown(head)
             months = "/".join(calendar.month_abbr[mn]
                               for mn in f.get("typical_window", {}).get("months", []))
             st.caption(f"{f.get('city')}, {f.get('district', '')} · "
-                       f"`{f.get('category', '')}` · ~{f.get('duration_days', '?')} day(s) · "
-                       f"{CROWD_LABEL.get(f.get('crowd_level'), '')} · 📆 {months}")
+                       f"`{f.get('category', '')}` · "
+                       f"~{f.get('duration_days', '?')} {t('days_short')} · "
+                       f"{crowd(f.get('crowd_level', ''))} · 📆 {months}")
             st.write(loc(f, "description"))
             tips = f.get("travel_tips") or {}
-            tip = tips.get(ss["fest_lang"]) or tips.get("en")
+            tip = tips.get(content_lang()) or tips.get("en")
             if tip:
                 st.info(f"💡 {tip}")
             if f.get("known_dates"):
-                with st.expander("📅 Date history & trust"):
+                with st.expander(t("date_history")):
                     for d in sorted(f["known_dates"],
                                     key=lambda x: x.get("year", 0)):
-                        flag = ("✅ verified" if not d.get("approximate")
-                                else "🧮 approximate")
+                        flag = (t("verified") if not d.get("approximate")
+                                else t("approximate"))
                         src = (f" · source: {d['source']}"
                                if d.get("source") else "")
                         st.markdown(f"- **{d.get('year')}**: {d['start']} → "
@@ -157,5 +155,4 @@ for i in range(0, len(festivals), 2):
                                     for tag in f["tags"][:6]),
                             unsafe_allow_html=True)
 
-st.caption("Planning a trip? The 📅 Trip Planner automatically flags festivals "
-           "happening during your travel dates.")
+st.caption(t("fest_planner_hint"))

@@ -23,8 +23,8 @@ from __future__ import annotations
 
 from pathlib import Path
 from typing import Optional
+from services.cache_compat import cache_resource
 
-import streamlit as st
 from pymongo import MongoClient
 from pymongo.collection import Collection
 from pymongo.errors import PyMongoError
@@ -63,7 +63,7 @@ def _get_db_name() -> str:
     return _resolve_credential(MONGODB_DB_NAME, "MONGODB_DB_NAME") or "utkalayatri"
 
 
-@st.cache_resource(show_spinner=False)
+@cache_resource
 def connect_db() -> Optional[MongoClient]:
     """
     Create (and cache) a MongoClient for the app's lifetime.

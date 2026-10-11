@@ -5,18 +5,15 @@ from streamlit_folium import st_folium
 
 from services import place_service
 from services.translate_service import localized_text
-from utils.i18n import t, language_picker
+from utils.i18n import t, tf, language_picker, content_lang
 
-st.set_page_config(page_title="Hidden Gems · UtkalaYatri", page_icon="💎",
-                   layout="wide")
-language_picker()
+
 
 ss = st.session_state
 GEM_TAGS = {"hidden-gem", "hidden_gem", "offbeat", "lesser-known", "gem"}
 
 st.title(t("gems_title"))
-st.caption("Beyond the guidebooks — waterfalls, tribal heritage, eco-stays and "
-           "quiet beaches most tourists never find.")
+st.caption(t("gems_caption"))
 
 places = place_service.get_all_places()
 
@@ -33,10 +30,9 @@ gems = [p for p in places if is_gem(p)]
 gems = [p for p in gems if (p.get("description") or "").strip()]
 # curated stories first — they're the real gems
 gems.sort(key=lambda p: 0 if p.get("source") == "curated" else 1)
+st.markdown(f"**{tf('gems_count', n=len(gems))}**")
+query = st.text_input(t("filter_gems"), placeholder=t("gems_search_ph"))
 
-st.markdown(f"**{len(gems)} gems** the crowds haven't found yet.")
-
-query = st.text_input("🔍 Filter gems", placeholder="waterfall, tribal, eco…")
 if query:
     q = query.lower()
     gems = [p for p in gems if q in " ".join(

@@ -1,25 +1,24 @@
 """Thin Gemini wrapper — the ONLY file that talks to Google GenAI.
 
-Public API:
-    is_configured()       -> bool  (GEMINI_API_KEY present?)
-    ask(prompt, ...)      -> str   (never raises; "" on failure)
-    ask_json(prompt, ...) -> dict | None  (JSON-mode response)
+Works under BOTH Streamlit and FastAPI (via services.cache_compat):
+Streamlit mode uses st.secrets/st.cache; backend mode uses env/lru_cache
+and logs instead of toasting.
 
 Model name comes from GEMINI_MODEL (.env / Streamlit secrets) — never
-hard-coded here, so you can swap models without touching code.
-
-Migration note: st.toast is the only Streamlit touchpoint; replace with
-logging when this moves into FastAPI.
+hard-coded, so models can be swapped without touching code.
 """
 from __future__ import annotations
 
 import json
+import logging
 import os
 import time
 from pathlib import Path
 from typing import Optional
 
-import streamlit as st
+from services.cache_compat import cache_resource
+
+logger = logging.getLogger("utkalayatri")
 
 try:
     from dotenv import load_dotenv
@@ -27,13 +26,18 @@ try:
 except Exception:
     pass
 
+try:                                   # Streamlit-only touchpoints (secrets/toast)
+    import streamlit as st
+except Exception:                      # backend mode: no Streamlit runtime
+    st = None
+
 _SECRETS_FILE = Path(".streamlit/secrets.toml")
-DEFAULT_MODEL = "gemini-2.0-flash"   # fallback only — set GEMINI_MODEL in .env
+DEFAULT_MODEL = "gemini-flash-latest"   # alias — survives model retirement
 
 
 def _get_setting(key: str, fallback: str = "") -> str:
     """Streamlit secrets (Cloud) first, then environment (.env)."""
-    if _SECRETS_FILE.exists():
+    if st is not None and _SECRETS_FILE.exists():
         try:
             if key in st.secrets:
                 return str(st.secrets[key])
@@ -49,14 +53,13 @@ def model_name() -> str:
 _CLIENT_ERROR: str | None = None
 
 
-@st.cache_resource(show_spinner=False)
+@cache_resource
 def _client():
     global _CLIENT_ERROR
     _CLIENT_ERROR = None
     api_key = _get_setting("GEMINI_API_KEY")
     if not api_key:
-        _CLIENT_ERROR = ("GEMINI_API_KEY not found — add it to .env "
-                         "and restart Streamlit.")
+        _CLIENT_ERROR = "GEMINI_API_KEY not found — add it to .env."
         return None
     try:
         from google import genai
@@ -79,8 +82,11 @@ def config_error() -> str | None:
     """Reason Gemini is unavailable (None = everything fine)."""
     _client()  # ensure an attempt was made
     return _CLIENT_ERROR
+
+
 # Tried in order when the primary model fails with 5xx errors
-FALLBACK_MODELS = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-flash-lite-latest"]
+FALLBACK_MODELS = ["gemini-flash-latest", "gemini-2.5-flash",
+                   "gemini-flash-lite-latest"]
 
 
 def _generate(client, model: str, prompt: str, config: dict) -> str:
@@ -118,8 +124,8 @@ def ask(prompt: str, system: str | None = None,
                     continue
                 break   # non-transient, or retries exhausted -> next model
 
-    st.toast("Gemini unavailable — no AI note for now.", icon="⚠️")
-    print("Gemini error (all attempts failed):", last_err)
+    logger.warning("Gemini unavailable — empty reply (last error: %s)",
+                   str(last_err)[:300])
     return ""
 
 
@@ -150,9 +156,11 @@ def ask_json(prompt: str, system: str | None = None,
                     continue
                 break
 
-    st.toast("Gemini JSON request failed — see terminal.", icon="⚠️")
-    print("Gemini JSON error (all attempts failed):", last_err)
+    logger.warning("Gemini JSON request failed (last error: %s)",
+                   str(last_err)[:300])
     return None
+
+
 def ask_with_audio(audio_bytes: bytes, mime_type: str = "audio/wav",
                    prompt: str = "Transcribe the spoken words exactly.",
                    system: str | None = None, retries: int = 2) -> str:
@@ -167,7 +175,7 @@ def ask_with_audio(audio_bytes: bytes, mime_type: str = "audio/wav",
         from google.genai import types
         audio_part = types.Part.from_bytes(data=audio_bytes, mime_type=mime_type)
     except Exception as exc:
-        print("Audio part error:", exc)
+        logger.warning("Audio part error: %s", exc)
         return ""
 
     last_err: Exception | None = None
@@ -185,8 +193,66 @@ def ask_with_audio(audio_bytes: bytes, mime_type: str = "audio/wav",
                     time.sleep(1.5 * (attempt + 1))
                     continue
                 break
-    print("Gemini audio error (all attempts failed):", last_err)
+    logger.warning("Gemini audio error (all attempts failed): %s",
+                   str(last_err)[:300])
     return ""
+
+
+def _extract_json(raw: str) -> dict | None:
+    """Best-effort JSON extraction from a model reply (handles ``` fences)."""
+    if not raw:
+        return None
+    import re
+    raw = re.sub(r"^```(?:json)?|```$", "", raw.strip(), flags=re.M).strip()
+    try:
+        return json.loads(raw)
+    except Exception:
+        m = re.search(r"\{.*\}", raw, flags=re.S)
+        if m:
+            try:
+                return json.loads(m.group(0))
+            except Exception:
+                return None
+    return None
+
+
+def ask_with_image(image_bytes: bytes, mime_type: str, prompt: str,
+                   system: str | None = None, temperature: float = 0.2,
+                   retries: int = 2) -> str:
+    """Send an image + prompt to the multimodal model. "" on failure."""
+    client = _client()
+    if client is None or not image_bytes:
+        return ""
+    config: dict = {"temperature": temperature}
+    if system:
+        config["system_instruction"] = system
+    try:
+        from google.genai import types
+        part = types.Part.from_bytes(data=image_bytes, mime_type=mime_type)
+    except Exception as exc:
+        logger.warning("Image part error: %s", exc)
+        return ""
+
+    last_err: Exception | None = None
+    for model in _model_chain():
+        for attempt in range(retries + 1):
+            try:
+                resp = client.models.generate_content(
+                    model=model, contents=[prompt, part], config=config)
+                return (resp.text or "").strip()
+            except Exception as exc:
+                last_err = exc
+                transient = ("503" in str(exc) or "429" in str(exc)
+                             or "UNAVAILABLE" in str(exc))
+                if transient and attempt < retries:
+                    time.sleep(1.5 * (attempt + 1))
+                    continue
+                break
+    logger.warning("Gemini image error (all attempts failed): %s",
+                   str(last_err)[:300])
+    return ""
+
+
 LANG_INSTRUCTIONS = {
     "en": "Reply only in English.",
     "hi": "Reply only in Hindi, using Devanagari script.",

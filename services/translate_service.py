@@ -1,25 +1,32 @@
-"""On-demand UI-content translation via Gemini, cached in session_state.
+"""On-demand UI-content translation via Gemini.
 
-Honesty rule: translated content is labeled as AI-translated and is never
-written back to the database.
+Manual dict cache instead of st.cache_data: gemini_service.ask() calls
+st.toast() on errors, and a Streamlit element inside a @st.cache_data
+function breaks cache replay. A plain dict also lets us skip caching
+empty (failed) results, so transient failures retry on the next rerun.
 """
 from __future__ import annotations
-
-import streamlit as st
 
 from services import gemini_service
 
 _LANG_NAMES = {"hi": "Hindi (Devanagari)", "or": "Odia (Odia script)"}
+_CACHE: dict[tuple[str, str], str] = {}
+_MAX_CACHE = 2000
 
 
-@st.cache_data(show_spinner=False, ttl=86400)   # one day per text+lang
 def _translate(text: str, lang: str) -> str:
+    key = (text, lang)
+    if key in _CACHE:
+        return _CACHE[key]
     resp = gemini_service.ask(
         f"Translate the following tourism description into {lang}. "
         "Keep place names unchanged. Output ONLY the translation.\n\n" + text,
         system="You are a precise translator for travel content.",
         temperature=0.2)
-    return resp or ""
+    result = resp or ""
+    if result and len(_CACHE) < _MAX_CACHE:   # never cache failed/empty results
+        _CACHE[key] = result
+    return result
 
 
 def localized_text(text: str, lang: str = "en") -> tuple[str, bool]:
