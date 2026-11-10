@@ -1,19 +1,25 @@
 @import "tailwindcss";
-
 @theme {
   --color-terracotta: #D35400;
-  --color-terracotta-dark: #B03A00;
-  --color-terracotta-light: #E67E22;
-  --color-cream: #FFF7EF;
-  --color-cream-dark: #F5E6D3;
-  --color-ink: #2C2C2C;
-  --font-sans: "Poppins", "Noto Sans Oriya", "Noto Sans Devanagari", sans-serif;
+  --color-forest: #35543F;          
+  --color-sage: #EDF2E4;           
+  --font-script: "Caveat", cursive;
 }
+:root {
+  --color-sunset: #E85D2A;
+  --color-sunset-deep: #7A2E1D;
+  --color-gold: #F2B33D;
+  --font-script: "Caveat", cursive;
+}
+
+.hero-title { font-family: var(--font-script); font-size: clamp(2.5rem, 6vw, 4.5rem); }
+
 
 body {
   background: var(--color-cream);
   color: var(--color-ink);
   font-family: var(--font-sans);
+  overflow-x: hidden;
 }
 
 .card {

@@ -1,3 +1,4 @@
+export const HERO_IMAGE = "/hero.jpg"; // put hero.jpg in frontend/public/ — or paste an https:// URL
 import { useTranslation } from 'react-i18next'
 export default function Placeholder({ page }: { page: string }) {
   const { t } = useTranslation()

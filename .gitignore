@@ -13,14 +13,14 @@ __pycache__/
 venv/
 env/
 ENV/
+*.db
 
-# Streamlit
-.streamlit/secrets.toml
+# Streamlit (legacy residue)
+.streamlit/
 
-# Data / caches (add real exclusions as data/ fills up in later weeks)
-data/*.csv
-data/*.json
-!data/.gitkeep
+# Frontend build artifacts
+node_modules/
+dist/
 
 # OS / editor
 .DS_Store
