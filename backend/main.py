@@ -13,7 +13,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from backend.routers import chat, emergency, festivals, hotels, landmark, places, planner, translate, voice
 app = FastAPI(title="UtkalaYatri API", version="1.0.0",
               description="AI travel companion for Odisha — grounded in a curated database.")
-
+@app.get("/")
+def root():
+    return {"app": "UtkalaYatri API", "docs": "/docs"}
 app.add_middleware(
     CORSMiddleware,
         allow_origins=["http://localhost:5173", "http://127.0.0.1:5173",

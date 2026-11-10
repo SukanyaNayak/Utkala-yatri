@@ -11,3 +11,4 @@ google-genai==2.22.0
 gTTS
 edge-tts
 python-dotenv
+pillow
