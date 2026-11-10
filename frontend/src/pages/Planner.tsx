@@ -22,7 +22,7 @@ import {
   FaTimes,
 } from "react-icons/fa";
 import PageHero from "../components/PageHero"; // same import line as your Chat.tsx
-
+const API_BASE = (import.meta.env.VITE_API_URL ?? '').replace(/\/+$/, '')
 /* ── built-in stop list (used when the backend is not running) ────────── */
 type Stop = { id: string; name: string; city: string; lat: number; lon: number; best_time: string };
 
@@ -125,7 +125,7 @@ function fillWithNearby(planned: Stop[], pool: Stop[], need: number): PlanStop[]
 /** Try to load your real places from the backend; fall back to the built-in list. */
 async function loadStops(): Promise<Stop[]> {
   try {
-    const res = await fetch("/api/places");
+    const res = await fetch(`${API_BASE}/api/places`);
     const data = await res.json();
     const list: any[] = Array.isArray(data) ? data : data.places ?? [];
     const fromApi: Stop[] = list.map((p, i) => ({

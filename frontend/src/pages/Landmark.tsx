@@ -20,7 +20,7 @@
 import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import PageHero from "../components/PageHero";
-
+const API_BASE = (import.meta.env.VITE_API_URL ?? '').replace(/\/+$/, '')
 interface LandmarkResult {
   found?: boolean;
   name?: string;
@@ -82,7 +82,7 @@ export default function Landmark() {
     if (!base64 || busy) return;
     setBusy(true);
     try {
-      const res = await fetch("/api/landmark", {
+      const res = await fetch(`${API_BASE}/api/landmark`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ imageBase64: base64, lang: i18n.language }),
